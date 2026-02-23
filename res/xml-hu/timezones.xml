@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timezones>
+    <timezone
+        id="Pacific/Majuro">Marshall-szigeteki idő (Majuro-zátony)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Midway">Midway-szigetek\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Honolulu">Honolulu\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Anchorage">Anchorage\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Los_Angeles">Csendes-óceáni idő (Los Angeles)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Tijuana">Csendes-óceáni idő (Tijuana)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Phoenix">Hegyvidéki idő (Phoenix)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chihuahua">Chihuahua\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Denver">Hegyvidéki idő (Denver)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Costa_Rica">Középső államokbeli idő (Costa Rica)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chicago">Középső államokbeli idő (Chicago)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Mexico_City">Középső államokbeli idő (Mexikóváros)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Regina">Középső államokbeli idő (Regina)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Bogota">Kolumbiai idő (Bogota)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/New_York">Keleti államokbeli idő (New York)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Caracas">Venezuelai idő (Caracas)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Barbados">Atlanti-óceáni idő (Barbadosz)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Halifax">Atlanti-óceáni idő (Halifax)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Manaus">Amazóniai idő (Manaus)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Santiago">Chilei idő (Santiago)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/St_Johns">"\"\\\"\\\\\\\"Új-fundlandi idő (St. John's)\\\\\\\"\\\\u0009\\\"\\u0009\"\u0009"	</timezone>
+    <timezone
+        id="America/Sao_Paulo">Brazíliai idő (Sao Paulo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Argentina/Buenos_Aires">Argentína idő (Buenos Aires)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Godthab">Nyugat-grönlandi idő (Godthåb)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Montevideo">Uruguayi idő (Montevideo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/South_Georgia">Dél-grúziai idő (Dél-Georgia)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Azores">Azori-szigetek\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Cape_Verde">Cape verdei idő (Zöld-Foki Szigetek)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Casablanca">Casablanca\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/London">Greenwichi középidő (London)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Amsterdam">Közép-európai idő (Amsterdam)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Belgrade">Közép-európai idő (Szerbia)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Brussels">Közép-európai idő (Brüsszel)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Sarajevo">Közép-európai idő (Sarajevo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Windhoek">Windhoek\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Brazzaville">Nigériai idő (Brazzaville)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Amman">Kelet-európai idő (Amman)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Athens">Kelet-európai idő (Athén)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Beirut">Kelet-európai idő (Bejrút)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Cairo">Kelet-európai idő (Kairó)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Helsinki">Kelet-európai idő (Helsinki)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Jerusalem">Izraeli zónaidő (Jerusalem)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Minsk">Minszk\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Harare">Mozambiki idő (Harare)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baghdad">Arab idő (Bagdad)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Moscow">Moszkva\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuwait">Arab idő (Kuvait)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Nairobi">Kenyai idő (Nairobi)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tehran">Iráni zónaidő (Teherán)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baku">Baku\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tbilisi">Tbilisi\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yerevan">Jereván\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Dubai">Öbölbeli zónaidő (Dubai)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kabul">Afganisztáni idő (Kabul)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Karachi">Karachi\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Oral">Oral\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yekaterinburg">Jekatyerinburg\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Calcutta">Indiai zónaidő (Calcutta)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Colombo">Colombo\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Katmandu">Nepáli idő (Katmandu)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Almaty">Alma-Ata\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Rangoon">Myanmari idő (Rangoon)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Krasnoyarsk">Krasznojarszki idő (Krasznojarszk)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Bangkok">Bangkok\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Shanghai">Kínai zónaidő (Peking)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Hong_Kong">Hongkongi idő (Hong Kong)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Irkutsk">Irkutszki idő (Irkutszk)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuala_Lumpur">Kuala Lumpur\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Perth">Nyugat-ausztrál idő (Perth)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Taipei">Tajvan\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Seoul">Koreai idő (Dél-Korea)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tokyo">Japán zónaidő (Tokio)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yakutsk">Jakutszki idő (Jakutszk)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Adelaide">Közép-ausztráliai idő (Adelaide)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Darwin">Közép-ausztráliai idő (Darwin)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Brisbane">Kelet-ausztrál idő (Brisbane)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Hobart">Kelet-ausztrál idő (Hobart)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Sydney">Kelet-ausztrál idő (Sydney)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Vladivostok">Vlagyivosztoki idő (Vlagyivosztok)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Guam">Guam\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Magadan">Magadáni idő (Magadán)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Auckland">Új-zélandi idő (Auckland)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Fiji">Fidzsi idő (Fidzsi)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Tongatapu">Tongai idő (Tongatapu)\\\\u0009\\u0009\u0009	</timezone>
+</timezones>
