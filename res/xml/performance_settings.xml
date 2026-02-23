@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/performance_settings_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    <PreferenceScreen
+        android:title="@string/processor_title"
+        android:key="processor"
+        android:fragment="com.androie.settings.cyanogenmod.Processor" />
+    <PreferenceScreen
+        android:title="@string/io_scheds_title"
+        android:key="ioscheduler"
+        android:fragment="com.androie.settings.cyanogenmod.IOScheduler" />
+    <ListPreference
+        android:persistent="false"
+        android:title="@string/perf_profile_title"
+        android:key="pref_perf_profile"
+        android:dialogTitle="@string/perf_profile_title" />
+    <PreferenceScreen
+        android:title="@string/memory_management_title"
+        android:key="memory_management"
+        android:fragment="com.androie.settings.cyanogenmod.MemoryManagement" />
+    <PreferenceScreen
+        android:persistent="false"
+        android:title="@string/hwa_settings_title"
+        android:key="hwa_settings"
+        android:summary="@string/hwa_settings_summary">
+        <intent
+            android:targetPackage="com.cyanogenmod.settings.device.hwa"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.cyanogenmod.settings.device.hwa.HwaSettingsActivity" />
+    </PreferenceScreen>
+    <CheckBoxPreference
+        android:title="@string/pref_use_16bpp_alpha_title"
+        android:key="pref_use_16bpp_alpha"
+        android:summary="@string/pref_use_16bpp_alpha_summary" />
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/notification_drawer_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    <ListPreference
+        android:entries="@array/notification_drawer_collapse_on_dismiss_entries"
+        android:title="@string/notification_drawer_collapse_on_dismiss_title"
+        android:key="notification_drawer_collapse_on_dismiss"
+        android:dialogTitle="@string/notification_drawer_collapse_on_dismiss_title"
+        android:entryValues="@array/notification_drawer_collapse_on_dismiss_values" />
+    <PreferenceCategory
+        android:title="@string/category_quick_access">
+        <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+            android:title="@string/title_quick_access"
+            android:key="qs_quick_access"
+            android:defaultValue="false" />
+        <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+            android:title="@string/title_quick_access_linked"
+            android:key="qs_quick_access_linked"
+            android:summary="@string/summary_quick_access_linked"
+            android:dependency="qs_quick_access"
+            android:defaultValue="true"
+            android:disableDependentsState="true" />
+        <PreferenceScreen
+            android:title="@string/tile_picker_title"
+            android:key="tile_picker"
+            android:summary="@string/tile_picker_summary"
+            android:dependency="qs_quick_access_linked"
+            android:fragment="com.androie.settings.cyanogenmod.QuickSettingsTiles">
+            <extra
+                android:name="config_ribbon"
+                android:value="true" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

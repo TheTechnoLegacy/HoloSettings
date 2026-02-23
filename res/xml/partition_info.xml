@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/partition_info_title"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/partition_info_system"
+        android:key="system_part_info"
+        android:summary="@string/status_unavailable" />
+    <Preference
+        android:title="@string/partition_info_data"
+        android:key="data_part_info"
+        android:summary="@string/status_unavailable" />
+    <Preference
+        android:title="@string/partition_info_cache"
+        android:key="cache_part_info"
+        android:summary="@string/status_unavailable" />
+    <Preference
+        android:title="@string/partition_info_sdcard"
+        android:key="sdcard_part_info_fat"
+        android:summary="@string/status_unavailable" />
+    <Preference
+        android:title="@string/partition_info_sdext"
+        android:key="sdcard_part_info_ext"
+        android:summary="@string/status_unavailable" />
+</PreferenceScreen>

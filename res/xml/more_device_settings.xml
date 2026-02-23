@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/more_device_settings_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    <Preference
+        android:title="@string/advanced_settings_title"
+        android:key="advanced_settings">
+        <intent
+            android:targetPackage="com.cyanogenmod.settings.device"
+            android:action="com.cyanogenmod.action.LAUNCH_DEVICE_SETTINGS"
+            android:targetClass="com.cyanogenmod.settings.device.DeviceSettings" />
+    </Preference>
+    <PreferenceCategory
+        android:title="@string/display_calibration_title"
+        android:key="display_calibration_category">
+        <com.androie.settings.cyanogenmod.DisplayColor
+            android:persistent="false"
+            android:title="@string/color_calibration_title"
+            android:key="color_calibration"
+            android:summary="@string/color_calibration_summary"
+            android:dialogTitle="@string/color_calibration_title" />
+        <com.androie.settings.cyanogenmod.DisplayGamma
+            android:persistent="false"
+            android:title="@string/gamma_tuning_title_head"
+            android:key="gamma_tuning"
+            android:summary="@string/gamma_tuning_summary_head"
+            android:dialogTitle="@string/gamma_tuning_title_head" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/sensors_motors_title"
+        android:key="sensors_motors_category">
+        <com.androie.settings.cyanogenmod.VibratorIntensity
+            android:persistent="false"
+            android:title="@string/vibrator_intensity_title"
+            android:key="vibration_intensity"
+            android:dialogTitle="@string/vibrator_intensity_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/headset_category_title">
+        <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+            android:title="@string/headset_connect_player_title"
+            android:key="headset_connect_player"
+            android:summary="@string/headset_connect_player_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

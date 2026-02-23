@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/themes_settings_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    <PreferenceCategory
+        android:title="@string/title_general"
+        android:key="lockscreen_general_category">
+        <PreferenceScreen
+            android:title="@string/screen_security_category"
+            android:key="screen_security"
+            android:summary="@string/screen_security_summary"
+            android:fragment="com.androie.settings.SecuritySettings">
+            <extra
+                android:name="cm_security"
+                android:value="true" />
+        </PreferenceScreen>
+        <ListPreference
+            android:persistent="false"
+            android:entries="@array/lockscreen_background_entries"
+            android:title="@string/lockscreen_custom_background_title"
+            android:key="lockscreen_background"
+            android:dialogTitle="@string/lockscreen_custom_background_title"
+            android:entryValues="@array/lockscreen_background_values" />
+        <ListPreference
+            android:persistent="false"
+            android:entries="@array/lockscreen_battery_status_entries"
+            android:title="@string/lockscreen_battery_status_title"
+            android:key="lockscreen_battery_status"
+            android:defaultValue="0"
+            android:dialogTitle="@string/lockscreen_battery_status_title"
+            android:entryValues="@array/lockscreen_battery_status_values" />
+        <Preference
+            android:title="@string/lockscreen_target_title"
+            android:key="lockscreen_targets"
+            android:summary="@string/lockscreen_target_summary"
+            android:fragment="com.androie.settings.cyanogenmod.LockscreenTargets" />
+        <PreferenceScreen
+            android:title="@string/lockscreen_buttons_title"
+            android:key="lockscreen_buttons"
+            android:summary="@string/lockscreen_buttons_summary"
+            android:fragment="com.androie.settings.cyanogenmod.LockscreenButtons" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/lockscreen_widgets_category_title"
+        android:key="lockscreen_widgets_category">
+        <PreferenceScreen
+            android:title="@string/lock_clock_title"
+            android:key="lock_clock"
+            android:summary="@string/lock_clock_summary">
+            <intent
+                android:targetPackage="com.cyanogenmod.lockclock"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
+        </PreferenceScreen>
+        <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+            android:title="@string/lockscreen_maximize_widgets_title"
+            android:key="lockscreen_maximize_widgets"
+            android:summary="@string/lockscreen_maximize_widgets_summary" />
+        <CheckBoxPreference
+            android:persistent="false"
+            android:title="@string/lockscreen_enable_widgets_title"
+            android:key="lockscreen_enable_widgets"
+            android:summary="@string/lockscreen_enable_widgets_summary" />
+        <CheckBoxPreference
+            android:persistent="false"
+            android:title="@string/lockscreen_enable_camera_title"
+            android:key="lockscreen_enable_camera"
+            android:summary="@string/lockscreen_enable_camera_summary" />
+        <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+            android:title="@string/lockscreen_music_controls_title"
+            android:key="lockscreen_music_controls"
+            android:summary="@string/lockscreen_music_controls_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

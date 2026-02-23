@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timezones>
+    <timezone
+        id="Pacific/Majuro">وقت جزایر مارشال (ماجورو)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Midway">میدوی\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Honolulu">هونولولو\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Anchorage">انکریج\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Los_Angeles">وقت غرب امریکا (لوس‌آنجلس)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Tijuana">وقت غرب امریکا (تی جوانا)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Phoenix">وقت کوهستانی امریکا (فینکس)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chihuahua">چیئوائوا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Denver">وقت کوهستانی امریکا (دنور)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Costa_Rica">وقت مرکز امریکا (کستا ریکا)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chicago">وقت مرکز امریکا (شیکاگو)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Mexico_City">وقت مرکز امریکا (مکزیکوسیتی)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Regina">وقت مرکز امریکا (رجاینا)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Bogota">وقت کلمبیا (Bogota)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/New_York">وقت شرق امریکا (نیویورک)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Caracas">وقت ونزوئلا (Caracas)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Barbados">وقت آتلانتیک (باربادس)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Halifax">وقت آتلانتیک (هلیفکس)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Manaus">وقت آمازون (ماناوس)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Santiago">وقت شیلی (سانتیاگو)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/St_Johns">سنت جان\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Sao_Paulo">وقت برازیلیا (سائوپائولو)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Argentina/Buenos_Aires">وقت آرژانتین (بوئنوس‌آیرس)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Godthab">وقت غرب گروئنلند (گودهوب)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Montevideo">وقت اروگوئه (Montevideo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/South_Georgia">وقت جورجیای جنوبی (South Georgia)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Azores">آزورس\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Cape_Verde">وقت کیپ ورد (کیپ ورد)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Casablanca">Casablanca\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/London">وقت گرینویچ (London)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Amsterdam">وقت مرکز اروپا (Amsterdam)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Belgrade">وقت مرکز اروپا (Belgrade)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Brussels">وقت مرکز اروپا (Brussels)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Sarajevo">وقت مرکز اروپا (Sarajevo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Windhoek">Windhoek\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Brazzaville">وقت غرب افریقا (Brazzaville)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Amman">وقت شرق اروپا (Amman)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Athens">وقت شرق اروپا (Athens)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Beirut">وقت شرق اروپا (Beirut)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Cairo">وقت شرق اروپا (Cairo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Helsinki">وقت شرق اروپا (Helsinki)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Jerusalem">وقت اسرائیل (Jerusalem)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Minsk">Minsk\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Harare">وقت مرکز افریقا (Harare)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baghdad">وقت عربستان (Baghdad)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Moscow">مسکو\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuwait">وقت عربستان (کویت)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Nairobi">وقت شرق افریقا (Nairobi)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tehran">وقت ایران (تهران)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baku">Baku\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tbilisi">Tbilisi\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yerevan">Yerevan\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Dubai">Dubai\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kabul">وقت افغانستان (کابل)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Karachi">Karachi\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Oral">اورال\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yekaterinburg">یکاترینبرگ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Calcutta">وقت عادی هند (Calcutta)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Colombo">Colombo\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Katmandu">وقت نپال (Katmandu)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Almaty">آلماتی\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Rangoon">وقت میانمار (Rangoon)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Krasnoyarsk">کراسنویارسک\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Bangkok">وقت هندوچین (Bangkok)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Shanghai">وقت چین (شانگهای)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Hong_Kong">وقت هنگ‌کنگ (هونگ کنگ)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Irkutsk">وقت ایرکوتسک (ایرکوتسک)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuala_Lumpur">Kuala Lumpur\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Perth">وقت غرب استرالیا (پرت)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Taipei">وقت چین (Taipei)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Seoul">وقت کره (Seoul)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tokyo">وقت ژاپن (Tokyo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yakutsk">وقت یاکوتسک (یاکوتسک)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Adelaide">وقت مرکز استرالیا (آدلاید)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Darwin">وقت مرکز استرالیا (داروین)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Brisbane">وقت شرق استرالیا (بریسبین)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Hobart">وقت شرق استرالیا (هوبارت)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Sydney">وقت شرق استرالیا (سیدنی)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Vladivostok">ولادی‌وستوک\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Guam">گوام\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Magadan">مگادن\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Auckland">وقت زلاند نو (Auckland)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Fiji">وقت فیجی (فیجی)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Tongatapu">وقت تونگا (Tongatapu)\\\\u0009\\u0009\u0009	</timezone>
+</timezones>

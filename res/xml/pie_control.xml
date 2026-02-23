@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/pie_control_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    <CheckBoxPreference
+        android:persistent="false"
+        android:title="@string/pie_control_title"
+        android:key="pie_control_checkbox"
+        android:defaultValue="false" />
+    <ListPreference
+        android:persistent="false"
+        android:entries="@array/pie_control_sensitivity_entries"
+        android:title="@string/pie_control_sensitivity_title"
+        android:key="pie_control_sensitivity"
+        android:dialogTitle="@string/pie_control_sensitivity_title"
+        android:entryValues="@array/pie_control_sensitivity_values" />
+    <com.androie.settings.cyanogenmod.PieSizePreference
+        android:title="@string/pie_control_size"
+        android:key="pie_control_size"
+        android:dialogTitle="@string/pie_control_size" />
+    <PreferenceCategory
+        android:title="@string/pie_control_trigger_positions">
+        <CheckBoxPreference
+            android:persistent="false"
+            android:title="@string/pie_control_trigger_left"
+            android:key="pie_control_trigger_left"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:persistent="false"
+            android:title="@string/pie_control_trigger_bottom"
+            android:key="pie_control_trigger_bottom"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:persistent="false"
+            android:title="@string/pie_control_trigger_right"
+            android:key="pie_control_trigger_right"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:persistent="false"
+            android:title="@string/pie_control_trigger_top"
+            android:key="pie_control_trigger_top"
+            android:summary="@string/pie_control_trigger_top_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

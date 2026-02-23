@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Sasa uko katika hatua ya %1$d kutoka kuwa msanidi programu.</item>
+        <item quantity="one">Sasa uko katika hatua ya %1$d kutoka kuwa msanidi programu.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Programu %d zinaweza kusoma arifa</item>
+        <item quantity="one">Programu %d inaweza kusoma arifa</item>
+    </plurals>
+</resources>

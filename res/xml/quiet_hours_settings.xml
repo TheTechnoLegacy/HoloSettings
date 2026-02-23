@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/quiet_hours_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:title="@string/quiet_hours_enabled"
+        android:key="quiet_hours_enabled"
+        android:defaultValue="false"
+        android:summaryOn="@string/quiet_hours_note_summary" />
+    <com.androie.settings.cyanogenmod.TimeRangePreference
+        android:key="quiet_hours_timerange"
+        android:dependency="quiet_hours_enabled" />
+    <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:title="@string/quiet_hours_mute"
+        android:key="quiet_hours_mute"
+        android:dependency="quiet_hours_enabled" />
+    <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:title="@string/quiet_hours_haptic"
+        android:key="quiet_hours_haptic"
+        android:dependency="quiet_hours_enabled" />
+    <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:title="@string/quiet_hours_system"
+        android:key="quiet_hours_system"
+        android:dependency="quiet_hours_enabled" />
+    <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:title="@string/quiet_hours_still"
+        android:key="quiet_hours_still"
+        android:dependency="quiet_hours_enabled" />
+    <com.androie.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:title="@string/quiet_hours_dim"
+        android:key="quiet_hours_dim"
+        android:dependency="quiet_hours_enabled" />
+</PreferenceScreen>
