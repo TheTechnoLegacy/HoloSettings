@@ -1,0 +1,53 @@
+.class Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup$1;
+.super Ljava/lang/Object;
+.source "AutoBrightnessSetup.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup;->onCreate(Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup;
+
+
+# direct methods
+.method constructor <init>(Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup;)V
+    .locals 0
+
+    .prologue
+    .line 76
+    iput-object p1, p0, Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup$1;->this$0:Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 2
+    .param p1, "v"    # Landroid/view/View;
+
+    .prologue
+    .line 79
+    iget-object v0, p0, Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup$1;->this$0:Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup;
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup;->access$000(Lcom/androie/settings/cyanogenmod/AutoBrightnessSetup;Landroid/os/Bundle;)V
+
+    .line 80
+    return-void
+.end method
