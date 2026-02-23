@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timezones>
+    <timezone
+        id="Pacific/Majuro">Μαχούρο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Midway">Μίντγουεϊ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Honolulu">Χονολουλού\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Anchorage">Άνκορατζ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Los_Angeles">Λος Άντζελες\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Tijuana">Τιχουάνα\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Phoenix">Φοίνιξ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chihuahua">Τσιουάουα\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Denver">Ντένβερ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Costa_Rica">Κόστα Ρίκα\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chicago">Σικάγο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Mexico_City">Πόλη του Μεξικού\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Regina">Ρετζίνα\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Bogota">Μπογκοτά\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/New_York">Νέα Υόρκη\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Caracas">Καράκας\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Barbados">Μπαρμπέιντος\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Halifax">Χάλιφαξ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Manaus">Μανάος\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Santiago">Σαντιάγκο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/St_Johns">Σεντ Τζονς\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Sao_Paulo">Σάο Πάολο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Argentina/Buenos_Aires">Μπουένος Άιρες\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Godthab">Γκόνθαμπ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Montevideo">Μοντεβίδεο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/South_Georgia">Νότια Γεωργία\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Azores">Αζόρες\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Cape_Verde">Cape Verde\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Casablanca">Καζαμπλάνκα\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/London">Λονδίνο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Amsterdam">Άμστερνταμ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Belgrade">Belgrade\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Brussels">Βρυξέλλες\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Sarajevo">Sarajevo\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Windhoek">Γουιντχόεκ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Brazzaville">ώρα Δυτικής Αφρικής (Μπράζαβιλ)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Amman">Αμάν\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Athens">Αθήνα\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Beirut">Βηρυτός\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Cairo">Αίγυπτος\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Helsinki">Ελσίνκι\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Jerusalem">Ιερουσαλήμ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Minsk">Μινσκ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Harare">ώρα Κεντρικής Αφρικής (Ζιμπάμπουε)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baghdad">Βαγδάτη\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Moscow">Μόσχα\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuwait">Kuwait\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Nairobi">ώρα Ανατολικής Αφρικής (Κένυα)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tehran">Τεχεράνη\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baku">Μπακού\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tbilisi">Τμπιλίσι\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yerevan">Γερεβάν\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Dubai">Ντουμπάι\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kabul">Καμπούλ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Karachi">Καράτσι\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Oral">Όραλ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yekaterinburg">Αικατερινούπολη\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Calcutta">Calcutta\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Colombo">Κολόμπο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Katmandu">Κατμαντού\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Almaty">Αλμάτυ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Rangoon">Ρανγκούν\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Krasnoyarsk">Κρασνογιάρσκ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Bangkok">Μπανγκόκ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Shanghai">Πεκίνο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Hong_Kong">Χονγκ Κονγκ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Irkutsk">Ιρκούτσκ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuala_Lumpur">Κουάλα Λουμπούρ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Perth">Περθ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Taipei">Ταϊπέι\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Seoul">Σεούλ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tokyo">Τόκυο\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yakutsk">Γιάκουτσκ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Adelaide">Αδελαΐδα\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Darwin">Ντάργουιν\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Brisbane">Μπρίσμπεϊν\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Hobart">Χόμπαρτ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Sydney">Σίδνεϊ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Vladivostok">Βλαδιβοστόκ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Guam">Γκουάμ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Magadan">Μαγκαντάν\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Auckland">Όκλαντ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Fiji">Φίτζι\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Tongatapu">Τονγκατάπου\\\\u0009\\u0009\u0009	</timezone>
+</timezones>
