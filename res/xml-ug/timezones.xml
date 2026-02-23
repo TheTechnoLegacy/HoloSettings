@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timezones>
+    <timezone
+        id="Pacific/Majuro">مارشال ئاراللىرى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Midway">مىدۋاي ئارىلى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Honolulu">ھاۋاي\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Anchorage">ئالياسكا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Los_Angeles">تىنچ ئوكيان ۋاقتى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Tijuana">تىجۇۋانا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Phoenix">ئارىزونا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chihuahua">چىخۇاخۇا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Denver">تاغلىق رايون ۋاقتى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Costa_Rica">ئوتتۇرا ئامېرىكا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chicago">ئوتتۇرا قىسىم ۋاقتى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Mexico_City">مېكسىكا شەھىرى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Regina">ساسكاتچېۋان\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Bogota">بوگوتا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/New_York">شەرقىي قىسىم ۋاقتى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Caracas">ۋېنېزۇئېلا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Barbados">ئاتلانتىك ئوكيان ۋاقتى(باربادوس)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Halifax">ئاتلانتىك ئوكيان ۋاقتى(كانادا)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Manaus">مانائۇس\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Santiago">سانتىياگو\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/St_Johns">نېۋفوندلاند\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Sao_Paulo">بىرازىلىيە\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Argentina/Buenos_Aires">بۇئېنۇس-ئايرېس\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Godthab">گىرېنلاند\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Montevideo">مونتېۋىدېئو\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/South_Georgia">ئوتتۇرا ئاتلانتىك ئوكيان\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Azores">ئازور\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Cape_Verde">يېشىل تۇمشۇق ئاراللىرى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Casablanca">كاسابلانكا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/London">لوندون، دۇبلىن\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Amsterdam">ئامىستېردام، بېرلىن\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Belgrade">بېلگراد\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Brussels">بىريۇسسېل\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Sarajevo">سارايېۋو\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Windhoek">ۋىندخوك\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Brazzaville">غەربىي ئافرىقا ۋاقتى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Amman">ئاممان، ئىيوردانىيە\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Athens">ئافېنا، ئىستانبۇل\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Beirut">بېيرۇت، لىۋان\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Cairo">قاھىرە\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Helsinki">خېلسىنكى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Jerusalem">قۇددۇس(يېرۇسالېم)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Minsk">مىنسك\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Harare">خارارې\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baghdad">باغداد\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Moscow">موسكۋا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuwait">كۇۋەيت\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Nairobi">نايروبى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tehran">تېھران\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baku">باكۇ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tbilisi">تىبىلىس\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yerevan">يېرېۋان\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Dubai">دۇبەي\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kabul">كابۇل\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Karachi">ئىسلامئاباد، كاراچى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Oral">ئورال\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yekaterinburg">يېكاتېرىنبۇرگ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Calcutta">كالكۇتتا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Colombo">سىرىلانكا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Katmandu">كاتماندۇ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Almaty">ئاستانا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Rangoon">رانگون\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Krasnoyarsk">كىراسنويارسك\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Bangkok">باڭكوك\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Shanghai">بېيجىڭ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Hong_Kong">شياڭگاڭ\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Irkutsk">ئىركۇتسك\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuala_Lumpur">كۇئالالۇمپۇر\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Perth">پېرت\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Taipei">تەيبېي\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Seoul">سېئۇل\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tokyo">توكيو، ئوساكا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yakutsk">ياكۇتسك\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Adelaide">ئادېلايدې\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Darwin">دارۋىن\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Brisbane">بىرىسبان\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Hobart">خوبارت\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Sydney">سىدنېي، كانبېررا\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Vladivostok">ۋىلادىۋوستوك\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Guam">گۇئام\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Magadan">ماگادان\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Auckland">ئاۋكلاند\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Fiji">فىجى\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Tongatapu">تونگا\\\\u0009\\u0009\u0009	</timezone>
+</timezones>

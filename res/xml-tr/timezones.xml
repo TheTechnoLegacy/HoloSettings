@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timezones>
+    <timezone
+        id="Pacific/Majuro">Marshall Adaları Saati (Majuro)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Midway">Midway\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Honolulu">Honolulu\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Anchorage">Anchorage\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Los_Angeles">Pasifik Saati (Los Angeles)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Tijuana">Pasifik Saati (Tijuana)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Phoenix">ABD Sıradağlar Saati (Phoenix)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chihuahua">Chihuahua\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Denver">ABD Sıradağlar Saati (Denver)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Costa_Rica">Merkezi Saat (Kosta Rika)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Chicago">Merkezi Saat (Chicago)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Mexico_City">Merkezi Saat (Meksiko City)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Regina">Merkezi Saat (Regina)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Bogota">Kolombiya Saati (Bogota)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/New_York">Doğu Saati (New York)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Caracas">Venezuela Saati (Caracas)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Barbados">Atlantik Saati (Barbados)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Halifax">Atlantik Saati (Halifax)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Manaus">Amazon Saati (Manaus)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Santiago">Şili Saati (Santiago)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/St_Johns">"\"\\\"\\\\\\\"Newfoundland Saati (St. John's)\\\\\\\"\\\\u0009\\\"\\u0009\"\u0009"	</timezone>
+    <timezone
+        id="America/Sao_Paulo">Brasilia Saati (Sao Paulo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Argentina/Buenos_Aires">Arjantin Saati (Buenos Aires)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Godthab">Batı Grönland Saati (Godthab)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="America/Montevideo">Uruguay Saati (Montevideo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/South_Georgia">Güney Georgia Saati (Güney Gürcistan)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Azores">Azor Adaları\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Atlantic/Cape_Verde">Cape Verde Saati (Cape Verde)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Casablanca">Kazablanka\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/London">Greenwich Merkez Saati (Londra)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Amsterdam">Orta Avrupa Saati (Amsterdam)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Belgrade">Orta Avrupa Saati (Belgrade)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Brussels">Orta Avrupa Saati (Brüksel)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Sarajevo">Orta Avrupa Saati (Sarajevo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Windhoek">Windhoek\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Brazzaville">Batı Afrika Saati (Brazzaville)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Amman">Doğu Avrupa Saati (Amman)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Athens">Doğu Avrupa Saati (Atina)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Beirut">Doğu Avrupa Saati (Beyrut)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Cairo">Doğu Avrupa Saati (Kahire)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Helsinki">Doğu Avrupa Saati (Helsinki)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Jerusalem">İsrail Saati (Kudüs)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Minsk">Minsk\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Harare">Orta Afrika Saati (Harare)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baghdad">Arabistan Saati (Bağdat)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Europe/Moscow">Moskova\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuwait">Arabistan Saati (Kuveyt)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Africa/Nairobi">Doğu Afrika Saati (Nairobi)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tehran">İran Standart Saati (Tahran)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Baku">Bakü\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tbilisi">Tiflis\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yerevan">Yerevan\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Dubai">Körfez Saati (Dubai)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kabul">Afganistan Saati (Kabil)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Karachi">Karaçi\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Oral">Uralsk\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yekaterinburg">Yekaterinburg\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Calcutta">Hindistan Standart Saati (Calcutta)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Colombo">Kolombo\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Katmandu">Nepal Saati (Katmandu)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Almaty">Almatı\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Rangoon">Myanmar Saati (Rangoon)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Krasnoyarsk">Krasnoyarsk Saati (Krasnoyarsk)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Bangkok">Çinhindi Saati (Bangkok)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Shanghai">Çin Saati (Pekin)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Hong_Kong">Hong Kong Saati (Hong Kong)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Irkutsk">İrkutsk Saati (İrkutsk)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Kuala_Lumpur">Kuala Lumpur\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Perth">Batı Avustralya Saati (Perth)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Taipei">Taipei\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Seoul">Kore Saati (Seul)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Tokyo">Japonya Saati (Tokyo)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Yakutsk">Yakutsk Saati (Yakutsk)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Adelaide">Orta Avustralya Saati (Adelaide)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Darwin">Orta Avustralya Saati (Darwin)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Brisbane">Doğu Avustralya Saati (Brisbane)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Hobart">Doğu Avustralya Saati (Hobart)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Australia/Sydney">Doğu Avustralya Saati (Sidney)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Vladivostok">Vladivostok Saati (Vladivostok)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Guam">Guam\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Asia/Magadan">Magadan Saati (Magadan)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Auckland">Yeni Zelanda Saati (Auckland)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Fiji">Fiji Saati (Fiji)\\\\u0009\\u0009\u0009	</timezone>
+    <timezone
+        id="Pacific/Tongatapu">Tonga Saati (Tongatapu)\\\\u0009\\u0009\u0009	</timezone>
+</timezones>
