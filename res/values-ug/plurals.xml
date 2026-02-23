@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="backlight_timeout_time">
+        <item quantity="other">%d سېكۇنت</item>
+        <item quantity="one">%d سېكۇنت</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">سىز %1$d قەدەمدە ئىجادكارلار ھالىتىگە كىرەلەيسىز.</item>
+        <item quantity="one">سىز %1$d قەدەمدە ئىجادكارلار ھالىتىگە كىرەلەيسىز.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ئىمدا ئاز دېگەندە %d ھەرپ بولۇشى لازىم.</item>
+        <item quantity="one">ئىمدا ئاز دېگەندە بىر ھەرپ بولۇشى لازىم.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ئىمدا ئاز دېگەندە %d كىچىك ھەرپ بولۇشى لازىم.</item>
+        <item quantity="one">ئىمدا ئاز دېگەندە بىر كىچىك ھەرپ بولۇشى لازىم.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ئىمدا ئاز دېگەندە %d چوڭ ھەرپ بولۇشى لازىم.</item>
+        <item quantity="one">ئىمدا ئاز دېگەندە بىر چوڭ ھەرپ بولۇشى لازىم.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ئىمدا ئاز دېگەندە %d سان بولۇشى لازىم.</item>
+        <item quantity="one">ئىمدا ئاز دېگەندە بىر سان بولۇشى لازىم.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ئىمدا ئاز دېگەندە %d ئالاھىدە بەلگە بولۇشى لازىم.</item>
+        <item quantity="one">ئىمدا ئاز دېگەندە بىر ئالاھىدە بەلگە بولۇشى لازىم.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ئىمدا ئاز دېگەندە %d ھەرپ ئەمەس بەلگە بولۇشى لازىم.</item>
+        <item quantity="one">ئىمدا ئاز دېگەندە بىر ھەرپ ئەمەس بەلگە بولۇشى لازىم.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ئەپ ئۇقتۇرۇشلارنى ئوقۇيالايدۇ</item>
+        <item quantity="one">%d ئەپ ئۇقتۇرۇشلارنى ئوقۇيالايدۇ</item>
+    </plurals>
+</resources>

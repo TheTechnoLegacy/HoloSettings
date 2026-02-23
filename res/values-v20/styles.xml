@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="setup_wizard_theme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:isGame">@android:style/Theme.Material.Wallpaper.NoTitleBar</item>
+    </style>
+</resources>
