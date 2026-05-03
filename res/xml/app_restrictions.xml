@@ -2,7 +2,7 @@
 <PreferenceScreen
     android:title="@string/application_restrictions"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.jellybyn.settings">
     <Preference
         android:key="user_info"
         android:order="0" />

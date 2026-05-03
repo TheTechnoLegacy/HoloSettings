@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Dovoli</string>
-    <string name="deny">Zavrni</string>
-    <string name="delete">Izbriši</string>
-    <string name="notification_pulse_title">Lučka za obvestila z utripanjem</string>
-    <string name="device_status_summary">Telefonska številka, signal itn.</string>
-    <string name="bluetooth_confirm_passkey_msg">Če želite seznaniti z napravo:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Prikazano mora biti to geslo:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
     <string name="create">Ustvari</string>
+    <string name="allow">Dovoli</string>
+    <string name="deny">Zavrni</string>
     <string name="device_info_default">Neznano</string>
     <string name="show_dev_on">Zdaj ste razvijalec.</string>
     <string name="show_dev_already">Ni treba, ker ste že razvijalec.</string>
@@ -377,6 +373,7 @@ Nastavitev vpliva na vse uporabnike v tem telefonu."</string>
     <string name="bluetooth_pin_values_hint">Običajno 0000 ali 1234</string>
     <string name="bluetooth_enter_pin_other_device">Ta PIN boste morda morali vnesti tudi v drugi napravi.</string>
     <string name="bluetooth_enter_passkey_other_device">Geslo boste morda morali vnesti tudi v drugi napravi.</string>
+    <string name="bluetooth_confirm_passkey_msg">Če želite seznaniti z napravo:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Prikazano mora biti to geslo:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">Od:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Ali se želite povezati s to napravo?</string>
     <string name="bluetooth_display_passkey_pin_msg">Če želite vzpostaviti povezavo z napravo:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>V njej vnesite:&lt;br>&lt;b>%2$s&lt;/b> in pritisnite Return ali Enter.</string>
     <string name="bluetooth_pairing_accept">Seznani</string>
@@ -624,6 +621,7 @@ Nastavitev telefona lahko zahteva znatno omrežno dejavnost."</string>
     <string name="ring_volume_title">Glasnost zvonjenja</string>
     <string name="vibrate_in_silent_title">Vibriraj v tihem načinu</string>
     <string name="notification_sound_title">Privzeti zvok obvestila</string>
+    <string name="notification_pulse_title">Lučka za obvestila z utripanjem</string>
     <string name="incoming_call_volume_title">Zvonjenje</string>
     <string name="notification_volume_title">Obvestilo</string>
     <string name="checkbox_notification_same_as_incoming_call">Za obvestila uporabljaj glasnost dohodnih klicev</string>
@@ -720,6 +718,7 @@ Morda je koda PIN napačna."</string>
     <string name="device_info_not_available">Ni na voljo</string>
     <string name="device_status_activity_title">Stanje</string>
     <string name="device_status">Stanje</string>
+    <string name="device_status_summary">Telefonska številka, signal itn.</string>
     <string name="storage_settings">Pomnilnik</string>
     <string name="storage_settings_title">Nastavitve pomnilnika</string>
     <string name="storage_settings_summary">Izpenjanje kartice SD, prikaz razpoložljivega pomnilnika</string>
@@ -1007,15 +1006,14 @@ Trenutno ste prijavljeni v te račune:
     <string name="show_background_processes">Pokaži predpom. procese</string>
     <string name="reset_app_preferences">Ponast. nast. aplikacije</string>
     <string name="reset_app_preferences_title">Ponastavitev nastavitev?</string>
-    <string name="reset_app_preferences_desc">"S tem se bodo ponastavile vse nastavitve za:
+    <string name="reset_app_preferences_desc">"Ponastavili boste vse nastavitve za:
 
- "<li>onemogočene aplikacije,</li>"
- "<li>obvestila za onemogočene aplikacije,</li>"
- "<li>privzete aplikacije za dejanja,</li>"
- "<li>omejitev prenosa podatkov v ozadju za aplikacije,</li>"
- "<li>omejitve dovoljenj.</li>"
+ "<li>Onemogočene aplikacije</li>"
+ "<li>Obvestila o onemogočenih aplikacijah</li>"
+ "<li>Privzete aplikacije za dejanja</li>"
+ "<li>Omejitve podatkov v ozadju za aplikacije</li>"
 
- Podatkov iz aplikacij ne boste izgubili."</string>
+ Podatkov aplikacij ne boste izgubili."</string>
     <string name="reset_app_preferences_button">Ponastavitev aplikacij</string>
     <string name="manage_space_text">Upravljaj prostor</string>
     <string name="filter">Filtriraj</string>
@@ -1239,8 +1237,8 @@ Nekatere aplikacije morda ne bodo delovale, dokler jih njihovi razvijalci ne pos
     <string name="accessibility_screen_magnification_summary">"Če je ta funkcija vklopljena, lahko vsebino na zaslonu povečate ali pomanjšate tako, da se trikrat dotaknete zaslona.
 
 Pri povečavi lahko:
-"<ul><li>"Pomikate vsebino na zaslonu: Dva prsta ali več povlecite po zaslonu.
-"<li>Prilagodite stopnjo povečave/pomanjšave: Najmanj dva prsta približajte ali razširite.</li></li></ul>"
+"<ul><li>Pomikate vsebino na zaslonu: Dva prsta ali več povlecite po zaslonu.</li>"
+"<li>Prilagodite stopnjo povečave/pomanjšave: Najmanj dva prsta približajte ali razširite.</li></ul>"
 
 Začasno lahko tisto, kar je pod vašim prstom, povečate tudi tako, da se zaslona trikrat dotaknete in ga pridržite. V tem načinu povečave lahko povlečete s prstom in raziščete različne dele zaslona. Dvignite prst, če se želite vrniti v prejšnje stanje.
 
@@ -1547,6 +1545,7 @@ Googlov pristop k sinhroniziranju podatkov, s katerim lahko dostopate do stikov,
     <string name="status_wimax_mac_address">Naslov 4G MAC</string>
     <string name="enter_password">Vnesite geslo za dešifriranje shrambe</string>
     <string name="try_again">Poskusite znova.</string>
+    <string name="delete">Izbriši</string>
     <string name="misc_files">Razne datoteke</string>
     <string name="misc_files_selected_count">izbrano: %1$d od %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s od skupaj %2$s</string>

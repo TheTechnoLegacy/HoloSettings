@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Allow</string>
-    <string name="deny">Deny</string>
-    <string name="delete">Delete</string>
-    <string name="notification_pulse_title">Pulse notification light</string>
-    <string name="device_status_summary">Phone number, signal, etc.</string>
-    <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Make sure that it is showing this passkey:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="create">Create</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
     <string name="device_info_default">Unknown</string>
     <string name="show_dev_on">You are now a developer!</string>
     <string name="show_dev_already">No need, you are already a developer.</string>
@@ -377,6 +373,7 @@ To resume using your phone, you need to perform a factory reset. When you set up
     <string name="bluetooth_pin_values_hint">Usually 0000 or 1234</string>
     <string name="bluetooth_enter_pin_other_device">You may also need to type this PIN on the other device.</string>
     <string name="bluetooth_enter_passkey_other_device">You may also need to type this passkey on the other device.</string>
+    <string name="bluetooth_confirm_passkey_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Make sure that it is showing this passkey:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">From:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Pair with this device?</string>
     <string name="bluetooth_display_passkey_pin_msg">To pair with:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Type on it:&lt;br>&lt;b>%2$s&lt;/b>, then press Return or Enter.</string>
     <string name="bluetooth_pairing_accept">Pair</string>
@@ -624,6 +621,7 @@ Phone setup can require significant network activity."</string>
     <string name="ring_volume_title">Ringer volume</string>
     <string name="vibrate_in_silent_title">Vibrate when silent</string>
     <string name="notification_sound_title">Default notification sound</string>
+    <string name="notification_pulse_title">Pulse notification light</string>
     <string name="incoming_call_volume_title">Ringtone</string>
     <string name="notification_volume_title">Notification</string>
     <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
@@ -720,6 +718,7 @@ Possibly incorrect PIN."</string>
     <string name="device_info_not_available">Not available</string>
     <string name="device_status_activity_title">Status</string>
     <string name="device_status">Status</string>
+    <string name="device_status_summary">Phone number, signal, etc.</string>
     <string name="storage_settings">Storage</string>
     <string name="storage_settings_title">Storage settings</string>
     <string name="storage_settings_summary">Unmount SD card, view available storage</string>
@@ -1013,7 +1012,6 @@ To clear music, pictures and other user data, the "<b>SD card</b> needs to be er
  "<li>Disabled app notifications</li>"
  "<li>Default applications for actions</li>"
  "<li>Background data restrictions for apps</li>"
- "<li>Any permission restrictions</li>"
 
  You will not lose any app data."</string>
     <string name="reset_app_preferences_button">Reset apps</string>
@@ -1239,8 +1237,8 @@ Some apps may not work until updated by their developers."</string>
     <string name="accessibility_screen_magnification_summary">"When this feature is turned on, you can zoom in and out by triple-tapping the screen.
 
 While zoomed in, you can:
-"<ul><li>"Pan: Drag two or more fingers across the screen.
-"<li>Adjust zoom level: Pinch two or more fingers together or spread them apart.</li></li></ul>"
+"<ul><li>Pan: Drag two or more fingers across the screen.</li>"
+"<li>Adjust zoom level: Pinch two or more fingers together or spread them apart.</li></ul>"
 
 You can also temporarily magnify what's under your finger by triple-tapping and holding. In this magnified state, you can drag your finger to explore different parts of the screen. Lift your finger to return to your previous state.
 
@@ -1547,6 +1545,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
     <string name="status_wimax_mac_address">4G MAC address</string>
     <string name="enter_password">Type password to decrypt storage</string>
     <string name="try_again">Try again.</string>
+    <string name="delete">Delete</string>
     <string name="misc_files">Misc. files</string>
     <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s out of %2$s</string>

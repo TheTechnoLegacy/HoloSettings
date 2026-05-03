@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="activity_horizontal_margin">16.0dip</dimen>
-    <dimen name="activity_vertical_margin">16.0dip</dimen>
-    <dimen name="section_padding">12.0dip</dimen>
-    <dimen name="navbar_search_outerring_radius">215.0dip</dimen>
-    <dimen name="navbar_search_outerring_diameter">430.0dip</dimen>
     <dimen name="app_icon_size">72.0dip</dimen>
     <dimen name="screen_margin_sides">40.0dip</dimen>
     <dimen name="screen_margin_top">48.0dip</dimen>

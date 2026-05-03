@@ -2,7 +2,7 @@
 <PreferenceScreen
     android:title="@string/apn_edit"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.jellybyn.settings">
     <EditTextPreference
         android:singleLine="true"
         android:title="@string/apn_name"

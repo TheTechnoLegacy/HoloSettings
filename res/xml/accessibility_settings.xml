@@ -2,7 +2,7 @@
 <PreferenceScreen
     android:title="@string/accessibility_settings_title"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.androie.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.jellybyn.settings">
     <PreferenceCategory
         android:title="@string/accessibility_services_title"
         android:key="services_category" />
@@ -12,7 +12,7 @@
         <PreferenceScreen
             android:title="@string/accessibility_screen_magnification_title"
             android:key="screen_magnification_preference_screen"
-            android:fragment="com.androie.settings.AccessibilitySettings$ToggleScreenMagnificationPreferenceFragment" />
+            android:fragment="com.jellybyn.settings.AccessibilitySettings$ToggleScreenMagnificationPreferenceFragment" />
         <CheckBoxPreference
             android:persistent="false"
             android:title="@string/accessibility_toggle_large_text_preference_title"
@@ -21,10 +21,6 @@
             android:persistent="false"
             android:title="@string/accessibility_power_button_ends_call_prerefence_title"
             android:key="toggle_power_button_ends_call_preference" />
-        <CheckBoxPreference
-            android:persistent="false"
-            android:title="@string/accessibility_home_button_answers_call_prerefence_title"
-            android:key="toggle_home_button_answers_call_preference" />
         <CheckBoxPreference
             android:persistent="false"
             android:title="@string/accelerometer_title"
@@ -36,11 +32,11 @@
         <PreferenceScreen
             android:title="@string/accessibility_global_gesture_preference_title"
             android:key="enable_global_gesture_preference_screen"
-            android:fragment="com.androie.settings.AccessibilitySettings$ToggleGlobalGesturePreferenceFragment" />
+            android:fragment="com.jellybyn.settings.AccessibilitySettings$ToggleGlobalGesturePreferenceFragment" />
         <PreferenceScreen
             android:title="@string/tts_settings_title"
             android:key="tts_settings_preference"
-            android:fragment="com.androie.settings.tts.TextToSpeechSettings" />
+            android:fragment="com.jellybyn.settings.tts.TextToSpeechSettings" />
         <ListPreference
             android:persistent="false"
             android:entries="@array/long_press_timeout_selector_titles"

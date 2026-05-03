@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="backlight_timeout_time">
-        <item quantity="other">%d seconds</item>
-        <item quantity="one">%d second</item>
-    </plurals>
     <plurals name="show_dev_countdown">
-        <item quantity="other">You are now %1$d steps away from enabling development settings.</item>
-        <item quantity="one">You are now %1$d step away from enabling development settings.</item>
+        <item quantity="other">You are now %1$d steps away from being a developer.</item>
+        <item quantity="one">You are now %1$d step away from being a developer.</item>
     </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Password must contain at least %d letters.</item>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Vumela</string>
-    <string name="deny">Nqaba</string>
-    <string name="delete">Susa</string>
-    <string name="notification_pulse_title">Ukukhanya kwesaziso sephalsi</string>
-    <string name="device_status_summary">Inombolo yefoni, isiginali, nokunye.</string>
-    <string name="bluetooth_confirm_passkey_msg">Ukuhambisa ngokubili:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Qinisekisa ukuthi ibonisa ukhiye wokungena:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Yebo</string>
     <string name="no">Cha</string>
     <string name="create">Yakha</string>
+    <string name="allow">Vumela</string>
+    <string name="deny">Nqaba</string>
     <string name="device_info_default">Akwaziwa</string>
     <string name="show_dev_on">Manje ungunjiniyela!</string>
     <string name="show_dev_already">Asikho isidingo, usuvele ungunjiniyela.</string>
@@ -377,6 +373,7 @@ Ukuze uphinde usebenzise ucingo lwakho, kufanele lusethwe kabusha endaweni yokuk
     <string name="bluetooth_pin_values_hint">Ngokuvamile 0000 noma 1234</string>
     <string name="bluetooth_enter_pin_other_device">Kungenzeka futhi udinge ukufaka le-PIN kwenye idivaysi.</string>
     <string name="bluetooth_enter_passkey_other_device">Kungadingeka ufake lokhiye wokudlula kwenye idivayisi.</string>
+    <string name="bluetooth_confirm_passkey_msg">Ukuhambisa ngokubili:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Qinisekisa ukuthi ibonisa ukhiye wokungena:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">Kusuka ku:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Beka eceleni namanye amadivayisi?</string>
     <string name="bluetooth_display_passkey_pin_msg">Ukubhangqa ne:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Thayipha kuyona:&lt;br>&lt;b>%2$s&lt;/b>, bese ucindezela inkinobho uBuyisela noma uNgena.</string>
     <string name="bluetooth_pairing_accept">Bhangqa</string>
@@ -624,6 +621,7 @@ Ukusethwa kwefoni kungadinga umsebenzi wenethiwekhi omcane."</string>
     <string name="ring_volume_title">Ivolumu yesikhali</string>
     <string name="vibrate_in_silent_title">Idlidliza uma ithulile</string>
     <string name="notification_sound_title">Umsindo wokwazisa ozenzakalelayo</string>
+    <string name="notification_pulse_title">Ukukhanya kwesaziso sephalsi</string>
     <string name="incoming_call_volume_title">Iringithoni</string>
     <string name="notification_volume_title">Isaziso</string>
     <string name="checkbox_notification_same_as_incoming_call">Sebenzisa ivolumu yocingo olungenayo yezaziso</string>
@@ -720,6 +718,7 @@ Kungenzeka i-PIN engalungile."</string>
     <string name="device_info_not_available">Akutholakali</string>
     <string name="device_status_activity_title">Isimo</string>
     <string name="device_status">Isimo</string>
+    <string name="device_status_summary">Inombolo yefoni, isiginali, nokunye.</string>
     <string name="storage_settings">Isitoreji</string>
     <string name="storage_settings_title">Izilungiselelo zesitoreji</string>
     <string name="storage_settings_summary">Yehlisa ikhadi le-SD, buka isikhala sesitoreji esisele</string>
@@ -1007,15 +1006,14 @@ Ukusula umculo, izithombe, nenye imininingo yomsebenzisi, "<b>ikhadi le-SD</b>ku
     <string name="show_background_processes">Bonisa izinqubo zokulondoloza kwesikhashana</string>
     <string name="reset_app_preferences">Setha kabusha izintandokazi zezinhlelo zokusebenza</string>
     <string name="reset_app_preferences_title">Setha kabusha izintandokazi zohlelo lokusebenza?</string>
-    <string name="reset_app_preferences_desc">"Lokhu kuzosetha kabusha konke okuncamelayo kwe-:
+    <string name="reset_app_preferences_desc">"Lokhu kuzosetha kabusha zonke izintandokazi ze:
 
  "<li>Izinhlelo zokusebenza ezikhutshaziwe</li>"
  "<li>Izaziso zezinhlelo zokusebenza ezikhutshaziwe</li>"
- "<li>Izinhlelo zokusebenza ezizenzakalelayo zezenzo</li>"
- "<li>Imikhawulo yedatha yangemuva yezinhlelo zokusebenza</li>"
- "<li>Noma yimiphi imikhawulo yemvume</li>"
+ "<li>Izinhlelo zokusebenza zokuzenzakalelayo zezenzo</li>"
+ "<li>Idatha yangokwasemuva yezinhlelo zokusebenza</li>"
 
- Ngeke uze ulahlekelwe noma iyiphi idatha yohlelo lokusebenza."</string>
+ Ngeke ulahlekelwe idatha yohlelo lokusebenza."</string>
     <string name="reset_app_preferences_button">Setha kabusha izinhlelo zokusebenza</string>
     <string name="manage_space_text">Lawula isikhala</string>
     <string name="filter">Hlunga</string>
@@ -1234,8 +1232,8 @@ Ezinye izinhlelo zokusebenza zingahle zingasebenzi zize zibuyekezwe onjiniyela b
     <string name="accessibility_screen_magnification_summary">"Uma lesi sici sivuliwe, ungasondeza futhi unciphise ngokucindezela kathathu isikrini.
 
 Ngenkathi kusondeziwe, ungahle:
-"<ul><li>"Uyise emaceleni: Hudula iminwe emibili noma eminingi esikrinini.
-"<li>Lungisa ileveli zokusondeza: Cindezela iminwe emibili noma eminingi noma uyihlukanise.</li></li></ul>"
+"<ul><li>Uyise emaceleni: Hudula iminwe emibili noma eminingi esikrinini.</li>"
+"<li>Lungisa ileveli zokusondeza: Cindezela iminwe emibili noma eminingi noma uyihlukanise.</li></ul>"
 
 Futhi ungahle ukhulise okwesikhashana okungaphandi komunwe wakho ngokucindezela kathathu futhi ubambe. Kuleli zinga lokukhulisa, ngahudula umunwe wakho ukuze uhlole izingxenye ezahlukahlukene zesikrini. Phakamisa umunwe wakho ukuze ubuyele esimeni sangaphambilini.
 
@@ -1542,6 +1540,7 @@ Indlela ye-Google yokuvumelanisa idatha ukuvumela ukufinyelela othintana nabo ba
     <string name="status_wimax_mac_address">Ikheli le-4G MAC</string>
     <string name="enter_password">Faka iphasiwedi ukuze ususe okufakwe kwindawo yokugcina</string>
     <string name="try_again">Zama futhi.</string>
+    <string name="delete">Susa</string>
     <string name="misc_files">Amafayela axubene</string>
     <string name="misc_files_selected_count">kukhethwe %1$d kokuyi %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s kwayi-%2$s</string>

@@ -123,12 +123,12 @@
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
         <item>Sempre</item>
-        <item>"Només quan s'estigui carregant"</item>
+        <item>Només quan està endollat</item>
         <item>"Mai (augmenta l'ús de dades)"</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
         <item>Sempre</item>
-        <item>"Només quan s'estigui carregant"</item>
+        <item>Només quan està endollat</item>
         <item>Mai</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
@@ -170,7 +170,7 @@
     <string-array name="emergency_tone_entries">
         <item>Desactivat</item>
         <item>Alerta</item>
-        <item>Vibració</item>
+        <item>Vibra</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Cap</item>
@@ -324,12 +324,12 @@
         <item>Cap</item>
         <item>Logcat</item>
         <item>Systrace (gràfics)</item>
-        <item>Pila de trucades a glGetError</item>
+        <item>Pila de trucades de glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Desactivada</item>
-        <item>Àrea retall no rectangular en blau</item>
-        <item>Ressalta ordres de dibuix provats en verd</item>
+        <item>Pintar blava regió retall no rect.</item>
+        <item>Dest. ordres dibuix provad. en verd</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Desactivat</item>
@@ -365,148 +365,5 @@
         <item>Pregunta-ho</item>
         <item>No permetis mai</item>
         <item>Permet sempre</item>
-    </string-array>
-    <string-array name="multi_sim_entries">
-        <item>Subscripció 1</item>
-        <item>Subscripció 2</item>
-        <item>Subscripció 3</item>
-    </string-array>
-    <string-array name="wifi_countrycode_entries">
-        <item>Estats Units</item>
-        <item>Canadà, Taiwan</item>
-        <item>Alemanya</item>
-        <item>Europa</item>
-        <item>Japan, Rússia</item>
-        <item>Austràlia</item>
-        <item>Xina</item>
-        <item>Corea</item>
-        <item>Turquia</item>
-        <item>Singapur</item>
-        <item>Brasil</item>
-    </string-array>
-    <string-array name="volume_overlay_entries">
-        <item>Individual</item>
-        <item>Extensible</item>
-        <item>Extès</item>
-        <item>Cap</item>
-    </string-array>
-    <string-array name="pref_zram_size_entries">
-        <item>Desactivat</item>
-        <item>10%</item>
-        <item>18% (predeterminat)</item>
-        <item>26%</item>
-    </string-array>
-    <string-array name="profile_entries">
-        <item>On</item>
-        <item>Off</item>
-        <item>No sobreescriguis</item>
-    </string-array>
-    <string-array name="profile_connection_entries">
-        <item>Desactivat</item>
-        <item>Activat</item>
-    </string-array>
-    <string-array name="entries_screentimeout_widget">
-        <item>15s | 1m | 5m</item>
-        <item>30s | 2m | 5m</item>
-    </string-array>
-    <string-array name="entries_flash_widget">
-        <item>Normal</item>
-        <item>Alt</item>
-    </string-array>
-    <string-array name="haptic_feedback_entries">
-        <item>"Utilitza l'ajust global"</item>
-        <item>On</item>
-        <item>Off</item>
-    </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normal</item>
-        <item>Petit</item>
-        <item>Cap</item>
-    </string-array>
-    <integer-array name="auto_brightness_sensitivity_values">
-        <item>150</item>
-        <item>125</item>
-        <item>100</item>
-        <item>50</item>
-        <item>25</item>
-    </integer-array>
-    <string-array name="app_ops_summaries_cm">
-        <item>ubicació inexacta</item>
-        <item>ubicació acurada</item>
-        <item>GPS</item>
-        <item>vibra</item>
-        <item>llegeix contactes</item>
-        <item>modifica contactes</item>
-        <item>llegeix registre de trucades</item>
-        <item>modifica registre de trucades</item>
-        <item>llegeix calendari</item>
-        <item>modifica calendari</item>
-        <item>cerca wi-fi</item>
-        <item>notificació</item>
-        <item>cerca xarxa mòbil</item>
-        <item>truca a un telèfon</item>
-        <item>llegeix SMS</item>
-        <item>escriu SMS</item>
-        <item>rep SMS</item>
-        <item>"rep SMS d'emergència"</item>
-        <item>rep MMS</item>
-        <item>rep WAP push</item>
-        <item>envia SMS</item>
-        <item>llegeix ICC SMS</item>
-        <item>escriu ICC SMS</item>
-        <item>modifica ajustaments</item>
-        <item>dibuixa a sobre</item>
-        <item>accedeix a notificacions</item>
-        <item>càmera</item>
-        <item>enregistra audio</item>
-        <item>reprodueix audio</item>
-        <item>llegeix portapapers</item>
-        <item>modifica portapapers</item>
-        <item>@string/app_ops_summaries_wifi_change</item>
-        <item>@string/app_ops_summaries_bluetooth_change</item>
-        <item>@string/app_ops_summaries_data_change</item>
-        <item>@string/app_ops_summaries_alarm_wakeup</item>
-    </string-array>
-    <string-array name="app_ops_labels_cm">
-        <item>Ubicació</item>
-        <item>Ubicació</item>
-        <item>Ubicació</item>
-        <item>Vibra</item>
-        <item>Llegeix contactes</item>
-        <item>Modifica contactes</item>
-        <item>Llegeix registre de trucades</item>
-        <item>Modifica registre de trucades</item>
-        <item>Llegeix calendari</item>
-        <item>Modifica calendari</item>
-        <item>Ubicació</item>
-        <item>Publica notificació</item>
-        <item>Ubicació</item>
-        <item>Truca a un telèfon</item>
-        <item>Rep SMS/MMS</item>
-        <item>Envia SMS/MMS</item>
-        <item>Rep SMS/MMS</item>
-        <item>Rep SMS/MMS</item>
-        <item>Rep SMS/MMS</item>
-        <item>Rep SMS/MMS</item>
-        <item>Envia SMS/MMS</item>
-        <item>Rep SMS/MMS</item>
-        <item>Envia SMS/MMS</item>
-        <item>Modifica ajustaments</item>
-        <item>Dibuixa a sobre</item>
-        <item>Accedeix a notificacions</item>
-        <item>Càmera</item>
-        <item>Enregistra audio</item>
-        <item>Reprodueix audio</item>
-        <item>Llegeix portapapers</item>
-        <item>Modifica portapers</item>
-        <item>@string/app_ops_labels_wifi_change</item>
-        <item>@string/app_ops_labels_bluetooth_change</item>
-        <item>@string/app_ops_labels_data_change</item>
-        <item>@string/app_ops_labels_alarm_wakeup</item>
-    </string-array>
-    <string-array name="app_ops_permissions">
-        <item>Permès</item>
-        <item>Denegat</item>
-        <item>Pregunta sempre</item>
     </string-array>
 </resources>

@@ -2,7 +2,7 @@
 <PreferenceScreen
     android:title="@string/location_settings_title"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.androie.settings.WrappingSwitchPreference
+    <com.jellybyn.settings.WrappingSwitchPreference
         android:persistent="true"
         android:title="@string/location_access_title"
         android:key="location_toggle"
@@ -16,15 +16,10 @@
         android:key="location_gps"
         android:summary="@string/location_street_level"
         android:dependency="location_toggle" />
-    <com.androie.settings.WrappingCheckBoxPreference
+    <com.jellybyn.settings.WrappingCheckBoxPreference
         android:persistent="false"
         android:title="@string/location_network_based"
         android:key="location_network"
         android:summary="@string/location_neighborhood_level"
         android:dependency="location_toggle" />
-    <com.androie.settings.WrappingCheckBoxPreference
-        android:title="@string/gps_download_data_wifi_only"
-        android:key="gps_download_data_wifi_only"
-        android:dependency="location_toggle"
-        android:defaultValue="true" />
 </PreferenceScreen>

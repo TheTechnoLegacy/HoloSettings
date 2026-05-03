@@ -29,5 +29,5 @@
     <PreferenceScreen
         android:title="@string/master_clear_title"
         android:summary="@string/master_clear_summary"
-        android:fragment="com.androie.settings.MasterClear" />
+        android:fragment="com.jellybyn.settings.MasterClear" />
 </PreferenceScreen>

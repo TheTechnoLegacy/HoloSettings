@@ -13,7 +13,7 @@
         android:layout_height="0.0dip"
         android:layout_weight="1.0" />
     <View
-        android:background="@android:drawable/btn_radio_off_focused_holo_dark"
+        android:background="@android:drawable/btn_radio_off_disabled_focused_holo_light"
         android:layout_width="fill_parent"
         android:layout_height="2.0dip" />
     <com.android.internal.widget.LockPatternView
@@ -21,7 +21,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
     <View
-        android:background="@android:drawable/btn_radio_off_disabled_holo_dark"
+        android:background="@android:drawable/btn_radio_off"
         android:layout_width="fill_parent"
         android:layout_height="8.0dip" />
     <TextView

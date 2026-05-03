@@ -77,7 +77,7 @@
                 android:id="@id/wifi_setup_fragment"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                class="com.android.settings.wifi.WifiSettings" />
+                class="com.jellybyn.settings.wifi.WifiSettings" />
         </FrameLayout>
         <FrameLayout
             android:id="@id/wifi_config_ui"

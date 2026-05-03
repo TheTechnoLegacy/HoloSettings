@@ -14,7 +14,7 @@
             android:layout_height="0.0px"
             android:layout_weight="1.0">
             <ListView
-                android:scrollbarStyle="@android:integer/config_datagram_wait_for_connected_state_for_last_message_timeout_millis"
+                android:scrollbarStyle="@android:integer/config_carDockRotation"
                 android:id="@android:id/list"
                 android:clipToPadding="false"
                 android:layout_width="fill_parent"
@@ -42,7 +42,7 @@
             android:paddingEnd="4.0dip"
             android:layout_marginStart="@android:dimen/action_bar_stacked_max_height"
             android:layout_marginEnd="@android:dimen/action_bar_stacked_max_height"
-            class="com.android.settings.applications.LinearColorBar">
+            class="com.jellybyn.settings.applications.LinearColorBar">
             <TextView
                 android:textAppearance="?android:textAppearanceSmallInverse"
                 android:textColor="#ff000000"

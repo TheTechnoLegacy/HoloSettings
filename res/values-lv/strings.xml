@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Atļaut</string>
-    <string name="deny">Aizliegt</string>
-    <string name="delete">Dzēst</string>
-    <string name="notification_pulse_title">Pulsa paziņojuma indikators</string>
-    <string name="device_status_summary">Tālruņa numurs, signāls u.c.</string>
-    <string name="bluetooth_confirm_passkey_msg">Lai savienotu pārī ar:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Pārliecinieties, ka tiek rādīta šī ieejas atslēga:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Jā</string>
     <string name="no">Nē</string>
     <string name="create">Izveidot</string>
+    <string name="allow">Atļaut</string>
+    <string name="deny">Aizliegt</string>
     <string name="device_info_default">Nezināms</string>
     <string name="show_dev_on">Tagad jūs esat izstrādātājs!</string>
     <string name="show_dev_already">Nav nepieciešams, ja jau esat izstrādātājs.</string>
@@ -377,6 +373,7 @@ Lai atsāktu lietot tālruni, ir jāveic rūpnīcas iestatījumu atiestatīšana
     <string name="bluetooth_pin_values_hint">Parasti 0000 vai 1234</string>
     <string name="bluetooth_enter_pin_other_device">Iespējams, šis PIN būs jāievada arī otrā ierīcē.</string>
     <string name="bluetooth_enter_passkey_other_device">Iespējams, šī ieejas atslēga būs jāievada arī otrā ierīcē.</string>
+    <string name="bluetooth_confirm_passkey_msg">Lai savienotu pārī ar:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Pārliecinieties, ka tiek rādīta šī ieejas atslēga:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">No:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Vai savienot pārī ar šo ierīci?</string>
     <string name="bluetooth_display_passkey_pin_msg">Lai izveidotu savienojumu pārī ar ierīci &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>, ierakstiet tajā atslēgu &lt;br>&lt;b>%2$s&lt;/b> un pēc tam nospiediet ievadīšanas taustiņu.</string>
     <string name="bluetooth_pairing_accept">Izveidot pāri</string>
@@ -624,6 +621,7 @@ Iestatot tālruni, var ievērojami palielināties tīkla darbības apjoms."</str
     <string name="ring_volume_title">Zvanītāja skaļums</string>
     <string name="vibrate_in_silent_title">Vibrē klusuma režīmā</string>
     <string name="notification_sound_title">Noklusējuma paziņojuma skaņa</string>
+    <string name="notification_pulse_title">Pulsa paziņojuma indikators</string>
     <string name="incoming_call_volume_title">Zvana signāls</string>
     <string name="notification_volume_title">Paziņojums</string>
     <string name="checkbox_notification_same_as_incoming_call">Paziņojumiem izmantot ienākošā zvana skaļumu</string>
@@ -720,6 +718,7 @@ Iespējams, ka ievadījāt nepareizu PIN kodu."</string>
     <string name="device_info_not_available">Nav pieejams</string>
     <string name="device_status_activity_title">Statuss</string>
     <string name="device_status">Statuss</string>
+    <string name="device_status_summary">Tālruņa numurs, signāls u.c.</string>
     <string name="storage_settings">Krātuve</string>
     <string name="storage_settings_title">Krātuves iestatījumi</string>
     <string name="storage_settings_summary">SD kartes atvienošana, pieejamās krātuves skatīšana</string>
@@ -1007,15 +1006,14 @@ Lai dzēstu mūziku, attēlus un citus lietotāja datus, ir jādzēš "<b>SD kar
     <string name="show_background_processes">Rādīt kešatmiņā iev. pr.</string>
     <string name="reset_app_preferences">Atiest. lietotnes prefer.</string>
     <string name="reset_app_preferences_title">Vai atiest. liet. pref.?</string>
-    <string name="reset_app_preferences_desc">"Tādējādi tiks atiestatītas visas preferences, kas saistītas ar:
+    <string name="reset_app_preferences_desc">"Tādējādi tiks atiestatītas visas preferences saistībā ar:
 
- "<li>atspējotām lietotnēm;</li>"
- "<li>atspējotu lietotņu paziņojumiem;</li>"
- "<li>darbībām paredzētām noklusējuma lietojumprogrammām;</li>"
- "<li>lietotņu fona datu ierobežojumiem;</li>"
- "<li>visiem atļauju ierobežojumiem.</li>"
+"<li>atspējotajām lietotnēm;</li>"
+"<li>atspējoto lietotņu paziņojumiem;</li>"
+"<li>noklusējuma lietojumprogrammām attiecībā uz darbību veikšanu;</li>"
+"<li>fona datu ierobežojumiem attiecībā uz lietotnēm.</li>"
 
- Jūs nezaudēsiet nekādus lietotņu datus."</string>
+Jūs nezaudēsiet lietotņu datus."</string>
     <string name="reset_app_preferences_button">Atiestatīt lietotnes</string>
     <string name="manage_space_text">Vietas pārvaldība</string>
     <string name="filter">Filtrs</string>
@@ -1239,8 +1237,8 @@ Dažas lietotnes, iespējams, nedarbosies, kamēr tās neatjauninās izstrādāt
     <string name="accessibility_screen_magnification_summary">"Ja šī funkcija ir ieslēgta, varat tuvināt un tālināt, trīs reizes pieskaroties ekrānam.
 
 Ja veicāt tuvināšanu, varat veikt arī tālāk norādītās darbības.
-"<ul><li>"Panoramēt — velciet divus pirkstus vai vairāk pāri ekrānam.
-"<li>Pielāgot tālummaiņas līmeni — savelciet kopā divus pirkstus vai vairāk vai izpletiet tos.</li></li></ul>"
+"<ul><li>Panoramēt — velciet divus pirkstus vai vairāk pāri ekrānam.</li>"
+"<li>Pielāgot tālummaiņas līmeni — savelciet kopā divus pirkstus vai vairāk vai izpletiet tos.</li></ul>"
 
 Varat arī uz brīdi palielināt zem pirksta redzamo vienumu, trīs reizes pieskaroties ekrānam un turot. Šādā palielinājumā varat pārvilkt pirkstu, lai izvērstu citas ekrāna daļas. Paceliet pirkstu, lai atgrieztu iepriekšējo ekrāna stāvokli.
 
@@ -1547,6 +1545,7 @@ Tā ir Google pieeja datu sinhronizācijai, kas ļauj piekļūt kontaktpersonām
     <string name="status_wimax_mac_address">4G MAC adrese</string>
     <string name="enter_password">Ierakstiet paroli, lai atšifrētu atmiņu</string>
     <string name="try_again">Mēģiniet vēlreiz.</string>
+    <string name="delete">Dzēst</string>
     <string name="misc_files">Dažādi faili</string>
     <string name="misc_files_selected_count">Atlasīti %1$d no %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s no %2$s</string>

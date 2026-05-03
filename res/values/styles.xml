@@ -1,110 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="BottomButton">
-        <item name="android:textColor">?bottomButtonBarText</item>
-    </style>
-    <style name="PinButtonBase" parent="@android:style/TextAppearance.Large">
-        <item name="android:layout_width">0.0dip</item>
-        <item name="android:layout_height">64.0dip</item>
-        <item name="android:layout_weight">1.0</item>
-    </style>
-    <style name="PinButton" parent="@style/PinButtonBase">
-        <item name="android:layout_width">80.0dip</item>
-        <item name="android:layout_weight">@null</item>
-    </style>
-    <style name="SuperuserDark" parent="@style/AppDarkTheme">
-        <item name="bottomButtonBar">@null</item>
-        <item name="bottomButtonBarText">?android:textColorPrimary</item>
-        <item name="toggleIcon">@drawable/ic_toggle_dark</item>
-        <item name="multiuserIcon">@drawable/ic_users_dark</item>
-        <item name="declaredPermissionsIcon">@drawable/ic_declare_dark</item>
-        <item name="automaticResponseIcon">@drawable/ic_alert_dark</item>
-        <item name="pinProtectionIcon">@drawable/ic_protected_dark</item>
-        <item name="requestTimeoutIcon">@drawable/ic_timeout_dark</item>
-        <item name="loggingIcon">@drawable/ic_logging_dark</item>
-        <item name="notificationsIcon">@drawable/ic_notifications_dark</item>
-        <item name="themeIcon">@drawable/ic_theme_dark</item>
-        <item name="largeIconTheme">@style/SuperuserDark.LargeIcon</item>
-    </style>
-    <style name="SuperuserLight" parent="@style/AppTheme">
-        <item name="bottomButtonBar">@color/background_dark</item>
-        <item name="bottomButtonBarText">?android:textColorPrimaryInverse</item>
-        <item name="toggleIcon">@drawable/ic_toggle</item>
-        <item name="multiuserIcon">@drawable/ic_users</item>
-        <item name="declaredPermissionsIcon">@drawable/ic_declare</item>
-        <item name="automaticResponseIcon">@drawable/ic_alert</item>
-        <item name="pinProtectionIcon">@drawable/ic_protected</item>
-        <item name="requestTimeoutIcon">@drawable/ic_timeout</item>
-        <item name="loggingIcon">@drawable/ic_logging</item>
-        <item name="notificationsIcon">@drawable/ic_notifications</item>
-        <item name="themeIcon">@drawable/ic_theme</item>
-        <item name="largeIconTheme">@style/Superuser.LargeIcon</item>
-    </style>
-    <style name="Superuser.LargeIcon" parent="@style/Superuser">
-        <item name="iconSize">@android:dimen/app_icon_size</item>
-    </style>
-    <style name="SuperuserDark.LargeIcon" parent="@style/SuperuserDark">
-        <item name="iconSize">@android:dimen/app_icon_size</item>
-    </style>
-    <style name="RequestThemeDark" parent="@style/SuperuserDark" />
-    <style name="RequestThemeLight" parent="@style/SuperuserLight" />
-    <style name="SuperuserLightActivity" parent="@style/AppActivityTheme" />
-    <style name="SuperuserDarkActivity" parent="@style/AppDarkActivityTheme" />
-    <style name="RequestTheme" parent="@style/RequestThemeLight" />
-    <style name="Superuser" parent="@style/SuperuserLight" />
-    <style name="SuperuserActivity" parent="@style/SuperuserLightActivity" />
-    <style name="AppActivityBaseTheme" parent="@style/AppTheme" />
-    <style name="AppDarkActivityBaseTheme" parent="@style/AppDarkTheme" />
-    <style name="AndroidTheme" parent="@android:style/Theme.Light" />
-    <style name="AndroidDarkTheme" parent="@android:style/Theme.Black" />
-    <style name="AppBaseTheme" parent="@style/AndroidTheme">
-        <item name="listContentHeader">?android:listSeparatorTextViewStyle</item>
-        <item name="listHeaderTextColor">@color/holo_blue_dark</item>
-        <item name="listPreferredItemPaddingLeft">6.0dip</item>
-        <item name="listPreferredItemPaddingRight">6.0dip</item>
-    </style>
-    <style name="AppTheme" parent="@style/AppBaseTheme">
-        <item name="listContentBackground">@null</item>
-        <item name="listItemsLeftBackground">@null</item>
-        <item name="listItemsRightBackground">@drawable/panel_bg_holo_light</item>
-        <item name="listItemSelectableLargeBackground">@null</item>
-        <item name="listItemSelectableLargeIndicatorStyle">?android:activatedBackgroundIndicator</item>
-        <item name="iconSize">24.0dip</item>
-    </style>
-    <style name="ListContentIndicator">
-        <item name="android:visibility">gone</item>
-    </style>
-    <style name="AppBaseDarkTheme" parent="@style/AndroidDarkTheme">
-        <item name="listContentHeader">?android:listSeparatorTextViewStyle</item>
-        <item name="listHeaderTextColor">@null</item>
-        <item name="listPreferredItemPaddingLeft">6.0dip</item>
-        <item name="listPreferredItemPaddingRight">6.0dip</item>
-    </style>
-    <style name="AppDarkTheme" parent="@style/AppBaseDarkTheme">
-        <item name="listContentBackground">@null</item>
-        <item name="listItemsLeftBackground">@null</item>
-        <item name="listItemsRightBackground">@drawable/panel_bg_holo_dark</item>
-        <item name="listItemSelectableLargeBackground">?android:activatedBackgroundIndicator</item>
-        <item name="listItemSelectableLargeIndicatorStyle">@style/ListContentIndicator</item>
-        <item name="iconSize">24.0dip</item>
-    </style>
-    <style name="AppActivityTheme" parent="@style/AppActivityBaseTheme">
-        <item name="listPreferredItemPaddingLeft">@dimen/activity_horizontal_margin</item>
-        <item name="listPreferredItemPaddingRight">@dimen/activity_horizontal_margin</item>
-    </style>
-    <style name="AppDarkActivityTheme" parent="@style/AppDarkActivityBaseTheme">
-        <item name="listPreferredItemPaddingLeft">@dimen/activity_horizontal_margin</item>
-        <item name="listPreferredItemPaddingRight">@dimen/activity_horizontal_margin</item>
-    </style>
-    <style name="ListItemTitle">
-        <item name="android:textSize">18.0sp</item>
-    </style>
-    <style name="ListItemSummary">
-        <item name="android:textSize">12.0sp</item>
-    </style>
-    <item type="style" name="dummy_ae_1d">false</item>
-    <item type="style" name="dummy_ae_1e">false</item>
-    <item type="style" name="dummy_ae_1f">false</item>
     <style name="info_label">
         <item name="android:textAppearance">@style/TextAppearance.info_label</item>
         <item name="android:layout_width">wrap_content</item>
@@ -152,18 +47,13 @@
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
     </style>
-    <style name="TextAppearance.QuickSettings" parent="@style/TextAppearance">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textAllCaps">true</item>
-    </style>
     <style name="TallTitleBarTheme" parent="@android:style/Theme.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
     </style>
     <style name="Theme.CreateShortCut" parent="@android:style/Theme.Holo.DialogWhenLarge" />
     <style name="setup_wizard_theme" parent="@android:style/Theme.Holo.NoActionBar">
         <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:isGame">@android:style/Theme.Material.Wallpaper.NoTitleBar</item>
     </style>
     <style name="TopDivider">
         <item name="android:background">@color/setup_divider_color</item>
@@ -261,10 +151,6 @@
     </style>
     <style name="KeyguardAppWidgetItem">
         <item name="android:textSize">18.0sp</item>
-    </style>
-    <style name="ProfilesPreferenceStyle">
-        <item name="android:layout">@layout/preference_profiles</item>
-        <item name="android:widgetLayout">@layout/preference_profiles_widget</item>
     </style>
     <style name="Theme.WifiDialog" parent="@android:style/Animation.DropDownUp">
         <item name="android:windowSoftInputMode">adjustResize</item>

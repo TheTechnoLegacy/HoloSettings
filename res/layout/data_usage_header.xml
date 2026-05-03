@@ -20,6 +20,8 @@
     </FrameLayout>
     <include
         layout="@layout/data_usage_cycles" />
+    <include
+        layout="@layout/data_usage_chart" />
     <TextView
         android:textAppearance="?android:textAppearanceSmall"
         android:id="@id/usage_summary"

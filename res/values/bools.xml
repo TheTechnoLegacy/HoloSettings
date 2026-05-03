@@ -6,12 +6,5 @@
     <bool name="config_additional_system_update_setting_enable">false</bool>
     <bool name="auto_confirm_bluetooth_activation_dialog">false</bool>
     <bool name="config_show_regulatory_info">false</bool>
-    <bool name="ga_autoActivityTracking">false</bool>
-    <bool name="ga_reportUncaughtExceptions">false</bool>
     <bool name="config_msid_enable">false</bool>
-    <bool name="has_led_flash">false</bool>
-    <bool name="config_show_homeWake">false</bool>
-    <bool name="config_show_volumeRockerWake">true</bool>
-    <bool name="config_show_expandedDesktop">true</bool>
-    <bool name="has_volume_rocker">true</bool>
 </resources>

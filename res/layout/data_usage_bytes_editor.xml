@@ -20,5 +20,5 @@
         android:layout_gravity="center_vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@android:string/accessibility_shortcut_menu_item_status_off" />
+        android:text="@android:string/PERSOSUBSTATE_RUIM_NETWORK1_PUK_SUCCESS" />
 </LinearLayout>

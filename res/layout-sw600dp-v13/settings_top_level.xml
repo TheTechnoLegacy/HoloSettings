@@ -10,7 +10,7 @@
         android:layout_height="fill_parent"
         android:layout_weight="0.4"
         android:layout_marginEnd="10.0dip"
-        class="com.android.settings.Settings$TopLevelSettings" />
+        class="com.jellybyn.settings.Settings$TopLevelSettings" />
     <FrameLayout
         android:id="@id/prefs"
         android:layout_width="0.0px"

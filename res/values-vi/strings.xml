@@ -1,102 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="superuser">Superuser</string>
-    <string name="allow">Cho phép</string>
-    <string name="deny">Từ chối</string>
-    <string name="status_incoming">Yêu cầu quyền superuser...</string>
-    <string name="unknown_uid">Không rõ UID: %s</string>
-    <string name="application_request">%s đang yêu cầu quyền truy cập Superuser.</string>
-    <string name="info">Cảnh báo: Nếu bạn không hiểu điều này, bạn nên từ chối yêu cầu.</string>
-    <string name="request">Yêu cầu Superuser</string>
-    <string name="package_header">Gói:</string>
-    <string name="app_header">Ứng dụng:</string>
-    <string name="uid_header">UID yêu cầu:</string>
-    <string name="command_header">Lệnh:</string>
-    <string name="this_time_only">Chỉ lần này</string>
-    <string name="remember_for">Ghi nhớ lựa chọn trong %s phút</string>
-    <string name="remember_forever">Ghi nhớ lựa chọn vĩnh viễn</string>
-    <string name="interactive">Tương tác</string>
-    <string name="logs">Nhật trình</string>
-    <string name="settings">Thiết lập</string>
-    <string name="delete">Xóa</string>
-    <string name="no_logs">Không có nhật trình</string>
-    <string name="no_apps">Hiện không có quy định cho ứng dụng Superuser.</string>
-    <string name="logging">Ghi nhật trình</string>
-    <string name="logging_summary">Mở hoặc tắt tất cả nhật trình yêu cầu Superuser</string>
-    <string name="pin_protection">Bảo vệ bằng mã khóa</string>
-    <string name="pin_protection_summary">Yêu cầu nhập mã khóa khi muốn chấp thuận yêu cầu Superuser</string>
-    <string name="request_timeout">Thời hạn yêu cầu</string>
-    <string name="request_timeout_summary">Yêu cầu Superuser sẽ bị từ chối sau %s giây</string>
-    <string name="notifications">Thông báo</string>
-    <string name="none">Không</string>
-    <string name="notifications_summary">Hiện một %s khi ứng dụng được chấp thuận hoặc từ chối quyền Superuser</string>
-    <string name="enter_pin">Nhập mã khóa</string>
-    <string name="enter_new_pin">Nhập mã khóa mới</string>
-    <string name="incorrect_pin">Mã khóa sai</string>
-    <string name="confirm_pin">Xác nhận mã khóa</string>
-    <string name="pin_mismatch">Mã khóa không khớp</string>
-    <string name="pin_set">Đã kích hoạt bảo vệ Superuser bằng mã khóa</string>
-    <string name="number_seconds">%s giây</string>
-    <string name="superuser_granted">Đã cấp phép Superuser cho %s</string>
-    <string name="superuser_denied">Đã từ chối cấp Superuser cho %s</string>
-    <string name="toast">Tin nhắn bật nhanh</string>
-    <string name="notification">Thông báo</string>
-    <string name="no_notification">Không hiện thông báo</string>
-    <string name="developer_warning">"Cảnh báo của lập trình viên:
-android.permission.ACCESS_SUPERUSER
-không được định nghĩa trong manifest."</string>
-    <string name="superuser_description">toàn quyền cho tất cả các tính năng và phần lưu trữ của thiết bị</string>
-    <string name="superuser_description_more">Superuser trao toàn quyền truy cập đến tất cả các tính năng và phần lưu trữ của thiết bị, bao gồm cả bộ phận phần cứng nhạy cảm và bảo mật của thiết bị. Quyền này có khả năng gây nguy hiểm.</string>
-    <string name="declared_permission">Khai rõ quyền</string>
-    <string name="declared_permission_summary">Chỉ cho phép các yêu cầu từ những ứng dụng khai báo rõ android.permission.ACCESS_SUPERUSER</string>
-    <string name="automatic_response">Hồi đáp tự động</string>
-    <string name="prompt">Hỏi tôi</string>
-    <string name="automatic_response_allow_summary">Tự động cấp phép các yêu cầu mới</string>
-    <string name="automatic_response_deny_summary">Tự động từ chối các yêu cầu mới</string>
-    <string name="automatic_response_prompt_summary">Hiện hộp thoại xác nhận cho mỗi yêu cầu mới</string>
-    <string name="security">An toàn</string>
-    <string name="multiuser_policy">Quy định nhiều người dùng</string>
-    <string name="multiuser_owner_only_summary">Chỉ có chủ sở hữu thiết bị mới có thể yêu cầu Superuser</string>
-    <string name="multiuser_owner_managed_summary">Chủ sở hữu thiết bị sẽ được hỏi khi người dùng khác yêu cầu Superuser</string>
-    <string name="multiuser_user_summary">Tất cả người dùng đều có thể yêu cầu Superuser</string>
-    <string name="multiuser_owner_only">Chỉ chủ sở hữu</string>
-    <string name="multiuser_owner_managed">Chủ sở hữu quyết định</string>
-    <string name="multiuser_user">Tất cả người dùng</string>
-    <string name="multiuser_require_owner">Chỉ có chủ sở hữu mới có thể thiết lập quy định nhiều người dùng.</string>
-    <string name="owner_login_info">Vui lòng chuyển sang tài khoản chủ sở hữu để chấp thuận hoặc từ chối yêu cầu này.</string>
-    <string name="all_commands">Tất cả các lệnh</string>
-    <string name="about">Giới thiệu</string>
-    <string name="apps">Ứng dụng</string>
-    <string name="installing">Đang cài đặt</string>
-    <string name="installing_superuser">Đang cài đặt Superuser...</string>
-    <string name="install_superuser">Cài đặt Superuser</string>
-    <string name="install_superuser_info">"Cần cập nhật lệnh Superuser (su).
-
-Vui lòng chọn phương cách cập nhật.
-Khuyên dùng chế độ Hồi phục cho thiết bị HTC."</string>
-    <string name="recovery_install">Cài đặt Hồi phục</string>
-    <string name="install">Cài đặt</string>
-    <string name="checking_superuser">Đang kiểm tra Superuser...</string>
-    <string name="install_error">Có lỗi trong khi cài Superuser. Vui lòng gửi nhật trình lỗi cho lập trình viên.</string>
-    <string name="install_success">Cài đặt Superuser thành công.</string>
-    <string name="su_binary_outdated">Chương trình su đã cũ.</string>
-    <string name="superuser_access">Quyền truy cập Superuser</string>
-    <string name="access_disabled">Tắt</string>
-    <string name="apps_only">Chỉ cho ứng dụng</string>
-    <string name="adb_only">Chỉ cho ADB</string>
-    <string name="apps_and_adb">Cả ứng dụng và ADB</string>
-    <string name="whats_new">Có gì mới</string>
-    <string name="rate">Xếp hạng</string>
-    <string name="theme">Tông màu</string>
-    <string name="light">Sáng</string>
-    <string name="dark">Tối</string>
-    <string name="pin_disabled">Bảo vệ Superuser bằng mã khóa đã tắt</string>
-    <string name="notification_pulse_title">Đèn thông báo dạng xung</string>
-    <string name="device_status_summary">Số điện thoại, tín hiệu, v.v...</string>
-    <string name="bluetooth_confirm_passkey_msg">Để ghép nối với:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Hãy đảm bảo thiết bị đang hiển thị mã xác nhận này:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Có</string>
     <string name="no">Không</string>
     <string name="create">Tạo</string>
+    <string name="allow">Cho phép</string>
+    <string name="deny">Từ chối</string>
     <string name="device_info_default">Không xác định</string>
     <string name="show_dev_on">Bạn đã là nhà phát triển!</string>
     <string name="show_dev_already">Không cần, bạn đã là nhà phát triển.</string>
@@ -465,6 +373,7 @@ Quá trình mã hóa mất ít nhất một giờ. Bạn phải bắt đầu khi
     <string name="bluetooth_pin_values_hint">Thương là 0000 hoặc 1234</string>
     <string name="bluetooth_enter_pin_other_device">Bạn cũng có thể cần nhập mã PIN này trên thiết bị khác.</string>
     <string name="bluetooth_enter_passkey_other_device">Bạn cũng có thể cần nhập mã xác nhận này trên thiết bị khác.</string>
+    <string name="bluetooth_confirm_passkey_msg">Để ghép nối với:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Hãy đảm bảo thiết bị đang hiển thị mã xác nhận này:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">Từ:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Ghép nối với thiết bị này?</string>
     <string name="bluetooth_display_passkey_pin_msg">Để ghép nối với:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Hãy nhập trên thiết bị:&lt;br>&lt;b>%2$s&lt;/b> rồi nhấn Quay lại hoặc Enter.</string>
     <string name="bluetooth_pairing_accept">Ghép nối</string>
@@ -712,6 +621,7 @@ Thiết lập điện thoại có thể yêu cầu hoạt động mạng đáng 
     <string name="ring_volume_title">Âm lượng chuông</string>
     <string name="vibrate_in_silent_title">Rung khi im lặng</string>
     <string name="notification_sound_title">Âm thanh thông báo mặc định</string>
+    <string name="notification_pulse_title">Đèn thông báo dạng xung</string>
     <string name="incoming_call_volume_title">Nhạc chuông</string>
     <string name="notification_volume_title">Thông báo</string>
     <string name="checkbox_notification_same_as_incoming_call">Sử dụng âm lượng cuộc gọi đến cho thông báo</string>
@@ -808,6 +718,7 @@ Có thể mã PIN không đúng."</string>
     <string name="device_info_not_available">Không khả dụng</string>
     <string name="device_status_activity_title">Trạng thái</string>
     <string name="device_status">Trạng thái</string>
+    <string name="device_status_summary">Số điện thoại, tín hiệu, v.v...</string>
     <string name="storage_settings">Dung lượng</string>
     <string name="storage_settings_title">Cài đặt lưu trữ</string>
     <string name="storage_settings_summary">Tháo thẻ SD, xem dung lượng còn trống</string>
@@ -1097,13 +1008,12 @@ Bạn hiện đã đăng nhập vào các tài khoản sau đây:
     <string name="reset_app_preferences_title">Đặt lại tùy chọn ứng dụng?</string>
     <string name="reset_app_preferences_desc">"Thao tác này sẽ đặt lại tất cả tùy chọn cho:
 
- "<li>Ứng dụng bị tắt</li>"
- "<li>Thông báo ứng dụng bị tắt</li>"
- "<li>Ứng dụng mặc định cho các tác vụ</li>"
- "<li>Giới hạn dữ liệu nền cho ứng dụng</li>"
- "<li>Bất kỳ giới hạn về quyền nào</li>"
+ "<li>Ứng dụng đã tắt</li>"
+ "<li>Thông báo ứng dụng đã tắt</li>"
+ "<li>Ứng dụng mặc định cho tác vụ</li>"
+ "<li>Hạn chế dữ liệu nền cho ứng dụng</li>"
 
- Bạn sẽ không mất bất kỳ dữ liệu ứng dụng nào."</string>
+ Bạn sẽ mất mọi dữ liệu ứng dụng."</string>
     <string name="reset_app_preferences_button">Đặt lại ứng dụng</string>
     <string name="manage_space_text">Quản lý dung lượng</string>
     <string name="filter">Bộ lọc</string>
@@ -1327,8 +1237,8 @@ Một số ứng dụng có thể không hoạt động cho đến khi được 
     <string name="accessibility_screen_magnification_summary">"Khi tính năng này được bật, bạn có thể phóng to và thu nhỏ bằng cách chạm ba lần vào màn hình.
 
 Trong khi phóng to, bạn có thể:
-"<ul><li>"Xoay: Kéo hai hoặc nhiều ngón tay qua màn hình.
-"<li>Điều chỉnh mức thu phóng: Chụm hai hoặc nhiều ngón tay với nhau hoặc tách chúng ra.</li></li></ul>"
+"<ul><li>Xoay: Kéo hai hoặc nhiều ngón tay qua màn hình.</li>"
+"<li>Điều chỉnh mức thu phóng: Chụm hai hoặc nhiều ngón tay với nhau hoặc tách chúng ra.</li></ul>"
 
 Bạn cũng có thể tạm thời thu phóng các mục bên dưới ngón tay bạn bằng cách nhấn ba lần và giữ. Ở trạng thái thu phóng này, bạn có thể kéo ngón tay để khám phá các phần khác nhau của màn hình. Thả ngón tay để trở về trạng thái trước.
 
@@ -1635,6 +1545,7 @@ Một giải pháp đồng bộ hóa dữ liệu của Google cho phép quyền 
     <string name="status_wimax_mac_address">Địa chỉ MAC 4G</string>
     <string name="enter_password">Nhập mật khẩu để giải mã bộ nhớ</string>
     <string name="try_again">Thử lại.</string>
+    <string name="delete">Xóa</string>
     <string name="misc_files">Tệp khác</string>
     <string name="misc_files_selected_count">đã chọn %1$d trong tổng số %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s trong tổng số %2$s</string>

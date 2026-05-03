@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Permitir</string>
-    <string name="deny">Rechazar</string>
-    <string name="delete">Eliminar</string>
-    <string name="notification_pulse_title">Luz de notificación</string>
-    <string name="device_status_summary">Número de teléfono, señal, etc.</string>
-    <string name="bluetooth_confirm_passkey_msg">Para sincronizar con&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>asegúrate de que se muestre esta clave de acceso:&lt;br>&lt;b>%2$s&lt;/b>.</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="create">Crear</string>
+    <string name="allow">Permitir</string>
+    <string name="deny">Rechazar</string>
     <string name="device_info_default">Desconocido</string>
     <string name="show_dev_on">¡Ya eres programador!</string>
     <string name="show_dev_already">No es necesario, ya eres programador.</string>
@@ -377,6 +373,7 @@ Para reanudar el uso de tu dispositivo, debes restablecer los datos de fábrica.
     <string name="bluetooth_pin_values_hint">Por lo general, 0000 o 1234</string>
     <string name="bluetooth_enter_pin_other_device">Puede que también tengas que escribir este PIN en el otro dispositivo.</string>
     <string name="bluetooth_enter_passkey_other_device">Puede que también tengas que escribir esta clave de acceso en otro dispositivo.</string>
+    <string name="bluetooth_confirm_passkey_msg">Para sincronizar con&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>asegúrate de que se muestre esta clave de acceso:&lt;br>&lt;b>%2$s&lt;/b>.</string>
     <string name="bluetooth_incoming_pairing_msg">¿Desde: &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>sincronizas con este dispositivo?</string>
     <string name="bluetooth_display_passkey_pin_msg">Para sincronizar con:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Escribe allí:&lt;br>&lt;b>%2$s&lt;/b> y luego presiona Volver o Enter.</string>
     <string name="bluetooth_pairing_accept">Vincular</string>
@@ -624,6 +621,7 @@ La configuración del dispositivo puede requerir una significativa actividad de 
     <string name="ring_volume_title">Volumen del timbre</string>
     <string name="vibrate_in_silent_title">Vibrar en modo silencioso</string>
     <string name="notification_sound_title">Sonido de notificación predeterminado</string>
+    <string name="notification_pulse_title">Luz de notificación</string>
     <string name="incoming_call_volume_title">Tono de llamada</string>
     <string name="notification_volume_title">Notificación</string>
     <string name="checkbox_notification_same_as_incoming_call">Utilizar el volumen de las llamadas entrantes para las notificaciones</string>
@@ -720,6 +718,7 @@ PIN posiblemente incorrecto."</string>
     <string name="device_info_not_available">No disponible</string>
     <string name="device_status_activity_title">Estado</string>
     <string name="device_status">Estado</string>
+    <string name="device_status_summary">Número de teléfono, señal, etc.</string>
     <string name="storage_settings">Espacio de almacenamiento</string>
     <string name="storage_settings_title">Configuración de almacenamiento</string>
     <string name="storage_settings_summary">Desmontar tarjeta SD, ver espacio de almacenamiento disponible</string>
@@ -1007,15 +1006,14 @@ Para borrar música, imágenes y otros datos del usuario, debes borrar la "<b>ta
     <string name="show_background_processes">Mostrar procesos almacenados en la memoria caché</string>
     <string name="reset_app_preferences">Restablecer preferencias</string>
     <string name="reset_app_preferences_title">¿Restablec. preferencias?</string>
-    <string name="reset_app_preferences_desc">"Se restablecerán todas las preferencias de:
+    <string name="reset_app_preferences_desc">"Se restablecerán las preferencias de:
 
- "<li>aplicaciones inhabilitadas;</li>"
- "<li>notificaciones de aplicaciones inhabilitadas;</li>"
- "<li>aplicaciones predeterminadas para realizar acciones;</li>"
- "<li>restricciones de datos en segundo plano para aplicaciones;</li>"
- "<li>restricciones de permisos.</li>"
+ "<li>aplicaciones desactivadas,</li>"
+ "<li>notificaciones de aplicaciones desactivadas,</li>"
+ "<li>aplicaciones predeterminadas para diferentes acciones,</li>"
+ "<li>restricciones de datos en segundo plano para las aplicaciones.</li>"
 
- Los datos de las aplicaciones no se perderán."</string>
+ No perderás los datos de ninguna aplicación."</string>
     <string name="reset_app_preferences_button">Restablecer aplicaciones</string>
     <string name="manage_space_text">Administrar el espacio</string>
     <string name="filter">Filtro</string>
@@ -1239,8 +1237,8 @@ Es posible que algunas aplicaciones no funcionen hasta que los programadores las
     <string name="accessibility_screen_magnification_summary">"Cuando esta función está activada, puedes acercar y alejar la imagen con solo tocar tres veces la pantalla.
 
 A continuación se indican las acciones que puedes hacer con la imagen acercada.
-"<ul><li>"Desplazar la imagen: arrastra dos o más dedos por la pantalla.
-"<li>Modificar el nivel de zoom: une dos o más dedos o sepáralos.</li></li></ul>"
+"<ul><li>Desplazar la imagen: arrastra dos o más dedos por la pantalla.</li>"
+"<li>Modificar el nivel de zoom: une dos o más dedos o sepáralos.</li></ul>"
 
 También puedes ampliar el contenido seleccionado de forma temporal con solo tocar la pantalla tres veces y mantenerla presionada. Con el contenido ampliado, puedes arrastrar el dedo para explorar diferentes partes de la pantalla. Levanta el dedo para volver al estado anterior.
 
@@ -1547,6 +1545,7 @@ Con este software de Google, puedes sincronizar tus datos y acceder a tus contac
     <string name="status_wimax_mac_address">Dirección MAC de 4G</string>
     <string name="enter_password">Escribe la contraseña para desencriptar el almacenamiento</string>
     <string name="try_again">Inténtalo de nuevo.</string>
+    <string name="delete">Eliminar</string>
     <string name="misc_files">Archivos variados</string>
     <string name="misc_files_selected_count">Se seleccionaron %1$d de entre %2$d.</string>
     <string name="misc_files_selected_count_bytes">%1$s de %2$s</string>

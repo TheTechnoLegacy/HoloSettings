@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.settings.deviceinfo.FileItemInfoLayout
+<com.jellybyn.settings.deviceinfo.FileItemInfoLayout
     android:gravity="center_vertical"
     android:background="?android:selectableItemBackground"
     android:focusable="true"
@@ -33,4 +33,4 @@
         android:layout_below="@id/misc_filename"
         android:paddingStart="16.0dip"
         android:layout_toEndOf="@id/misc_checkbox" />
-</com.android.settings.deviceinfo.FileItemInfoLayout>
+</com.jellybyn.settings.deviceinfo.FileItemInfoLayout>

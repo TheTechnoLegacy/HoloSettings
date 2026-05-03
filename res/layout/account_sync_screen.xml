@@ -14,7 +14,7 @@
         android:layout_marginStart="@android:dimen/action_bar_stacked_max_height"
         android:layout_marginEnd="@android:dimen/action_bar_stacked_max_height" />
     <ListView
-        android:scrollbarStyle="@android:integer/config_datagram_wait_for_connected_state_for_last_message_timeout_millis"
+        android:scrollbarStyle="@android:integer/config_carDockRotation"
         android:id="@android:id/list"
         android:clipToPadding="false"
         android:layout_width="fill_parent"
@@ -26,8 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="8.0dip"
         android:text="@string/sync_is_failing"
-        android:drawablePadding="8.0dip"
-        android:drawableStart="@drawable/ic_sync_error_holo" />
+        android:drawableLeft="@drawable/ic_sync_error_holo"
+        android:drawablePadding="8.0dip" />
     <RelativeLayout
         android:id="@id/finish_button_area"
         android:background="@android:drawable/bottom_bar"

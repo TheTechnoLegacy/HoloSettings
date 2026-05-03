@@ -11,7 +11,7 @@
     </string-array>
     <string-array name="screen_timeout_entries">
         <item>Sekunde 15</item>
-        <item>Sekunde 30</item>
+        <item>sekunde 30</item>
         <item>Dakika 1</item>
         <item>Dakika 2</item>
         <item>Dakika 5</item>
@@ -21,7 +21,7 @@
     <string-array name="dream_timeout_entries">
         <item>Katu</item>
         <item>Sekunde 15</item>
-        <item>Sekunde 30</item>
+        <item>sekunde 30</item>
         <item>Dakika 1</item>
         <item>Dakika 2</item>
         <item>Dakika 5</item>
@@ -35,7 +35,7 @@
         <item>Sekunde 30</item>
         <item>Dakika 1</item>
         <item>Dakika 2</item>
-        <item>Dakika 5</item>
+        <item>dakika 5</item>
         <item>Dakika 10</item>
         <item>Dakika 30</item>
     </string-array>
@@ -111,7 +111,7 @@
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
         <item>Dakika 2</item>
-        <item>Dakika 5</item>
+        <item>dakika 5</item>
         <item>Saa 1</item>
         <item>Kamwe muda usiishe</item>
     </string-array>
@@ -123,12 +123,12 @@
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
         <item>Daima</item>
-        <item>Wakati inachaji pekee</item>
-        <item>Kamwe (huongeza matumizi ya data)</item>
+        <item>Wakati imechopekwa ndani</item>
+        <item>Kamwe ( huongeza utumizi wa data)</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
         <item>Daima</item>
-        <item>Wakati inachaji pekee</item>
+        <item>Wakati imechopekwa ndani</item>
         <item>kamwe</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">

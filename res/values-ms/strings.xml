@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Benarkan</string>
-    <string name="deny">Nafikan</string>
-    <string name="delete">Padam</string>
-    <string name="notification_pulse_title">Lampu pemberitahuan denyutan</string>
-    <string name="device_status_summary">Nombor telefon, isyarat, dll.</string>
-    <string name="bluetooth_confirm_passkey_msg">Untuk menjadi pasangan:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Pastikan ia menunjukkan kunci laluan ini:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <string name="create">Buat</string>
+    <string name="allow">Benarkan</string>
+    <string name="deny">Nafikan</string>
     <string name="device_info_default">Tidak diketahui</string>
     <string name="show_dev_on">Anda kini pemaju!</string>
     <string name="show_dev_already">Tidak perlu, anda sudah pun menjadi pemaju.</string>
@@ -377,6 +373,7 @@ Untuk menyambung semula menggunakan telefon anda, anda perlu melakukan tetapan s
     <string name="bluetooth_pin_values_hint">Biasanya 0000 atau 1234</string>
     <string name="bluetooth_enter_pin_other_device">Anda juga mungkin perlu menaipkan PIN ini pada peranti satu lagi.</string>
     <string name="bluetooth_enter_passkey_other_device">Anda juga mungkin perlu memasukkan kunci laluan ini pada peranti satu lagi.</string>
+    <string name="bluetooth_confirm_passkey_msg">Untuk menjadi pasangan:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Pastikan ia menunjukkan kunci laluan ini:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">Dari:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Jadikan pasangan peranti ini?</string>
     <string name="bluetooth_display_passkey_pin_msg">Untuk berpasangan dengan:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Taip padanya:&lt;br>&lt;b>%2$s&lt;/b>, kemudian tekan Kembali atau Enter.</string>
     <string name="bluetooth_pairing_accept">Jadikan pasangan</string>
@@ -624,6 +621,7 @@ Persediaan telefon berpotensi menggunakan aktiviti rangkaian yang banyak."</stri
     <string name="ring_volume_title">Kelantangan pendering</string>
     <string name="vibrate_in_silent_title">Getar apabila senyap</string>
     <string name="notification_sound_title">Bunyi pemberitahuan lalai</string>
+    <string name="notification_pulse_title">Lampu pemberitahuan denyutan</string>
     <string name="incoming_call_volume_title">Nada dering</string>
     <string name="notification_volume_title">Pemberitahuan</string>
     <string name="checkbox_notification_same_as_incoming_call">Gunakan kelantangan panggilan masuk untuk pemberitahuan</string>
@@ -720,6 +718,7 @@ Mungkin PIN salah."</string>
     <string name="device_info_not_available">Tidak tersedia</string>
     <string name="device_status_activity_title">Status</string>
     <string name="device_status">Status</string>
+    <string name="device_status_summary">Nombor telefon, isyarat, dll.</string>
     <string name="storage_settings">Storan</string>
     <string name="storage_settings_title">Tetapan Storan</string>
     <string name="storage_settings_summary">Nyahlekap kad SD, lihat storan tersedia</string>
@@ -866,7 +865,7 @@ Untuk turut memadam bersih muzik, gambar dan data pengguna lain, "<b>kad SD</b> 
     <string name="tether_settings_title_wifi">Titik panas mudah alih</string>
     <string name="tether_settings_title_bluetooth">Penambatan Bluetooth</string>
     <string name="tether_settings_title_usb_bluetooth">Penambatan</string>
-    <string name="tether_settings_title_all">Liputan tambatan &amp; mudah alih</string>
+    <string name="tether_settings_title_all">"Liputan t'batan &amp; m'alih"</string>
     <string name="usb_title">USB</string>
     <string name="usb_tethering_button_text">Penambatan USB</string>
     <string name="usb_tethering_available_subtext">USB disambungkan, semak untuk menambat</string>
@@ -1013,9 +1012,8 @@ Untuk turut memadam bersih muzik, gambar dan data pengguna lain, "<b>kad SD</b> 
  "<li>Pemberitahuan apl dilumpuhkan</li>"
  "<li>Aplikasi lalai untuk tindakan</li>"
  "<li>Sekatan data latar belakang untuk apl</li>"
- "<li>Sebarang sekatan kebenaran</li>"
 
- Anda tidak akan kehilangan apa-apa data apl."</string>
+ Anda tidak akan kehilangan sebarang data apl."</string>
     <string name="reset_app_preferences_button">Tetapkan semula apl</string>
     <string name="manage_space_text">Urus ruang</string>
     <string name="filter">Tapis</string>
@@ -1239,8 +1237,8 @@ Sesetengah apl mungkin tidak berfungsi sehingga dikemas kini oleh pemaju apl itu
     <string name="accessibility_screen_magnification_summary">"Apabila ciri ini dihidupkan, anda boleh mengezum masuk dan keluar dengan mengetik skrin tiga kali.
 
 Semasa dizum masuk, anda boleh:
-"<ul><li>"Menyorot: Seret menggunakan dua atau lebih jari merentasi skrin.
-"<li>Melaraskan tahap zum: Rapatkan atau jarakkan dua atau lebih jari.</li></li></ul>"
+"<ul><li>Menyorot: Seret menggunakan dua atau lebih jari merentasi skrin.</li>"
+"<li>Melaraskan tahap zum: Rapatkan atau jarakkan dua atau lebih jari.</li></ul>"
 
 Anda juga boleh membesarkan item di bawah jari anda untuk sementara waktu dengan mengetik tiga kali dan menahannya. Dalam keadaan zum besar ini, anda boleh menyeret jari anda untuk meneroka bahagian-bahagian lain pada skrin. Angkat jari anda untuk kembali kepada keadaan sebelumnya.
 
@@ -1547,6 +1545,7 @@ Satu pendekatan Google kepada penyegerakan data untuk membenarkan akses kepada k
     <string name="status_wimax_mac_address">Alamat MAC 4G</string>
     <string name="enter_password">Taip kata laluan untuk menyahsulit storan</string>
     <string name="try_again">Cuba lagi.</string>
+    <string name="delete">Padam</string>
     <string name="misc_files">Fail Pelbagai</string>
     <string name="misc_files_selected_count">pilihan %1$d dari %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s dari %2$s</string>

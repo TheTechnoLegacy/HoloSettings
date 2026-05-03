@@ -24,7 +24,7 @@
         android:title="@string/date_time_set_timezone"
         android:key="timezone"
         android:summary="GMT-8:00"
-        android:fragment="com.androie.settings.ZonePicker" />
+        android:fragment="com.jellybyn.settings.ZonePicker" />
     <CheckBoxPreference
         android:title="@string/date_time_24hour"
         android:key="24 hour" />

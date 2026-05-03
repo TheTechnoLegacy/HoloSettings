@@ -167,29 +167,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
             <LinearLayout
-                android:id="@id/wifi_ibss_toggle"
-                android:visibility="gone"
-                style="@style/wifi_item">
-                <CheckBox
-                    android:textSize="14.0sp"
-                    android:id="@id/wifi_ibss_checkbox"
-                    android:text="@string/wifi_mode_ibss"
-                    style="@style/wifi_item_content" />
-            </LinearLayout>
-            <LinearLayout
-                android:id="@id/wifi_ibss_freq_fields"
-                android:visibility="gone"
-                style="@style/wifi_item">
-                <TextView
-                    android:id="@id/wifi_ibss_freq_title"
-                    android:text="@string/wifi_ibss_freq_title"
-                    style="@style/wifi_item_label" />
-                <Spinner
-                    android:id="@id/wifi_ibss_freq"
-                    android:prompt="@string/wifi_ibss_freq_title"
-                    style="@style/wifi_item_content" />
-            </LinearLayout>
-            <LinearLayout
                 android:id="@id/proxy_settings_fields"
                 android:visibility="gone"
                 style="@style/wifi_item">

@@ -8,10 +8,10 @@
     <item
         android:state_focused="true"
         android:state_enabled="false"
-        android:drawable="@android:drawable/ic_feedback_indicator" />
+        android:drawable="@android:drawable/ic_check_watch" />
     <item
         android:state_focused="true"
-        android:drawable="@android:drawable/ic_file_copy" />
+        android:drawable="@android:drawable/ic_chevron_start" />
     <item
         android:drawable="@android:color/transparent" />
 </selector>

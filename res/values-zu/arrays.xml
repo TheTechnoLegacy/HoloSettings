@@ -10,8 +10,8 @@
         <item>Konke</item>
     </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 amasekhondi</item>
-        <item>30 amasekhondi</item>
+        <item>amasekhondi angu-15</item>
+        <item>amasekhondi angu-30</item>
         <item>1 iminithi</item>
         <item>2 amaminithi</item>
         <item>amaminithii angu-5</item>
@@ -30,9 +30,9 @@
     </string-array>
     <string-array name="lock_after_timeout_entries">
         <item>Ngokushesha</item>
-        <item>5 amasekhondi</item>
-        <item>15 amasekhondi</item>
-        <item>30 amasekhondi</item>
+        <item>amasekhondi angu-5</item>
+        <item>amasekhondi angu-15</item>
+        <item>amasekhondi angu-30</item>
         <item>1 iminithi</item>
         <item>2 amaminithi</item>
         <item>5 amaminithi</item>
@@ -112,7 +112,7 @@
     <string-array name="bluetooth_visibility_timeout_entries">
         <item>2 amaminithi</item>
         <item>amaminithii angu-5</item>
-        <item>1 ihora</item>
+        <item>ihora elingu-1</item>
         <item>Ayiphelelwa isikhathi</item>
     </string-array>
     <string-array name="wifi_signal">

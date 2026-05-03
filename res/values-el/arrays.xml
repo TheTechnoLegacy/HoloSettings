@@ -161,11 +161,11 @@
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
-        <item>Στατική</item>
+        <item>Στατικό</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>Κανένας</item>
-        <item>Μη αυτόματος</item>
+        <item>Μη αυτόματες</item>
     </string-array>
     <string-array name="emergency_tone_entries">
         <item>Απενεργοποιημένο</item>
@@ -287,22 +287,22 @@
         <item>Να χρησιμοποιείται πάντα έλεγχος HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Κινούμ. εικόνες απενεργοποιημένες</item>
-        <item>Κλίμακα κινούμενων εικόνων 0,5x</item>
-        <item>Κλίμακα κινούμενων εικόνων 1x</item>
-        <item>Κλίμακα κινούμενων εικόνων 1,5x</item>
-        <item>Κλίμακα κινούμενων εικόνων 2x</item>
-        <item>Κλίμακα κινούμενων εικόνων 5x</item>
-        <item>Κλίμακα κινούμενων εικόνων 10x</item>
+        <item>Κινούμ.εικόνες απενεργοποιημένες</item>
+        <item>Κλίμ. κινούμ. εικ. 0,5x</item>
+        <item>Κλίμ. κινούμ. εικ. 1x</item>
+        <item>Κλίμ. κινούμ. εικ. 1,5x</item>
+        <item>Κλίμ. κινούμ. εικ. 2x</item>
+        <item>Κλίμ. κινούμ. εικ. 5x</item>
+        <item>Κλίμ. κινούμ. εικ. 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Κινούμ. εικόνες απενεργοποιημένες</item>
-        <item>Κλίμακα κινούμενων εικόνων 0,5x</item>
-        <item>Κλίμακα κινούμενων εικόνων 1x</item>
-        <item>Κλίμακα κινούμενων εικόνων 1,5x</item>
-        <item>Κλίμακα κινούμενων εικόνων 2x</item>
-        <item>Κλίμακα κινούμενων εικόνων 5x</item>
-        <item>Κλίμακα κινούμενων εικόνων 10x</item>
+        <item>Κινούμ.εικόνες απενεργοποιημένες</item>
+        <item>Κλίμ. κινούμ. εικ. 0,5x</item>
+        <item>Κλίμ. κινούμ. εικ. 1x</item>
+        <item>Κλίμ. κινούμ. εικ. 1,5x</item>
+        <item>Κλίμ. κινούμ. εικ. 2x</item>
+        <item>Κλίμ. κινούμ. εικ. 5x</item>
+        <item>Κλίμ. κινούμ. εικ. 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Κινούμ. εικόνες απενεργοποιημένες</item>
@@ -365,141 +365,5 @@
         <item>Ερώτηση</item>
         <item>Να μην επιτρέπεται ποτέ</item>
         <item>Να επιτρέπεται πάντα</item>
-    </string-array>
-    <string-array name="multi_sim_entries">
-        <item>Συνδρομή 1</item>
-        <item>Συνδρομή 2</item>
-        <item>Συνδρομή 3</item>
-    </string-array>
-    <string-array name="wifi_countrycode_entries">
-        <item>Ηνωμένες Πολιτείες</item>
-        <item>Καναδάς, Ταϊβάν</item>
-        <item>Γερμανία</item>
-        <item>Ευρώπη</item>
-        <item>Ιαπωνία, Ρωσία</item>
-        <item>Αυστραλία</item>
-        <item>Κίνα</item>
-        <item>Κορέα</item>
-        <item>Τουρκία</item>
-        <item>Σιγκαπούρη</item>
-        <item>Βραζιλία</item>
-    </string-array>
-    <string-array name="volume_overlay_entries">
-        <item>Μονό</item>
-        <item>Επεκτάσιμο</item>
-        <item>Ανεπτυγμένο</item>
-        <item>Κανένα</item>
-    </string-array>
-    <string-array name="pref_zram_size_entries">
-        <item>Ανενεργό</item>
-        <item>10%</item>
-        <item>18% (προεπιλογή)</item>
-        <item>26%</item>
-    </string-array>
-    <string-array name="profile_entries">
-        <item>Ενεργό</item>
-        <item>Ανενεργό</item>
-        <item>Να μην παρακαμφθεί</item>
-    </string-array>
-    <string-array name="profile_connection_entries">
-        <item>Ανενεργό</item>
-        <item>Ενεργό</item>
-    </string-array>
-    <string-array name="entries_screentimeout_widget">
-        <item>15δ | 1λ | 5λ</item>
-        <item>30δ | 2λ | 5λ</item>
-    </string-array>
-    <string-array name="entries_flash_widget">
-        <item>Κανονικός</item>
-        <item>Υψηλή φωτεινότητα</item>
-    </string-array>
-    <string-array name="haptic_feedback_entries">
-        <item>Χρήση ρύθμισης συστήματος</item>
-        <item>Ενεργή</item>
-        <item>Ανενεργή</item>
-    </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Κανονικό</item>
-        <item>Μικρό</item>
-        <item>Κανένα</item>
-    </string-array>
-    <string-array name="app_ops_summaries_cm">
-        <item>τοποθεσία κατά προσέγγιση</item>
-        <item>ακριβής τοποθεσία</item>
-        <item>GPS</item>
-        <item>δόνηση</item>
-        <item>ανάγνωση επαφών</item>
-        <item>τροποποίηση επαφών</item>
-        <item>ανάγνωση αρχείου καταγραφής κλήσεων</item>
-        <item>τροποποίηση αρχείου κλήσεων</item>
-        <item>ανάγνωση ημερολογίου</item>
-        <item>τροποποίηση ημερολογίου</item>
-        <item>σάρωση Wi-Fi</item>
-        <item>ειδοποίηση</item>
-        <item>σάρωση κυψέλης</item>
-        <item>κλήση τηλεφώνου</item>
-        <item>ανάγνωση SMS</item>
-        <item>σύνταξη SMS</item>
-        <item>λήψη SMS</item>
-        <item>λήψη SMS έκτακτης ανάγκης</item>
-        <item>λήψη MMS</item>
-        <item>λήψη μηνύματος push μέσω WAP</item>
-        <item>αποστολή SMS</item>
-        <item>ανάγνωση ICC SMS</item>
-        <item>σύνταξη ICC SMS</item>
-        <item>τροποποίηση ρυθμίσεων</item>
-        <item>μεταφορά στην κορυφή</item>
-        <item>πρόσβαση στις ειδοποιήσεις</item>
-        <item>κάμερα</item>
-        <item>εγγραφή ήχου</item>
-        <item>αναπαραγωγή ήχου</item>
-        <item>ανάγνωση περιεχόμενων προχείρου</item>
-        <item>τροποποίηση περιεχομένων προχείρου</item>
-        <item>@string/app_ops_summaries_wifi_change</item>
-        <item>@string/app_ops_summaries_bluetooth_change</item>
-        <item>@string/app_ops_summaries_data_change</item>
-        <item>@string/app_ops_summaries_alarm_wakeup</item>
-    </string-array>
-    <string-array name="app_ops_labels_cm">
-        <item>Τοποθεσία</item>
-        <item>Τοποθεσία</item>
-        <item>Τοποθεσία</item>
-        <item>Δόνηση</item>
-        <item>Ανάγνωση επαφών</item>
-        <item>Τροποποίηση επαφών</item>
-        <item>Ανάγνωση αρχείου καταγραφής κλήσεων</item>
-        <item>Τροποποίηση αρχείου κλήσεων</item>
-        <item>Ανάγνωση ημερολογίου</item>
-        <item>Τροποποίηση ημερολογίου</item>
-        <item>Τοποθεσία</item>
-        <item>Δημοσίευση ειδοποίησης</item>
-        <item>Τοποθεσία</item>
-        <item>Κλήση τηλεφώνου</item>
-        <item>Λήψη SMS/MMS</item>
-        <item>Αποστολή SMS/MMS</item>
-        <item>Λήψη SMS/MMS</item>
-        <item>Λήψη SMS/MMS</item>
-        <item>Λήψη SMS/MMS</item>
-        <item>Λήψη SMS/MMS</item>
-        <item>Αποστολή SMS/MMS</item>
-        <item>Λήψη SMS/MMS</item>
-        <item>Αποστολή SMS/MMS</item>
-        <item>Τροποποίηση ρυθμίσεων</item>
-        <item>Μεταφορά στην κορυφή</item>
-        <item>Πρόσβαση στις ειδοποιήσεις</item>
-        <item>Φωτογρ. μηχανή</item>
-        <item>Ηχογράφηση</item>
-        <item>Αναπαραγωγή ήχου</item>
-        <item>Ανάγνωση περιεχομένων προχείρου</item>
-        <item>Τροποποίηση περιεχομένων προχείρου</item>
-        <item>@string/app_ops_labels_wifi_change</item>
-        <item>@string/app_ops_labels_bluetooth_change</item>
-        <item>@string/app_ops_labels_data_change</item>
-        <item>@string/app_ops_labels_alarm_wakeup</item>
-    </string-array>
-    <string-array name="app_ops_permissions">
-        <item>Επιτράπηκε</item>
-        <item>Αρνήθηκε</item>
-        <item>Πάντα ερώτηση</item>
     </string-array>
 </resources>

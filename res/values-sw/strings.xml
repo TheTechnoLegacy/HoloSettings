@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Ruhusu</string>
-    <string name="deny">Kana</string>
-    <string name="delete">Futa</string>
-    <string name="notification_pulse_title">Arifu ya mwangaza wa palsi</string>
-    <string name="device_status_summary">Nambari a simu, mawimbi, n.k.</string>
-    <string name="bluetooth_confirm_passkey_msg">Ili kuoanisha na :&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>hakikisha inaonyesha nenosiri hili:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Ndiyo</string>
     <string name="no">Hapana</string>
     <string name="create">Unda</string>
+    <string name="allow">Ruhusu</string>
+    <string name="deny">Kana</string>
     <string name="device_info_default">Haijulikani</string>
     <string name="show_dev_on">Sasa wewe ni msanidi programu!</string>
     <string name="show_dev_already">Hakuna haja, tayari wewe ni msanidi programu.</string>
@@ -375,6 +371,7 @@ Usimbaji fiche huchukua saa moja au zaidi. Lazima uanze na betri iliyo na chaji 
     <string name="bluetooth_pin_values_hint">Kwa kawaida 0000 au 1234</string>
     <string name="bluetooth_enter_pin_other_device">Unawezahitaji pia kucharaza PIN hii kwenye kifaa kingine.</string>
     <string name="bluetooth_enter_passkey_other_device">Unaweza pia kuhitaji kucharaza nenosiri hili kwenye kifaa kingine.</string>
+    <string name="bluetooth_confirm_passkey_msg">Ili kuoanisha na :&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>hakikisha inaonyesha nenosiri hili:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">From:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Llinganisha na kifaa hiki?</string>
     <string name="bluetooth_display_passkey_pin_msg">Kulinganisha na: &lt;br>&lt;b> %1$s &lt;/b>&lt;br>&lt;br> Andika: &lt;br>&lt;b> %2$s &lt;/b>, kisha bonyeza Rejea au Ingiza.</string>
     <string name="bluetooth_pairing_accept">Oanisha</string>
@@ -622,6 +619,7 @@ Usanidi wa simu unaweza kuhitaji huduma muhimu ya mtandao."</string>
     <string name="ring_volume_title">Sauti ya Mlio</string>
     <string name="vibrate_in_silent_title">Tetema wakati imenyamaza</string>
     <string name="notification_sound_title">Sauti chaguo-msingi ya arifa</string>
+    <string name="notification_pulse_title">Arifu ya mwangaza wa palsi</string>
     <string name="incoming_call_volume_title">Mlio wa simu</string>
     <string name="notification_volume_title">Arifa</string>
     <string name="checkbox_notification_same_as_incoming_call">Tumia sauti ya simu inayoingia kwa arifa</string>
@@ -718,6 +716,7 @@ Usanidi wa simu unaweza kuhitaji huduma muhimu ya mtandao."</string>
     <string name="device_info_not_available">Haipatikani</string>
     <string name="device_status_activity_title">Hali</string>
     <string name="device_status">Hali</string>
+    <string name="device_status_summary">Nambari a simu, mawimbi, n.k.</string>
     <string name="storage_settings">Hifadhi</string>
     <string name="storage_settings_title">Hifadhi mipangilio</string>
     <string name="storage_settings_summary">Ondoa SIM kadi, angalia hifadhi iliyopo</string>
@@ -1004,15 +1003,14 @@ Ili kufuta muziki, picha, na data zingine za mtumiaji, "<b>kadi ya</b> inahitaji
     <string name="show_background_processes">Onyesha michakato iliyoakibishwa</string>
     <string name="reset_app_preferences">Weka upya mapendeleo ya programu</string>
     <string name="reset_app_preferences_title">Ungependa kuweka upya mapendeleo ya programu?</string>
-    <string name="reset_app_preferences_desc">"Hii itaweka upya mapendeleo yote ya: 
+    <string name="reset_app_preferences_desc">"Hii itaweka upya mapendeleo yote ya:
 
- "<li>Programu zilizozimwa</li>"
- "<li> Arifa za programu zilizozimwa</li>"
- "<li>Programu chaguo-msingi kwa vitendo</li>"
- "<li>Vikwazo vya chinichini vya data ya programu</li>"
- "<li>Vikwazo vyovyote vya ruhusa</li>"
+ "<li>Programu zilizolemazwa</li>"
+ "<li>Arifa za programu iliyolemazwa</li>"
+ "<li>Programu chaguo-msingi za vitendo</li>"
+ "<li>Uzuiaji wa data ya usuli ya programu</li>"
 
-Hutapoteza data yoyote ya programu."</string>
+ Hutapoteza data yoyote ya programu."</string>
     <string name="reset_app_preferences_button">Weka upya programu</string>
     <string name="manage_space_text">Dhibiti nafasi</string>
     <string name="filter">Kichujio</string>
@@ -1236,8 +1234,8 @@ Baadhi ya programu zinawezakosa kufanya kazi hadi zisasishwe na wasanidi wake."<
     <string name="accessibility_screen_magnification_summary">"Kipengele hiki kinapowashwa, unaweza kukuza na kufifiza kwa kugonga skrini mara tatu.
 
 Unapokuwa umekuza, unaweza:
-"<ul><li>"Kupindua: Vuta vidole viwili au zaidi kwenye skrini.
-"<li>Rekebisha kiwango cha ukuzaji: Bana vidole viwili au zaidi pamoja au uzitawanye.</li></li></ul>"
+"<ul><li>Kupindua: Vuta vidole viwili au zaidi kwenye skrini.</li>"
+"<li>Rekebisha kiwango cha ukuzaji: Bana vidole viwili au zaidi pamoja au uzitawanye.</li></ul>"
 
 Pia unaweza kukuza hali, unaweza kuvuta kidole chako ili kuchunguza sehemu mbalimbali za skrini. Inua kidole chako ili kurejea kwenye hali yako ya awali.
 
@@ -1544,6 +1542,7 @@ Njia ya Google ya kusawazisha data ili kuruhusu ufikiaji wa anwani zako, miadi y
     <string name="status_wimax_mac_address">Anwani ya 4G MAC</string>
     <string name="enter_password">Ingiza nenosiri ili kusimbua hifadhi</string>
     <string name="try_again">Jaribu tena.</string>
+    <string name="delete">Futa</string>
     <string name="misc_files">Faili Nyinginezo</string>
     <string name="misc_files_selected_count">Imechaguliwa %1$d juu ya %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s juu ya %2$s</string>

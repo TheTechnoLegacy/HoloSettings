@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">سماح</string>
-    <string name="deny">رفض</string>
-    <string name="delete">حذف</string>
-    <string name="notification_pulse_title">ضوء الإعلام بالنبض</string>
-    <string name="device_status_summary">رقم الهاتف أو الإشارة أو غير ذلك.</string>
-    <string name="bluetooth_confirm_passkey_msg">للاقتران مع:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>تأكد من أنه يعرض مفتاح المرور هذا:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">نعم</string>
     <string name="no">لا</string>
     <string name="create">إنشاء</string>
+    <string name="allow">سماح</string>
+    <string name="deny">رفض</string>
     <string name="device_info_default">غير معروف</string>
     <string name="show_dev_on">لقد أصبحت الآن مطور برامج!</string>
     <string name="show_dev_already">لا حاجة لذلك، فأنت مطور برامج فعلاً.</string>
@@ -377,6 +373,7 @@
     <string name="bluetooth_pin_values_hint">0000 أو 1234 عادة</string>
     <string name="bluetooth_enter_pin_other_device">قد يلزم أيضًا كتابة رقم التعريف الشخصي هذا على الجهاز الآخر.</string>
     <string name="bluetooth_enter_passkey_other_device">قد يلزم أيضًا كتابة مفتاح المرور هذا على الجهاز الآخر.</string>
+    <string name="bluetooth_confirm_passkey_msg">للاقتران مع:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>تأكد من أنه يعرض مفتاح المرور هذا:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">من:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>الاقتران مع هذا الجهاز؟</string>
     <string name="bluetooth_display_passkey_pin_msg">للإقران مع:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>اكتب عليه:&lt;br>&lt;b>%2$s&lt;/b>, ثم اضغط على Return أو Enter.</string>
     <string name="bluetooth_pairing_accept">اقتران</string>
@@ -624,6 +621,7 @@
     <string name="ring_volume_title">مستوى صوت الرنين</string>
     <string name="vibrate_in_silent_title">اهتزاز عند تشغيل الوضع صامت</string>
     <string name="notification_sound_title">صوت الإشعار الافتراضي</string>
+    <string name="notification_pulse_title">ضوء الإعلام بالنبض</string>
     <string name="incoming_call_volume_title">نغمة الرنين</string>
     <string name="notification_volume_title">التنبيه</string>
     <string name="checkbox_notification_same_as_incoming_call">استخدام مستوى صوت المكالمة الواردة للتنبيهات</string>
@@ -720,6 +718,7 @@
     <string name="device_info_not_available">غير متاح</string>
     <string name="device_status_activity_title">الحالة</string>
     <string name="device_status">الحالة</string>
+    <string name="device_status_summary">رقم الهاتف أو الإشارة أو غير ذلك.</string>
     <string name="storage_settings">التخزين</string>
     <string name="storage_settings_title">إعدادات وحدة التخزين</string>
     <string name="storage_settings_summary">إلغاء تحميل بطاقة SD، عرض سعة التخزين المتاحة</string>
@@ -1007,13 +1006,12 @@
     <string name="show_background_processes">عرض العمليات المخزنة مؤقتًا</string>
     <string name="reset_app_preferences">إعادة تعيين تفضيلات التطبيقات</string>
     <string name="reset_app_preferences_title">هل تريد إعادة تعيين تفضيلات التطبيقات؟</string>
-    <string name="reset_app_preferences_desc">"سيؤدي هذا إلى إعادة تعيين كل التفضيلات لما يلي:
+    <string name="reset_app_preferences_desc">"سيؤدي هذا إلى إعادة تعيين جميع تفضيلات:
 
  "<li>التطبيقات المعطلة</li>"
  "<li>إشعارات التطبيقات المعطلة</li>"
  "<li>التطبيقات الافتراضية للإجراءات</li>"
- "<li>قيود البيانات الخلفية للتطبيقات</li>"
- "<li>أي قيود أذونات</li>"
+ "<li>قيود بيانات الخلفية للتطبيقات</li>"
 
  لن تفقد أي بيانات للتطبيقات."</string>
     <string name="reset_app_preferences_button">إعادة تعيين التطبيقات</string>
@@ -1239,8 +1237,8 @@
     <string name="accessibility_screen_magnification_summary">"عند تشغيل هذه الميزة، يمكنك التكبير والتصغير بالنقر نقرًا ثلاثيًا على الشاشة.
 
 أثناء التكبير، يمكنك إجراء التالي:
-"<ul><li>"التدوير: اسحب إصبعين أو أكثر على الشاشة.
-"<li>ضبط مستوى التكبير/التصغير: اضغط بإصبعين أو أكثر معًا أو باعد بينهم.</li></li></ul>"
+"<ul><li>التدوير: اسحب إصبعين أو أكثر على الشاشة.</li>"
+"<li>ضبط مستوى التكبير/التصغير: اضغط بإصبعين أو أكثر معًا أو باعد بينهم.</li></ul>"
 
 كما يمكنك أيضًا التكبير المؤقت لما يقع تحت إصبعك بالنقر نقرًا ثلاثيًا مع الاستمرار. في حالة التكبير هذه، يمكنك سحب إصبعك لاستكشاف الأجزاء المختلفة من الشاشة. ارفع إصبعك للعودة إلى الحالة السابقة.
 
@@ -1547,6 +1545,7 @@
     <string name="status_wimax_mac_address">عنوان 4G MAC</string>
     <string name="enter_password">اكتب كلمة المرور لتشفير وحدة التخزين</string>
     <string name="try_again">أعد المحاولة.</string>
+    <string name="delete">حذف</string>
     <string name="misc_files">ملفات متنوعة</string>
     <string name="misc_files_selected_count">تم تحديد %1$d من إجمالي %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s من إجمالي %2$s</string>

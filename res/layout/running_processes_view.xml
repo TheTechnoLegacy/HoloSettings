@@ -39,7 +39,7 @@
         android:paddingEnd="4.0dip"
         android:layout_marginStart="@android:dimen/action_bar_stacked_max_height"
         android:layout_marginEnd="@android:dimen/action_bar_stacked_max_height"
-        class="com.android.settings.applications.LinearColorBar">
+        class="com.jellybyn.settings.applications.LinearColorBar">
         <TextView
             android:textAppearance="?android:textAppearanceSmallInverse"
             android:textColor="#ff000000"

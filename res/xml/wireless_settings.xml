@@ -10,19 +10,19 @@
     <PreferenceScreen
         android:title="@string/vpn_settings_title"
         android:key="vpn_settings"
-        android:fragment="com.androie.settings.vpn2.VpnSettings" />
+        android:fragment="com.jellybyn.settings.vpn2.VpnSettings" />
     <PreferenceScreen
         android:title="@string/tether_settings_title_all"
         android:key="tether_settings"
-        android:fragment="com.androie.settings.TetherSettings" />
+        android:fragment="com.jellybyn.settings.TetherSettings" />
     <PreferenceScreen
         android:title="@string/wimax_settings"
         android:key="wimax_settings"
         android:summary="@string/wimax_settings_summary">
         <intent
-            android:targetPackage="com.androie.settings.wimax"
+            android:targetPackage="com.jellybyn.settings.wimax"
             android:action="android.intent.action.MAIN"
-            android:targetClass="com.androie.settings.wimax.WimaxSettings" />
+            android:targetClass="com.jellybyn.settings.wimax.WimaxSettings" />
     </PreferenceScreen>
     <CheckBoxPreference
         android:persistent="false"
@@ -32,7 +32,7 @@
     <PreferenceScreen
         android:title="@string/android_beam_settings_title"
         android:key="android_beam_settings"
-        android:fragment="com.androie.settings.nfc.AndroidBeam" />
+        android:fragment="com.jellybyn.settings.nfc.AndroidBeam" />
     <PreferenceScreen
         android:title="@string/network_settings_title"
         android:key="mobile_network_settings"
@@ -54,7 +54,7 @@
     <PreferenceScreen
         android:title="@string/proxy_settings_title"
         android:key="proxy_settings"
-        android:fragment="com.androie.settings.ProxySelector" />
+        android:fragment="com.jellybyn.settings.ProxySelector" />
     <PreferenceScreen
         android:title="@string/cell_broadcast_settings"
         android:key="cell_broadcast_settings"

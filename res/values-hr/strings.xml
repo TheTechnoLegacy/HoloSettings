@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Dopusti</string>
-    <string name="deny">Odbij</string>
-    <string name="delete">Izbriši</string>
-    <string name="notification_pulse_title">Pulsno svjetlo obavijesti</string>
-    <string name="device_status_summary">Telefonski broj, signal itd.</string>
-    <string name="bluetooth_confirm_passkey_msg">Za uparivanje s:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Uvjerite se da prikazuje ovaj pristupni kôd:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
     <string name="create">Izradi</string>
+    <string name="allow">Dopusti</string>
+    <string name="deny">Odbij</string>
     <string name="device_info_default">Nepoznato</string>
     <string name="show_dev_on">Sad ste razvojni programer!</string>
     <string name="show_dev_already">Nema potrebe, već ste razvojni programer.</string>
@@ -377,6 +373,7 @@ Da biste nastavili upotrebljavati ​​telefon, morate vratiti tvorničke posta
     <string name="bluetooth_pin_values_hint">Obično 0000 ili 1234</string>
     <string name="bluetooth_enter_pin_other_device">Možda biste također trebali unijeti ovaj PIN i na drugi uređaj.</string>
     <string name="bluetooth_enter_passkey_other_device">Možda ćete ovaj pristupni kôd trebati unijeti i na drugi uređaj.</string>
+    <string name="bluetooth_confirm_passkey_msg">Za uparivanje s:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Uvjerite se da prikazuje ovaj pristupni kôd:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">Od:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Upariti se s ovim uređajem?</string>
     <string name="bluetooth_display_passkey_pin_msg">Za uparivanje s uređajem:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>upišite:&lt;br>&lt;b>%2$s&lt;/b> na tom uređaju pa pritisnite tipke Return ili Enter.</string>
     <string name="bluetooth_pairing_accept">Upari</string>
@@ -624,6 +621,7 @@ Za postavljanje telefona može biti potrebna značajna mrežna aktivnost."</stri
     <string name="ring_volume_title">Glasnoća zvona</string>
     <string name="vibrate_in_silent_title">Vibracija ako je bešumno</string>
     <string name="notification_sound_title">Zadani zvuk obavijesti</string>
+    <string name="notification_pulse_title">Pulsno svjetlo obavijesti</string>
     <string name="incoming_call_volume_title">Zvuk zvona</string>
     <string name="notification_volume_title">Obavijest</string>
     <string name="checkbox_notification_same_as_incoming_call">Koristi glasnoću dolaznog poziva za obavijesti</string>
@@ -720,6 +718,7 @@ Možda je PIN pogrešan."</string>
     <string name="device_info_not_available">Nije dostupno</string>
     <string name="device_status_activity_title">Status</string>
     <string name="device_status">Status</string>
+    <string name="device_status_summary">Telefonski broj, signal itd.</string>
     <string name="storage_settings">Pohranjivanje</string>
     <string name="storage_settings_title">Postavke pohrane</string>
     <string name="storage_settings_summary">Isključi SD karticu, prikaži vidljivo mjesto za pohranu</string>
@@ -1007,15 +1006,14 @@ Da biste izbrisali glazbu, slike i ostale korisničke podatke, trebate izbrisati
     <string name="show_background_processes">Prikaži procese iz predmemorije</string>
     <string name="reset_app_preferences">Poništi postavke</string>
     <string name="reset_app_preferences_title">Poništiti postavke?</string>
-    <string name="reset_app_preferences_desc">"Sve postavke za sljedeće vratit će se na zadano:
+    <string name="reset_app_preferences_desc">"To će poništiti sve postavke za:
 
  "<li>onemogućene aplikacije</li>"
  "<li>onemogućene obavijesti aplikacija</li>"
  "<li>zadane aplikacije za radnje</li>"
  "<li>ograničenja pozadinskih podataka za aplikacije</li>"
- "<li>sva ograničenja dozvola.</li>"
 
- Nećete izgubiti podatke nijedne aplikacije."</string>
+ Nećete izgubiti podatke iz aplikacija."</string>
     <string name="reset_app_preferences_button">Poništi aplikacije</string>
     <string name="manage_space_text">Upravljaj prostorom</string>
     <string name="filter">Filtar</string>
@@ -1239,8 +1237,8 @@ Neke aplikacije možda neće raditi dok ih razvojni programeri ne ažuriraju."</
     <string name="accessibility_screen_magnification_summary">"Ako je ova značajka uključena, možete povećati ili smanjiti prikaz ako triput dodirnete zaslon.
 
 Nakon povećanja prikaza možete sljedeće:
-"<ul><li>"Pomicati: pomoću dva prsta ili više prstiju povlačite prikaz na zaslonu.
-"<li>Podesiti razinu zumiranja: stisnite dva prsta ili više prstiju ili ih raširite.</li></li></ul>"
+"<ul><li>Pomicati: pomoću dva prsta ili više prstiju povlačite prikaz na zaslonu.</li>"
+"<li>Podesiti razinu zumiranja: stisnite dva prsta ili više prstiju ili ih raširite.</li></ul>"
 
 Također možete privremeno povećati stavku ispod prsta ako je triput dodirnete i držite. U tom slučaju možete povlačiti prst kako biste istražili različite dijelove zaslona. Podignite prst kako biste se vratili na prijašnje stanje.
 
@@ -1547,6 +1545,7 @@ Googleov pristup sinkronizaciji podataka za mogućnost pristupa kontaktima, sast
     <string name="status_wimax_mac_address">4G MAC adresa</string>
     <string name="enter_password">Unesite zaporku za dešifriranje pohrane</string>
     <string name="try_again">Pokušajte ponovo.</string>
+    <string name="delete">Izbriši</string>
     <string name="misc_files">Razne datoteke</string>
     <string name="misc_files_selected_count">odabrano %1$d od %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s od %2$s</string>

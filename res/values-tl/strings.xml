@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Payagan</string>
-    <string name="deny">Tanggihan</string>
-    <string name="delete">Tanggalin</string>
-    <string name="notification_pulse_title">Pulse na ilaw ng notification</string>
-    <string name="device_status_summary">Numero ng telepono, signal, atbp.</string>
-    <string name="bluetooth_confirm_passkey_msg">Upang makipagpares sa:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Tiyaking ipinapakita nito ang passkey na ito:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Oo</string>
     <string name="no">Hindi</string>
     <string name="create">Likhain</string>
+    <string name="allow">Payagan</string>
+    <string name="deny">Tanggihan</string>
     <string name="device_info_default">Hindi Kilala</string>
     <string name="show_dev_on">Isa ka nang developer!</string>
     <string name="show_dev_already">Hindi na kailangan, isa ka nang developer.</string>
@@ -377,6 +373,7 @@ Upang patuloy na magamit ang iyong telepono, kailangan mong magsagawa ng factory
     <string name="bluetooth_pin_values_hint">Karaniwang 0000 o 1234</string>
     <string name="bluetooth_enter_pin_other_device">Maaari mo ring kailanganing i-type ang PIN na ito sa isa pang device.</string>
     <string name="bluetooth_enter_passkey_other_device">Maaari mo ring kailanganing i-type ang passkey na ito sa iba pang device.</string>
+    <string name="bluetooth_confirm_passkey_msg">Upang makipagpares sa:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Tiyaking ipinapakita nito ang passkey na ito:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">Mula sa:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Makipagpares sa device na ito?</string>
     <string name="bluetooth_display_passkey_pin_msg">Upang ipares sa:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Mag-type dito:&lt;br>&lt;b>%2$s&lt;/b>, pagkatapos ay pindutin ang Return o Enter.</string>
     <string name="bluetooth_pairing_accept">Pares</string>
@@ -624,6 +621,7 @@ Maaaring mangailangan ng malaking aktibidad ng network ang pag-setup ng telepono
     <string name="ring_volume_title">Volume ng ringer</string>
     <string name="vibrate_in_silent_title">I-vibrate kapag naka-silent</string>
     <string name="notification_sound_title">Default na tunog ng notification</string>
+    <string name="notification_pulse_title">Pulse na ilaw ng notification</string>
     <string name="incoming_call_volume_title">Ringtone</string>
     <string name="notification_volume_title">Notification</string>
     <string name="checkbox_notification_same_as_incoming_call">Gumamit ng lakas ng tunog ng papasok na tawag para sa mga notification</string>
@@ -720,6 +718,7 @@ Posibleng maling PIN."</string>
     <string name="device_info_not_available">Hindi available</string>
     <string name="device_status_activity_title">Katayuan</string>
     <string name="device_status">Katayuan</string>
+    <string name="device_status_summary">Numero ng telepono, signal, atbp.</string>
     <string name="storage_settings">Imbakan</string>
     <string name="storage_settings_title">Mga setting ng imbakan</string>
     <string name="storage_settings_summary">I-unmount ang SD card, tingnan ang available na imbakan</string>
@@ -1009,11 +1008,10 @@ Upang i-clear ang musika, mga larawan, at ibang data ng user, kailangang mabura 
     <string name="reset_app_preferences_title">I-reset ang gusto sa app?</string>
     <string name="reset_app_preferences_desc">"Ire-reset nito ang lahat ng kagustuhan para sa:
 
- "<li>Naka-disable na apps</li>"
- "<li>Mga naka-disable na notification ng app</li>"
+ "<li>Hindi pinapaganang apps</li>"
+ "<li>Mga notification ng hindi pinapaganang app</li>"
  "<li>Mga default na application para sa mga pagkilos</li>"
- "<li>Mga paghihigpit sa data sa background para sa apps</li>"
- "<li>Anumang mga paghihigpit sa pahintulot</li>"
+ "<li>Paghihigpit sa data sa background para sa apps</li>"
 
  Hindi ka mawawalan ng anumang data ng app."</string>
     <string name="reset_app_preferences_button">I-reset ang apps</string>
@@ -1239,8 +1237,8 @@ Maaaring hindi gumana ang ilang apps hanggang sa ma-update ng mga developer ng m
     <string name="accessibility_screen_magnification_summary">"Kapag naka-on ang tampok na ito, maaari kang mag-zoom in at out sa pamamagitan ng pag-tap sa screen nang tatlong beses.
 
 Habang naka-zoom in, maaari kang:
-"<ul><li>"Mag-pan: I-drag ang dalawa o higit pang mga daliri sa screen.
-"<li>Ayusin ang antas ng pag-zoom: I-pinch ang dalawa o higit pang daliri o paghiwalayin ang mga ito.</li></li></ul>"
+"<ul><li>Mag-pan: I-drag ang dalawa o higit pang mga daliri sa screen.</li>"
+"<li>Ayusin ang antas ng pag-zoom: I-pinch ang dalawa o higit pang daliri o paghiwalayin ang mga ito.</li></ul>"
 
 Maaari mo ring pansamantalang i-magnify kung ano ang nasa ilalim ng iyong mga daliri sa pamamagitan ng pag-tap nang tatlong beses at pagpindot nang matagal. Sa antas na naka-magnify, maaari mong i-drag ang iyong daliri upang maggalugad sa iba't ibang mga bahagi ng screen. Angatin ang iyong daliri upang bumalik sa iyong nakaraang katayuan.
 
@@ -1547,6 +1545,7 @@ Isang paraan ng Google sa pag-sync ng data upang payagan ang access sa iyong mga
     <string name="status_wimax_mac_address">4G MAC address</string>
     <string name="enter_password">I-type ang password upang i-decrypt ang storage</string>
     <string name="try_again">Subukang muli.</string>
+    <string name="delete">Tanggalin</string>
     <string name="misc_files">Misc na mga file</string>
     <string name="misc_files_selected_count">pinili %1$d sa %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s sa %2$s</string>

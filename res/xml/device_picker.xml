@@ -4,7 +4,7 @@
     <Preference
         android:title="@string/bluetooth_preference_scan_title"
         android:key="bt_scan" />
-    <com.androie.settings.bluetooth.BluetoothProgressCategory
+    <com.jellybyn.settings.bluetooth.BluetoothProgressCategory
         android:title="@string/bluetooth_preference_found_devices"
         android:orderingFromXml="false"
         android:key="bt_device_list" />

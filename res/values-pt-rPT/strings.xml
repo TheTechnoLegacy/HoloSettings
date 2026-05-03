@@ -1,102 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="superuser">Superuser</string>
-    <string name="allow">Permitir</string>
-    <string name="deny">Recusar</string>
-    <string name="status_incoming">Pedido de entrada de Superuser…</string>
-    <string name="unknown_uid">UID Desconhecido: %s</string>
-    <string name="application_request">%s a pedir acesso de Superuser.</string>
-    <string name="info">Aviso: Se não iniciou esta acção, deve negar o pedido.</string>
-    <string name="request">Pedido do Superuser</string>
-    <string name="package_header">Pacote:</string>
-    <string name="app_header">Aplicação:</string>
-    <string name="uid_header">UID Solicitado:</string>
-    <string name="command_header">Comando:</string>
-    <string name="this_time_only">Apenas desta vez.</string>
-    <string name="remember_for">Lembrar esta escolha por %s minutos.</string>
-    <string name="remember_forever">Lembrar esta escolha para sempre.</string>
-    <string name="interactive">Interactivo</string>
-    <string name="logs">Registos</string>
-    <string name="settings">Definições</string>
-    <string name="delete">Eliminar</string>
-    <string name="no_logs">Sem Registos</string>
-    <string name="no_apps">Acutalmente não há aplicações com regras Superuser.</string>
-    <string name="logging">Registo</string>
-    <string name="logging_summary">Activar ou desactivar o registo de todos os pedidos.</string>
-    <string name="pin_protection">Protecção com PIN</string>
-    <string name="pin_protection_summary">Exigir a inserção de um PIN para aprovar pedidos de Superuser</string>
-    <string name="request_timeout">Expiração do Pedido</string>
-    <string name="request_timeout_summary">Pedidos de Superuser expirarão e serão negados após %s segundos.</string>
-    <string name="notifications">Notificações</string>
-    <string name="none">Nenhuma</string>
-    <string name="notifications_summary">Uma %s será mostrada quando forem permitidas ou negadas permissões de Superuser a uma aplicação.</string>
-    <string name="enter_pin">Insira o PIN</string>
-    <string name="enter_new_pin">Insira um novo PIN</string>
-    <string name="incorrect_pin">PIN incorrecto!</string>
-    <string name="confirm_pin">Confirme o PIN</string>
-    <string name="pin_mismatch">O PIN não corresponde</string>
-    <string name="pin_set">Protecção com PIN activada</string>
-    <string name="number_seconds">%s segundos</string>
-    <string name="superuser_granted">Permissões de Superuser concedidas a %s</string>
-    <string name="superuser_denied">Permissões de Superuser negadas a %s</string>
-    <string name="toast">Toast (Aviso no ecrã)</string>
-    <string name="notification">Notificação</string>
-    <string name="no_notification">Nenhuma notificação será mostrada.</string>
-    <string name="developer_warning">"Aviso do programador:
-android.permission.ACCESS_SUPERUSER
-não declarado no manifest."</string>
-    <string name="superuser_description">Permissões completas para todos os recursos do dispositivo e armazenamento</string>
-    <string name="superuser_description_more">O Superuser concede acesso total a todos os recursos do dispositivo e de armazenamento, incluindo os elementos de hardware seguros e sensíveis do seu dispositivo. Estas permissões são potencialmente perigosas.</string>
-    <string name="declared_permission">Permissão Declarada</string>
-    <string name="declared_permission_summary">Só permitir pedidos de aplicações que declaram android.permission.ACCESS_SUPERUSER no manifest.</string>
-    <string name="automatic_response">Resposta Automática</string>
-    <string name="prompt">Perguntar</string>
-    <string name="automatic_response_allow_summary">Permitir automaticamente novos pedidos</string>
-    <string name="automatic_response_deny_summary">Negar automaticamente novos pedidos</string>
-    <string name="automatic_response_prompt_summary">Mostrar diálogo de confirmação para novos pedidos</string>
-    <string name="security">Segurança</string>
-    <string name="multiuser_policy">Política de Multi-utilizador</string>
-    <string name="multiuser_owner_only_summary">Apenas o proprietário do dispositivo pode conceder permissões de Superuser.</string>
-    <string name="multiuser_owner_managed_summary">O proprietário do dispositivo será notificado quando outro utilizador solicita permissões de Superuser.</string>
-    <string name="multiuser_user_summary">Todos os utilizadores podem solicitar permissões de Superuser.</string>
-    <string name="multiuser_owner_only">Apenas o proprietário</string>
-    <string name="multiuser_owner_managed">Controlado pelo proprietário</string>
-    <string name="multiuser_user">Todos os utilizadores</string>
-    <string name="multiuser_require_owner">A política de multi-utilizador só pode ser controlada pelo proprietário do dispositivo.</string>
-    <string name="owner_login_info">Por favor, mude para a conta do proprietário para aprovar ou negar este pedido.</string>
-    <string name="all_commands">Todos os comandos</string>
-    <string name="about">Sobre</string>
-    <string name="apps">Aplicações</string>
-    <string name="installing">A instalar</string>
-    <string name="installing_superuser">A instalar Superuser…</string>
-    <string name="install_superuser">Instalar Superuser</string>
-    <string name="install_superuser_info">"O binário do Superuser (su) deve ser actualizado.
-
-Por favor escolha um método de instalação.
-A instalação em modo de recuperação é recomendada para dispositivos HTC."</string>
-    <string name="recovery_install">Instalação pelo modo de Recuperação</string>
-    <string name="install">Instalar</string>
-    <string name="checking_superuser">A verificar Superuser…</string>
-    <string name="install_error">Houve um erro ao instalar o Superuser. Por favor, envie um registo do erro para o programador.</string>
-    <string name="install_success">A instalação do Superuser foi bem sucedida.</string>
-    <string name="su_binary_outdated">O binário do Superuser (su) está desatualizado.</string>
-    <string name="superuser_access">Acesso ao Superuser</string>
-    <string name="access_disabled">Inactivo</string>
-    <string name="apps_only">Apenas aplicações</string>
-    <string name="adb_only">Apenas ADB</string>
-    <string name="apps_and_adb">Aplicações e ADB</string>
-    <string name="whats_new">O que há de novo</string>
-    <string name="rate">Avaliar</string>
-    <string name="theme">Tema</string>
-    <string name="light">Claro</string>
-    <string name="dark">Escuro</string>
-    <string name="pin_disabled">A proteção por PIN não está ativa</string>
-    <string name="notification_pulse_title">Sinalizar luz de notificação</string>
-    <string name="device_status_summary">Número de telefone, sinal, etc.</string>
-    <string name="bluetooth_confirm_passkey_msg">Para sincronizar com: &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Verifique se apresenta esta chave de acesso: &lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="create">Criar</string>
+    <string name="allow">Permitir</string>
+    <string name="deny">Recusar</string>
     <string name="device_info_default">Desconhecido</string>
     <string name="show_dev_on">Agora é um programador!</string>
     <string name="show_dev_already">Não é necessário, já é um programador.</string>
@@ -465,6 +373,7 @@ Para voltar a utilizar o telemóvel, é necessário efetuar uma reposição para
     <string name="bluetooth_pin_values_hint">Geralmente 0000 ou 1234</string>
     <string name="bluetooth_enter_pin_other_device">Poderá também ter de introduzir este PIN no outro aparelho.</string>
     <string name="bluetooth_enter_passkey_other_device">Poderá também ter de introduzir a chave de acesso no outro aparelho.</string>
+    <string name="bluetooth_confirm_passkey_msg">Para sincronizar com: &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Verifique se apresenta esta chave de acesso: &lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">De: &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br> Sincronizar com este aparelho?</string>
     <string name="bluetooth_display_passkey_pin_msg">Para sincronizar com:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Introduza no mesmo:&lt;br>&lt;b>%2$s&lt;/b> e, em seguida, prima Enter.</string>
     <string name="bluetooth_pairing_accept">Par</string>
@@ -712,6 +621,7 @@ A configuração do telemóvel poderá necessitar de uma atividade de rede consi
     <string name="ring_volume_title">Volume da campainha</string>
     <string name="vibrate_in_silent_title">Vibrar quando estiver em silêncio</string>
     <string name="notification_sound_title">Som de notificação predefinido</string>
+    <string name="notification_pulse_title">Sinalizar luz de notificação</string>
     <string name="incoming_call_volume_title">Toque</string>
     <string name="notification_volume_title">Notificação</string>
     <string name="checkbox_notification_same_as_incoming_call">Utilizar volume de chamadas recebidas para notificações</string>
@@ -808,6 +718,7 @@ PIN possivelmente incorreto."</string>
     <string name="device_info_not_available">Não disponível</string>
     <string name="device_status_activity_title">Estado</string>
     <string name="device_status">Estado</string>
+    <string name="device_status_summary">Número de telefone, sinal, etc.</string>
     <string name="storage_settings">Armazenamento</string>
     <string name="storage_settings_title">Definições de armazenamento</string>
     <string name="storage_settings_summary">Desmontar cartão SD, ver armazenamento disponível</string>
@@ -1095,15 +1006,14 @@ Para limpar também músicas, imagens e outros dados do utilizador, é necessár
     <string name="show_background_processes">Mostrar proc. em cache</string>
     <string name="reset_app_preferences">Repor pref. de aplic.</string>
     <string name="reset_app_preferences_title">Repor pref. de aplic.?</string>
-    <string name="reset_app_preferences_desc">"Isto irá repor todas as preferências de:
+    <string name="reset_app_preferences_desc">"Esta ação irá repor todas as preferências para:
 
  "<li>Aplicações desativadas</li>"
  "<li>Notificações de aplicações desativadas</li>"
  "<li>Aplicações predefinidas para ações</li>"
  "<li>Restrições de dados em segundo plano para aplicações</li>"
- "<li>Todas as restrições de autorização</li>"
 
- Não irá perder quaisquer dados das aplicações."</string>
+ Não perderá quaisquer dados de aplicações."</string>
     <string name="reset_app_preferences_button">Repor aplicações</string>
     <string name="manage_space_text">Gerir espaço</string>
     <string name="filter">Filtrar</string>
@@ -1327,8 +1237,8 @@ Algumas aplicações podem não funcionar até serem atualizadas pelos respetivo
     <string name="accessibility_screen_magnification_summary">"Quando esta funcionalidade está ativada, pode aumentar ou diminuir o zoom ao tocar três vezes no ecrã.
 
 Enquanto estiver a aumentar o zoom, pode:
-"<ul><li>"Deslocar: arraste dois ou mais dedos no ecrã.
-"<li>Ajustar o nível de zoom: junte dois ou mais dedos ou afaste-os.</li></li></ul>"
+"<ul><li>Deslocar: arraste dois ou mais dedos no ecrã.</li>"
+"<li>Ajustar o nível de zoom: junte dois ou mais dedos ou afaste-os.</li></ul>"
 
 Também pode aumentar temporariamente o que estiver por baixo do seu dedo ao tocar três vezes sem soltar. Neste estado aumentado, pode arrastar o dedo para explorar diferentes partes do ecrã. Levante o dedo para voltar ao estado anterior.
 
@@ -1635,6 +1545,7 @@ Uma abordagem da Google à sincronização de dados, que permite aceder aos cont
     <string name="status_wimax_mac_address">Endereço MAC de 4G</string>
     <string name="enter_password">Introduzir palavra-passe para desencriptar armazenamento</string>
     <string name="try_again">Tente novamente.</string>
+    <string name="delete">Eliminar</string>
     <string name="misc_files">Ficheiros diversos</string>
     <string name="misc_files_selected_count">selecionado(s) %1$d de %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s de %2$s</string>

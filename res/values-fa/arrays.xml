@@ -161,7 +161,7 @@
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
-        <item>ثابت</item>
+        <item>آمار</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>هیچکدام</item>
@@ -216,7 +216,7 @@
         <item>اصلاح گزارش تماس</item>
         <item>خواندن تقویم</item>
         <item>اصلاح تقویم</item>
-        <item>جستجوی شبکه Wi‑Fi</item>
+        <item>جستجوی شبکه wi-fi</item>
         <item>اعلان</item>
         <item>جستجوی شبکه سلولی</item>
         <item>تماس تلفنی</item>

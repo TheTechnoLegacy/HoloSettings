@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Разрешаване</string>
-    <string name="deny">Отказ</string>
-    <string name="delete">Изтриване</string>
-    <string name="notification_pulse_title">Пулсиране на светлината за известия</string>
-    <string name="device_status_summary">Телефонен номер, сигнал и т.н.</string>
-    <string name="bluetooth_confirm_passkey_msg">За сдвояване със::&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Уверете се, че показва този код за достъп:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">" Да"</string>
     <string name="no">Не</string>
     <string name="create">Създаване</string>
+    <string name="allow">Разрешаване</string>
+    <string name="deny">Отказ</string>
     <string name="device_info_default">Неизвестно</string>
     <string name="show_dev_on">Вече сте програмист!</string>
     <string name="show_dev_already">Не е необходимо – вече сте програмист.</string>
@@ -377,6 +373,7 @@
     <string name="bluetooth_pin_values_hint">Обикновено 0000 или 1234</string>
     <string name="bluetooth_enter_pin_other_device">Възможно е също така да се наложи да въведете този ПИН на другото устройство.</string>
     <string name="bluetooth_enter_passkey_other_device">Възможно е също така да се наложи да въведете този код за достъп на другото устройство.</string>
+    <string name="bluetooth_confirm_passkey_msg">За сдвояване със::&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Уверете се, че показва този код за достъп:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">От:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Да се сдвои ли с това устройство?</string>
     <string name="bluetooth_display_passkey_pin_msg">За сдвояване със: &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br> Въведете: &lt;br>&lt;b>%2$s&lt;/b>, след това натиснете „Return“ или „Enter“.</string>
     <string name="bluetooth_pairing_accept">Сдвояване</string>
@@ -624,6 +621,7 @@
     <string name="ring_volume_title">Сила на звука при звънене</string>
     <string name="vibrate_in_silent_title">Вибрира при тих режим</string>
     <string name="notification_sound_title">Стандартен звук за известяване</string>
+    <string name="notification_pulse_title">Пулсиране на светлината за известия</string>
     <string name="incoming_call_volume_title">Мелодия</string>
     <string name="notification_volume_title">Известие</string>
     <string name="checkbox_notification_same_as_incoming_call">Използване на силата на звука при вх. обаждане за известия</string>
@@ -720,6 +718,7 @@
     <string name="device_info_not_available">Не е налично</string>
     <string name="device_status_activity_title">Състояние</string>
     <string name="device_status">Състояние</string>
+    <string name="device_status_summary">Телефонен номер, сигнал и т.н.</string>
     <string name="storage_settings">Хранилище</string>
     <string name="storage_settings_title">Настройки на хранилището</string>
     <string name="storage_settings_summary">Деактивиране на SD картата, преглед на налично хранилище</string>
@@ -1012,8 +1011,7 @@
  "<li>деактивираните приложения;</li>"
  "<li>известията за деактивирани приложения;</li>"
  "<li>стандартните приложения за действия;</li>"
- "<li>ограниченията за данни на заден план за приложенията;</li>"
- "<li>ограниченията за всички разрешения.</li>"
+ "<li>ограниченията на данните на заден план за приложенията.</li>"
 
  Няма да загубите данни от приложенията."</string>
     <string name="reset_app_preferences_button">Нулиране на приложенията</string>
@@ -1239,8 +1237,8 @@
     <string name="accessibility_screen_magnification_summary">"Когато тази функция е включена, можете да увеличите или намалите мащаба, като докоснете екрана три пъти.
 
 При увеличен мащаб можете:
-"<ul><li>"Да извършите панорамно преместване: Плъзнете два или повече пръста по екрана.
-"<li>Да коригирате нивото на мащаба: Съберете заедно или разгънете два или повече пръста.</li></li></ul>"
+"<ul><li>Да извършите панорамно преместване: Плъзнете два или повече пръста по екрана.</li>"
+"<li>Да коригирате нивото на мащаба: Съберете заедно или разгънете два или повече пръста.</li></ul>"
 
 Можете също временно да промените мащаба на това, което е под пръста ви, като докоснете три пъти и задържите. В това променено състояние можете да плъзнете пръста си, за да изследвате различни части на екрана. Вдигнете го, за да се върнете към предишното състояние.
 
@@ -1547,6 +1545,7 @@
     <string name="status_wimax_mac_address">MAC адрес за 4G</string>
     <string name="enter_password">Въведете паролата, за да разшифровате хранилището</string>
     <string name="try_again">Опитайте отново.</string>
+    <string name="delete">Изтриване</string>
     <string name="misc_files">Разни файлове</string>
     <string name="misc_files_selected_count">избрани са %1$d от %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s от %2$s</string>

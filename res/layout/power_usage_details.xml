@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
-    android:scrollbarStyle="@android:integer/config_datagram_wait_for_connected_state_for_last_message_timeout_millis"
+    android:scrollbarStyle="@android:integer/config_carDockRotation"
     android:clipToPadding="false"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"

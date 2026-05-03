@@ -52,9 +52,9 @@
         <item>Rápida</item>
         <item>Más rápida</item>
         <item>Muy rápida</item>
-        <item>Superrápida</item>
-        <item>Hiperrrápida</item>
-        <item>Lo más rápido posible</item>
+        <item>Rápida</item>
+        <item>Muy rápida</item>
+        <item>La más rápida</item>
     </string-array>
     <string-array name="tts_pitch_entries">
         <item>Muy bajo</item>
@@ -98,7 +98,7 @@
         <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
-        <item>Botón WPS</item>
+        <item>Botón push</item>
         <item>PIN del otro dispositivo</item>
         <item>PIN del dispositivo</item>
     </string-array>
@@ -365,141 +365,5 @@
         <item>Preguntar</item>
         <item>No permitir nunca</item>
         <item>Permitir siempre</item>
-    </string-array>
-    <string-array name="multi_sim_entries">
-        <item>Suscripción 1</item>
-        <item>Suscripción 2</item>
-        <item>Suscripción 3</item>
-    </string-array>
-    <string-array name="wifi_countrycode_entries">
-        <item>Estados Unidos</item>
-        <item>Canadá, Taiwán</item>
-        <item>Alemania</item>
-        <item>Europa</item>
-        <item>Japón, Rusia</item>
-        <item>Australia</item>
-        <item>China</item>
-        <item>Corea</item>
-        <item>Turquía</item>
-        <item>Singapur</item>
-        <item>Brasil</item>
-    </string-array>
-    <string-array name="volume_overlay_entries">
-        <item>Sencillo</item>
-        <item>Ampliable</item>
-        <item>Extendido</item>
-        <item>Ninguno</item>
-    </string-array>
-    <string-array name="pref_zram_size_entries">
-        <item>Deshabilitado</item>
-        <item>10%</item>
-        <item>18% (por defecto)</item>
-        <item>26%</item>
-    </string-array>
-    <string-array name="profile_entries">
-        <item>Activo</item>
-        <item>Inactivo</item>
-        <item>No sobrescribir</item>
-    </string-array>
-    <string-array name="profile_connection_entries">
-        <item>Deshabilitado</item>
-        <item>Habilitado</item>
-    </string-array>
-    <string-array name="entries_screentimeout_widget">
-        <item>15s | 1m | 5m</item>
-        <item>30s | 2m | 5m</item>
-    </string-array>
-    <string-array name="entries_flash_widget">
-        <item>Normal</item>
-        <item>Alto</item>
-    </string-array>
-    <string-array name="haptic_feedback_entries">
-        <item>Configuración global</item>
-        <item>Activado</item>
-        <item>Desactivado</item>
-    </string-array>
-    <string-array name="entries_status_bar_am_pm">
-        <item>Normal</item>
-        <item>Pequeño</item>
-        <item>Ninguno (por defecto)</item>
-    </string-array>
-    <string-array name="app_ops_summaries_cm">
-        <item>ubicación aproximada</item>
-        <item>ubicación precisa</item>
-        <item>GPS</item>
-        <item>controlar la vibración</item>
-        <item>consultar tus contactos</item>
-        <item>modificar tus contactos</item>
-        <item>leer el registro de llamadas</item>
-        <item>modificar registro de llamadas</item>
-        <item>leer eventos de calendario</item>
-        <item>añadir o modificar eventos de calendario</item>
-        <item>ver conexiones wi-fi</item>
-        <item>publicar notificación</item>
-        <item>ver conexiones de red</item>
-        <item>llamar directamente a números de teléfono</item>
-        <item>leer tus mensajes SMS</item>
-        <item>editar tus mensajes SMS</item>
-        <item>recibir mensajes SMS</item>
-        <item>recibir mensajes de emergencia SMS</item>
-        <item>recibir mensajes MMS</item>
-        <item>recibir mensajes WAP</item>
-        <item>enviar mensajes SMS</item>
-        <item>leer tus mensajes ICC</item>
-        <item>editar tus mensajes ICC</item>
-        <item>modificar los ajustes del sistema</item>
-        <item>mostrar sobre otras aplicaciones</item>
-        <item>acceder a las notificaciones</item>
-        <item>realizar fotografías y vídeo</item>
-        <item>grabar sonido</item>
-        <item>reproducir sonido</item>
-        <item>consultar el portapapeles</item>
-        <item>modificar el portapapeles</item>
-        <item>@string/app_ops_summaries_wifi_change</item>
-        <item>@string/app_ops_summaries_bluetooth_change</item>
-        <item>@string/app_ops_summaries_data_change</item>
-        <item>@string/app_ops_summaries_alarm_wakeup</item>
-    </string-array>
-    <string-array name="app_ops_labels_cm">
-        <item>Ubicación</item>
-        <item>Ubicación</item>
-        <item>Ubicación</item>
-        <item>Vibrar</item>
-        <item>Consultar contactos</item>
-        <item>Modificar contactos</item>
-        <item>Leer registro de llamadas</item>
-        <item>Modificar registro de llamadas</item>
-        <item>Leer calendario</item>
-        <item>Modificar calendario</item>
-        <item>Ubicación</item>
-        <item>Publicar notificación</item>
-        <item>Ubicación</item>
-        <item>Llamar</item>
-        <item>Recibir SMS/MMS</item>
-        <item>Enviar SMS/MMS</item>
-        <item>Recibir SMS/MMS</item>
-        <item>Recibir SMS/MMS</item>
-        <item>Recibir SMS/MMS</item>
-        <item>Recibir SMS/MMS</item>
-        <item>Enviar SMS/MMS</item>
-        <item>Recibir SMS/MMS</item>
-        <item>Enviar SMS/MMS</item>
-        <item>Modificar ajustes</item>
-        <item>Mostrar encima</item>
-        <item>Acceso a notificaciones</item>
-        <item>Cámara</item>
-        <item>Grabar sonido</item>
-        <item>Reproducir sonido</item>
-        <item>Leer portapapeles</item>
-        <item>Modificar portapapeles</item>
-        <item>@string/app_ops_labels_wifi_change</item>
-        <item>@string/app_ops_labels_bluetooth_change</item>
-        <item>@string/app_ops_labels_data_change</item>
-        <item>@string/app_ops_labels_alarm_wakeup</item>
-    </string-array>
-    <string-array name="app_ops_permissions">
-        <item>Permitir</item>
-        <item>Denegar</item>
-        <item>Preguntar</item>
     </string-array>
 </resources>

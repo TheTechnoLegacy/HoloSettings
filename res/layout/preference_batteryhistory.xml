@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.settings.fuelgauge.BatteryHistoryChart
+<com.jellybyn.settings.fuelgauge.BatteryHistoryChart
     android:textAppearance="?android:textAppearanceMedium"
     android:gravity="center_vertical"
     android:id="@android:attr/icon"

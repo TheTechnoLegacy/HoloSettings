@@ -7,12 +7,11 @@
         android:key="sim_lock">
         <Preference
             android:persistent="false"
-            android:title="@string/sim_lock_settings_category"
-            android:key="sim_lock_settings">
+            android:title="@string/sim_lock_settings_category">
             <intent
-                android:targetPackage="com.androie.settings"
+                android:targetPackage="com.jellybyn.settings"
                 android:action="android.intent.action.MAIN"
-                android:targetClass="com.androie.settings.IccLockSettings" />
+                android:targetClass="com.jellybyn.settings.IccLockSettings" />
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory
@@ -31,7 +30,7 @@
             android:persistent="false"
             android:title="@string/manage_device_admin"
             android:summary="@string/manage_device_admin_summary"
-            android:fragment="com.androie.settings.DeviceAdminSettings" />
+            android:fragment="com.jellybyn.settings.DeviceAdminSettings" />
         <CheckBoxPreference
             android:persistent="false"
             android:title="@string/install_applications"
@@ -48,7 +47,7 @@
             android:persistent="false"
             android:title="@string/manage_notification_access"
             android:key="manage_notification_access"
-            android:fragment="com.androie.settings.NotificationAccessSettings" />
+            android:fragment="com.jellybyn.settings.NotificationAccessSettings" />
     </PreferenceCategory>
     <PreferenceCategory
         android:persistent="false"
@@ -63,7 +62,7 @@
             android:persistent="false"
             android:title="@string/trusted_credentials"
             android:summary="@string/trusted_credentials_summary"
-            android:fragment="com.androie.settings.TrustedCredentialsSettings" />
+            android:fragment="com.jellybyn.settings.TrustedCredentialsSettings" />
         <Preference
             android:persistent="false"
             android:title="@string/credentials_install"
@@ -79,9 +78,9 @@
             android:key="reset_credentials"
             android:summary="@string/credentials_reset_summary">
             <intent
-                android:targetPackage="com.androie.settings"
+                android:targetPackage="com.jellybyn.settings"
                 android:action="com.android.credentials.RESET"
-                android:targetClass="com.androie.settings.CredentialStorage" />
+                android:targetClass="com.jellybyn.settings.CredentialStorage" />
         </Preference>
     </PreferenceCategory>
 </PreferenceScreen>

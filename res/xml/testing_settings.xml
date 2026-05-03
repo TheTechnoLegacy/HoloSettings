@@ -5,29 +5,29 @@
     <PreferenceScreen
         android:title="@string/testing_phone_info">
         <intent
-            android:targetPackage="com.androie.settings"
+            android:targetPackage="com.jellybyn.settings"
             android:action="android.intent.action.MAIN"
-            android:targetClass="com.androie.settings.RadioInfo" />
+            android:targetClass="com.jellybyn.settings.RadioInfo" />
     </PreferenceScreen>
     <PreferenceScreen
         android:title="@string/testing_battery_info">
         <intent
-            android:targetPackage="com.androie.settings"
+            android:targetPackage="com.jellybyn.settings"
             android:action="android.intent.action.MAIN"
-            android:targetClass="com.androie.settings.BatteryInfo" />
+            android:targetClass="com.jellybyn.settings.BatteryInfo" />
     </PreferenceScreen>
     <PreferenceScreen
         android:title="@string/testing_usage_stats">
         <intent
-            android:targetPackage="com.androie.settings"
+            android:targetPackage="com.jellybyn.settings"
             android:action="android.intent.action.MAIN"
-            android:targetClass="com.androie.settings.UsageStats" />
+            android:targetClass="com.jellybyn.settings.UsageStats" />
     </PreferenceScreen>
     <PreferenceScreen
         android:title="@string/testing_wifi_info">
         <intent
-            android:targetPackage="com.androie.settings"
+            android:targetPackage="com.jellybyn.settings"
             android:action="android.intent.action.MAIN"
-            android:targetClass="com.androie.settings.wifi.WifiInfo" />
+            android:targetClass="com.jellybyn.settings.wifi.WifiInfo" />
     </PreferenceScreen>
 </PreferenceScreen>

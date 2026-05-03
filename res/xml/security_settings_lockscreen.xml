@@ -13,6 +13,6 @@
             android:title="@string/owner_info_settings_title"
             android:key="owner_info_settings"
             android:summary="@string/owner_info_settings_summary"
-            android:fragment="com.androie.settings.OwnerInfoSettings" />
+            android:fragment="com.jellybyn.settings.OwnerInfoSettings" />
     </PreferenceCategory>
 </PreferenceScreen>

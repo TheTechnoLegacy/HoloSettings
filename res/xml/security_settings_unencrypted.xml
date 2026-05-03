@@ -8,6 +8,6 @@
             android:title="@string/crypt_keeper_encrypt_title"
             android:key="encryption"
             android:summary="@string/crypt_keeper_encrypt_summary"
-            android:fragment="com.androie.settings.CryptKeeperSettings" />
+            android:fragment="com.jellybyn.settings.CryptKeeperSettings" />
     </PreferenceCategory>
 </PreferenceScreen>

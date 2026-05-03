@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart" />
         </LinearLayout>
-        <com.android.settings.widget.PieChartView
+        <com.jellybyn.settings.widget.PieChartView
             android:id="@id/app_pie_chart"
             android:layout_width="160.0dip"
             android:layout_height="160.0dip" />

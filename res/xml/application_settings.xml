@@ -7,22 +7,22 @@
     <PreferenceScreen
         android:title="@string/manageapplications_settings_title"
         android:summary="@string/manageapplications_settings_summary"
-        android:fragment="com.androie.settings.applications.ManageApplications" />
+        android:fragment="com.jellybyn.settings.applications.ManageApplications" />
     <PreferenceScreen
         android:title="@string/runningservices_settings_title"
         android:summary="@string/runningservices_settings_summary"
-        android:fragment="com.androie.settings.applications.ManageApplications">
+        android:fragment="com.jellybyn.settings.applications.ManageApplications">
         <extra
             android:name="classname"
-            android:value="com.androie.settings.Settings$RunningServicesActivity" />
+            android:value="com.jellybyn.settings.Settings$RunningServicesActivity" />
     </PreferenceScreen>
     <PreferenceScreen
         android:title="@string/storageuse_settings_title"
         android:summary="@string/storageuse_settings_summary"
-        android:fragment="com.androie.settings.applications.ManageApplications">
+        android:fragment="com.jellybyn.settings.applications.ManageApplications">
         <extra
             android:name="classname"
-            android:value="com.androie.settings.Settings$StorageUseActivity" />
+            android:value="com.jellybyn.settings.Settings$StorageUseActivity" />
     </PreferenceScreen>
     <CheckBoxPreference
         android:persistent="false"

@@ -52,7 +52,7 @@
         <item>Rápido</item>
         <item>A mayor velocidad</item>
         <item>A velocidad muy alta</item>
-        <item>Veloz</item>
+        <item>Rápido</item>
         <item>Muy rápido</item>
         <item>A velocidad máxima</item>
     </string-array>
@@ -339,7 +339,7 @@
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Límite estándar</item>
-        <item>Ningún proceso en 2do plano</item>
+        <item>No hay procesos de fondo.</item>
         <item>Máximo 1 proceso</item>
         <item>Máximo 2 procesos</item>
         <item>Máximo 3 procesos</item>

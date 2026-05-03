@@ -24,7 +24,7 @@
             android:id="@id/date_time_settings_fragment"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            class="com.android.settings.DateTimeSettings" />
+            class="com.jellybyn.settings.DateTimeSettings" />
     </LinearLayout>
     <RelativeLayout
         android:layout_width="fill_parent"

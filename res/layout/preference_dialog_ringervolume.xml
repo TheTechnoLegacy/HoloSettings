@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@null" />
         <SeekBar
-            android:id="@android:id/fullSensor"
+            android:id="@android:id/flagRequestShortcutWarningDialogSpokenFeedback"
             android:visibility="gone"
             android:layout_width="0.0dip"
             android:layout_height="wrap_content"
@@ -51,21 +51,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"
                 android:layout_marginEnd="@dimen/volume_seekbar_side_margin" />
-        </LinearLayout>
-        <LinearLayout
-            android:gravity="center_vertical"
-            android:orientation="vertical"
-            android:id="@id/safe_headset_section"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="8.0dip">
-            <CheckBox
-                android:textAppearance="?android:textAppearanceSmall"
-                android:layout_gravity="start"
-                android:id="@id/safe_headset_volume"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/safe_headset_volume_title" />
         </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
@@ -138,35 +123,6 @@
                     android:layout_weight="1.0"
                     android:layout_marginEnd="@dimen/volume_seekbar_side_margin" />
             </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:gravity="center_vertical"
-            android:orientation="vertical"
-            android:id="@id/link_volumes_section"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="8.0dip">
-            <CheckBox
-                android:textAppearance="?android:textAppearanceSmall"
-                android:layout_gravity="start"
-                android:id="@id/link_ring_and_volume"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/link_volume_ringtones" />
-            <CheckBox
-                android:textAppearance="?android:textAppearanceSmall"
-                android:layout_gravity="start"
-                android:id="@id/link_mutes"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/link_volume_mutes" />
-            <CheckBox
-                android:textAppearance="?android:textAppearanceSmall"
-                android:layout_gravity="start"
-                android:id="@id/volume_keys_control_ring_stream"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/volume_keys_control_ring_stream" />
         </LinearLayout>
         <TextView
             android:textAppearance="?android:textAppearanceSmall"

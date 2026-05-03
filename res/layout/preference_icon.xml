@@ -12,10 +12,9 @@
         android:id="@id/icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="4.0dip"
-        android:adjustViewBounds="true"
-        android:maxWidth="36.0dip"
-        android:maxHeight="36.0dip" />
+        android:contentDescription="@null"
+        android:layout_marginStart="6.0dip"
+        android:layout_marginEnd="6.0dip" />
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

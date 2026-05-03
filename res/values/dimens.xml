@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="log_item_padding">4.0dip</dimen>
-    <dimen name="activity_horizontal_margin">16.0dip</dimen>
-    <dimen name="activity_vertical_margin">16.0dip</dimen>
-    <item type="dimen" name="golden_ratio">1.618034</item>
-    <dimen name="content_padding">0.0dip</dimen>
-    <dimen name="section_padding">8.0dip</dimen>
-    <item type="dimen" name="dummy_ae_6">false</item>
-    <item type="dimen" name="dummy_ae_7">false</item>
-    <dimen name="normal_height">64.0dip</dimen>
-    <dimen name="expanded_height">128.0dip</dimen>
-    <dimen name="navbar_search_snap_margin">40.0dip</dimen>
-    <dimen name="navbar_search_outerring_radius">170.0dip</dimen>
-    <dimen name="navbar_search_outerring_diameter">340.0dip</dimen>
-    <dimen name="auto_brightness_preview_text_size">8.0dip</dimen>
-    <dimen name="auto_brightness_preview_stroke_width">1.0dip</dimen>
-    <dimen name="auto_brightness_preview_marker_size">3.0dip</dimen>
-    <dimen name="auto_brightness_preview_grid_margin">3.0dip</dimen>
-    <dimen name="auto_brightness_dialog_more_button_size">48.0dip</dimen>
     <dimen name="device_memory_usage_button_width">16.0dip</dimen>
     <dimen name="device_memory_usage_button_height">32.0dip</dimen>
     <dimen name="action_bar_switch_padding">16.0dip</dimen>
@@ -32,7 +14,6 @@
     <dimen name="installed_app_details_bullet_offset">8.0dip</dimen>
     <dimen name="data_usage_chart_height">252.0dip</dimen>
     <dimen name="data_usage_chart_optimalWidth">440.0dip</dimen>
-    <dimen name="shortcut_picker_left_padding">70.0dip</dimen>
     <dimen name="volume_seekbar_side_margin">8.0dip</dimen>
     <dimen name="crypt_clock_size">100.0sp</dimen>
     <item type="dimen" name="setup_title_height">14.999998%</item>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">اجازه دادن</string>
-    <string name="deny">ردکردن</string>
-    <string name="delete">حذف</string>
-    <string name="notification_pulse_title">چراغ اعلان چشمک بزند</string>
-    <string name="device_status_summary">شماره تلفن، سیگنال و سایر موارد</string>
-    <string name="bluetooth_confirm_passkey_msg">برای مرتبط شدن با:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>مطمئن شوید که آن دستگاه این کلید عبور را نمایش می‌دهد:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">بله</string>
     <string name="no">خیر</string>
     <string name="create">ایجاد</string>
+    <string name="allow">اجازه دادن</string>
+    <string name="deny">ردکردن</string>
     <string name="device_info_default">ناشناس</string>
     <string name="show_dev_on">شما اکنون یک برنامه‌نویس هستید!</string>
     <string name="show_dev_already">نیازی نیست، شما در حال حاضر یک برنامه‌نویس هستید.</string>
@@ -377,6 +373,7 @@
     <string name="bluetooth_pin_values_hint">معمولا 0000 یا 1234</string>
     <string name="bluetooth_enter_pin_other_device">ممکن است لازم باشد که این پین را در دستگاه دیگری وارد کنید.</string>
     <string name="bluetooth_enter_passkey_other_device">ممکن است لازم باشد این کلید عبور را نیز در دستگاه دیگر وارد کنید.</string>
+    <string name="bluetooth_confirm_passkey_msg">برای مرتبط شدن با:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>مطمئن شوید که آن دستگاه این کلید عبور را نمایش می‌دهد:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">از::&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>با این دستگاه جفت شود؟</string>
     <string name="bluetooth_display_passkey_pin_msg">برای مرتبط‌سازی با:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>روی آن تایپ کنید:&lt;br>&lt;b>%2$s&lt;/b>، سپس Return یا Enter را فشار دهید.</string>
     <string name="bluetooth_pairing_accept">جفت سازی</string>
@@ -624,6 +621,7 @@
     <string name="ring_volume_title">میزان صدای زنگ</string>
     <string name="vibrate_in_silent_title">لرزش در حالت بی‌صدا</string>
     <string name="notification_sound_title">صدای اعلان پیش‌فرض</string>
+    <string name="notification_pulse_title">چراغ اعلان چشمک بزند</string>
     <string name="incoming_call_volume_title">آهنگ زنگ</string>
     <string name="notification_volume_title">اعلان</string>
     <string name="checkbox_notification_same_as_incoming_call">استفاده از صدای تماس ورودی برای اعلان‌ها</string>
@@ -720,6 +718,7 @@
     <string name="device_info_not_available">موجود نیست</string>
     <string name="device_status_activity_title">وضعیت</string>
     <string name="device_status">وضعیت</string>
+    <string name="device_status_summary">شماره تلفن، سیگنال و سایر موارد</string>
     <string name="storage_settings">حافظه</string>
     <string name="storage_settings_title">تنظیمات ذخیره‌سازی</string>
     <string name="storage_settings_summary">جدا کردن کارت SD، مشاهده محل ذخیره موجود</string>
@@ -1007,15 +1006,14 @@
     <string name="show_background_processes">فرآیندهای ذخیره شده در حافظهٔ پنهان</string>
     <string name="reset_app_preferences">بازنشانی تنظیمات برگزیده برنامه</string>
     <string name="reset_app_preferences_title">تنظیمات برگزیده برنامه بازنشانی شوند؟</string>
-    <string name="reset_app_preferences_desc">"با این کار تمام تنظیمات برگزیده برای این موارد بازنشانی می‌شود:
+    <string name="reset_app_preferences_desc">"این کار همه تنظیمات برگزیده این موارد را بازنشانی می‌کند:
 
  "<li>برنامه‌های غیرفعال شده</li>"
  "<li>اعلان‌های برنامه غیرفعال شده</li>"
- "<li>برنامه‌های پیش‌فرض برای عملکردها</li>"
+ "<li>برنامه‌های پیش‌فرض برای عملیات</li>"
  "<li>محدودیت‌های داده پس‌زمینه برای برنامه‌ها</li>"
- "<li>هرگونه محدودیت‌های مجوز</li>"
 
- هیچ داده برنامه‌ای را از دست نخواهید داد."</string>
+ داده برنامه را از دست نمی‌دهید."</string>
     <string name="reset_app_preferences_button">بازنشانی برنامه‌ها</string>
     <string name="manage_space_text">مدیریت فضا</string>
     <string name="filter">فیلتر</string>
@@ -1239,8 +1237,8 @@
     <string name="accessibility_screen_magnification_summary">"وقتی این ویژگی فعال است، شما می‌توانید با سه ضربه روی صفحه بزرگنمایی یا کوچکنمایی کنید.
 
 هنگام بزرگنمایی می‌توانید:
-"<ul><li>"حرکت کنید: دو یا چند انگشت خود را روی صفحه بکشید.
-"<li>تنظیم سطح بزرگنمایی: دو یا چند انگشت خود را به هم نزدیک کنید یا از هم دور کنید.</li></li></ul>"
+"<ul><li>حرکت کنید: دو یا چند انگشت خود را روی صفحه بکشید.</li>"
+"<li>تنظیم سطح بزرگنمایی: دو یا چند انگشت خود را به هم نزدیک کنید یا از هم دور کنید.</li></ul>"
 
 همچنین می‌توانید به صورت موقت آنچه را که در زیر انگشتان شما قرار دارد با سه بار ضربه روی صفحه و نگهداشتن آن بزرگ کنید. در این حالت بزرگنمایی شده، می‌توانید انگشت خود را برای کاوش قسمت‌های مختلف صفحه بکشید. برای بازگشت به حالت قبلی خود، انگشت خود را بردارید.
 
@@ -1547,6 +1545,7 @@
     <string name="status_wimax_mac_address">آدرس 4G MAC</string>
     <string name="enter_password">برای رمزگشایی حافظه گذرواژه را تایپ کنید</string>
     <string name="try_again">دوباره امتحان کنید.</string>
+    <string name="delete">حذف</string>
     <string name="misc_files">فایل‌های متفرقه</string>
     <string name="misc_files_selected_count">%1$d مورد انتخاب شده از %2$d مورد</string>
     <string name="misc_files_selected_count_bytes">%1$s از مجموع %2$s</string>

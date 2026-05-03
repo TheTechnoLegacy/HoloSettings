@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">อนุญาต</string>
-    <string name="deny">ปฏิเสธ</string>
-    <string name="delete">ลบ</string>
-    <string name="notification_pulse_title">ไฟแจ้งเตือนพัลซ์</string>
-    <string name="device_status_summary">หมายเลขโทรศัพท์ สัญญาณ ฯลฯ</string>
-    <string name="bluetooth_confirm_passkey_msg">หากต้องการจับคู่กับ:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>ตรวจสอบให้แน่ใจว่าอุปกรณ์แสดงรหัสผ่านนี้:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">ใช่</string>
     <string name="no">ไม่</string>
     <string name="create">สร้าง</string>
+    <string name="allow">อนุญาต</string>
+    <string name="deny">ปฏิเสธ</string>
     <string name="device_info_default">ไม่ทราบ</string>
     <string name="show_dev_on">ตอนนี้คุณเป็นนักพัฒนาซอฟต์แวร์แล้ว!</string>
     <string name="show_dev_already">ไม่จำเป็น คุณเป็นนักพัฒนาซอฟต์แวร์อยู่แล้ว</string>
@@ -377,6 +373,7 @@
     <string name="bluetooth_pin_values_hint">ปกติจะเป็น 0000 หรือ 1234</string>
     <string name="bluetooth_enter_pin_other_device">คุณอาจจำเป็นต้องพิมพ์รหัส PIN นี้ลงในอุปกรณ์อีกเครื่องหนึ่งด้วยเช่นกัน</string>
     <string name="bluetooth_enter_passkey_other_device">คุณอาจจำเป็นต้องพิมพ์รหัสผ่านนี้ลงในอุปกรณ์อีกเครื่องหนึ่งด้วยเช่นกัน</string>
+    <string name="bluetooth_confirm_passkey_msg">หากต้องการจับคู่กับ:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>ตรวจสอบให้แน่ใจว่าอุปกรณ์แสดงรหัสผ่านนี้:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">จาก:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>จับคู่กับอุปกรณ์นี้หรือไม่</string>
     <string name="bluetooth_display_passkey_pin_msg">ในการจับคู่กับ: &lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br> ให้พิมพ์: &lt;br>&lt;b>%2$s&lt;/b> แล้วกด Return หรือ Enter</string>
     <string name="bluetooth_pairing_accept">กำหนดค่าอุปกรณ์ให้ตรงกัน</string>
@@ -624,6 +621,7 @@
     <string name="ring_volume_title">ระดับความดังเสียงเรียกเข้า</string>
     <string name="vibrate_in_silent_title">สั่นเตือนเมื่อปิดเสียง</string>
     <string name="notification_sound_title">เสียงแจ้งเตือนเริ่มต้น</string>
+    <string name="notification_pulse_title">ไฟแจ้งเตือนพัลซ์</string>
     <string name="incoming_call_volume_title">เสียงเรียกเข้า</string>
     <string name="notification_volume_title">การแจ้งเตือน</string>
     <string name="checkbox_notification_same_as_incoming_call">ใช้ระดับเสียงของสายเรียกเข้าเพื่อแจ้งเตือน</string>
@@ -720,6 +718,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="device_info_not_available">ใช้งานไม่ได้</string>
     <string name="device_status_activity_title">สถานะ</string>
     <string name="device_status">สถานะ</string>
+    <string name="device_status_summary">หมายเลขโทรศัพท์ สัญญาณ ฯลฯ</string>
     <string name="storage_settings">ที่เก็บข้อมูล</string>
     <string name="storage_settings_title">การตั้งค่าที่เก็บข้อมูล</string>
     <string name="storage_settings_summary">ยกเลิกการต่อเชื่อมการ์ด SD ดูที่จัดเก็บข้อมูลที่ใช้ได้</string>
@@ -1007,15 +1006,14 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="show_background_processes">แสดงกระบวนการที่เก็บแคชไว้</string>
     <string name="reset_app_preferences">รีเซ็ตค่ากำหนดแอปพลิเคชัน</string>
     <string name="reset_app_preferences_title">รีเซ็ตค่ากำหนดแอปหรือไม่</string>
-    <string name="reset_app_preferences_desc">"การดำเนินการนี้จะรีเซ็ตค่ากำหนดทั้งหมดสำหรับ:
+    <string name="reset_app_preferences_desc">"คำสั่งนี้จะรีเซ็ตค่ากำหนดทั้งหมดของ:
 
- "<li>แอปที่ปิดใช้งาน</li>"
- "<li>การแจ้งเตือนแอปที่ปิดใช้งาน</li>"
- "<li>แอปพลิเคชันเริ่มต้นสำหรับการทำงานต่างๆ</li>"
- "<li>}ข้อจำกัดข้อมูลในพื้นหลังสำหรับแอป</li>"
- "<li>ข้อจำกัดสิทธิ์ใดๆ</li>"
+"<li>แอปพลิเคชันที่ปิดใช้งาน</li>"
+"<li>การแจ้งเตือนของแอปพลิเคชันที่ปิดใช้งาน</li>"
+"<li>แอปพลิเคชันเริ่มต้นที่จะใช้งาน</li>"
+"<li>ข้อจำกัดของข้อมูลแบ็กกราวด์เกี่ยวกับการใช้แอปพลิเคชัน</li>"
 
- ทั้งนี้ คุณจะไม่สูญเสียข้อมูลใดๆ ของแอป"</string>
+ข้อมูลแอปพลิเคชันทั้งหมดของคุณจะยังคงอยู่เหมือนเดิม"</string>
     <string name="reset_app_preferences_button">รีเซ็ตแอปพลิเคชัน</string>
     <string name="manage_space_text">จัดการพื้นที่</string>
     <string name="filter">ตัวกรอง</string>
@@ -1239,8 +1237,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="accessibility_screen_magnification_summary">"เมื่อเปิดคุณลักษณะนี้ คุณสามารถย่อและขยายด้วยการแตะสามครั้งบนหน้าจอ
 
 ขณะที่ขยายอยู่ คุณสามารถ:
-"<ul><li>"แพน: ใช้อย่างน้อยสองนิ้วลากผ่านหน้าจอ
-"<li>ปรับระดับการย่อ/ขยาย: บีบหรือแยกอย่างน้อยสองนิ้วเพื่อปรับระดับ</li></li></ul>"
+"<ul><li>แพน: ใช้อย่างน้อยสองนิ้วลากผ่านหน้าจอ</li>"
+"<li>ปรับระดับการย่อ/ขยาย: บีบหรือแยกอย่างน้อยสองนิ้วเพื่อปรับระดับ</li></ul>"
 
 คุณยังสามารถขยายสิ่งที่นิ้วคุณแตะอยู่ชั่วคราวได้ด้วยการแตะสามครั้งค้างไว้ เมื่อขยายแล้ว คุณสามารถใช้นิ้วลากเพื่อดูส่วนต่างๆ ของหน้าจอได้ด้วย ยกนิ้วขึ้นเพื่อกลับไปยังสถานะก่อนหน้า
 
@@ -1547,6 +1545,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="status_wimax_mac_address">ที่อยู่ MAC ใน 4G</string>
     <string name="enter_password">พิมพ์รหัสผ่านเพื่อถอดรหัสที่จัดเก็บข้อมูล</string>
     <string name="try_again">ลองอีกครั้ง</string>
+    <string name="delete">ลบ</string>
     <string name="misc_files">ไฟล์เบ็ดเตล็ด</string>
     <string name="misc_files_selected_count">เลือก %1$d จาก %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s จาก %2$s</string>

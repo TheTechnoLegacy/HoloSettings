@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="allow">Izinkan</string>
-    <string name="deny">Tolak</string>
-    <string name="delete">Hapus</string>
-    <string name="notification_pulse_title">Kedipkan lampu pemberitahuan</string>
-    <string name="device_status_summary">Nomor telepon, sinyal, dan sebagainya.</string>
-    <string name="bluetooth_confirm_passkey_msg">Untuk menyandingkan dengan:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Pastikan bahwa perangkat tersebut menampilkan kode sandi:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <string name="create">Buat</string>
+    <string name="allow">Izinkan</string>
+    <string name="deny">Tolak</string>
     <string name="device_info_default">Tidak diketahui</string>
     <string name="show_dev_on">Sekarang Anda adalah seorang pengembang!</string>
     <string name="show_dev_already">Tidak perlu, Anda sudah menjadi pengembang.</string>
@@ -377,6 +373,7 @@ Enkripsi memakan waktu satu jam atau lebih. Anda harus memulainya dengan baterai
     <string name="bluetooth_pin_values_hint">Biasanya 0000 atau 1234</string>
     <string name="bluetooth_enter_pin_other_device">Anda mungkin juga perlu mengetikkan PIN ini ke perangkat lain.</string>
     <string name="bluetooth_enter_passkey_other_device">Anda mungkin juga perlu mengetikkan sandi ini ke perangkat lain.</string>
+    <string name="bluetooth_confirm_passkey_msg">Untuk menyandingkan dengan:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Pastikan bahwa perangkat tersebut menampilkan kode sandi:&lt;br>&lt;b>%2$s&lt;/b></string>
     <string name="bluetooth_incoming_pairing_msg">Dari:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Sandingkan dengan perangkat ini?</string>
     <string name="bluetooth_display_passkey_pin_msg">Untuk menyandingkan dengan:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Ketikkan:&lt;br>&lt;b>%2$s&lt;/b>, kemudian tekan Kembali atau Enter.</string>
     <string name="bluetooth_pairing_accept">Pasangan</string>
@@ -624,6 +621,7 @@ Penyiapan ponsel mungkin memerlukan aktivitas jaringan yang signifikan."</string
     <string name="ring_volume_title">Volume dering</string>
     <string name="vibrate_in_silent_title">Getar saat senyap</string>
     <string name="notification_sound_title">Suara pemberitahuan default</string>
+    <string name="notification_pulse_title">Kedipkan lampu pemberitahuan</string>
     <string name="incoming_call_volume_title">Nada dering</string>
     <string name="notification_volume_title">Pemberitahuan</string>
     <string name="checkbox_notification_same_as_incoming_call">Gunakan volume panggilan masuk untuk pemberitahuan</string>
@@ -720,6 +718,7 @@ PIN Mungkin salah."</string>
     <string name="device_info_not_available">Tidak tersedia.</string>
     <string name="device_status_activity_title">Status</string>
     <string name="device_status">Status</string>
+    <string name="device_status_summary">Nomor telepon, sinyal, dan sebagainya.</string>
     <string name="storage_settings">Penyimpanan</string>
     <string name="storage_settings_title">Setelan penyimpanan</string>
     <string name="storage_settings_summary">Lepaskan kartu SD, lihat penyimpanan yang tersedia</string>
@@ -1007,15 +1006,14 @@ Untuk menghapus musik, gambar, dan data pengguna lainnya, "<b>kartu SD</b> perlu
     <string name="show_background_processes">Tampilkn proses pd tmbolok</string>
     <string name="reset_app_preferences">Setel ulang pref aplikasi</string>
     <string name="reset_app_preferences_title">Setel ulang pref aplikasi?</string>
-    <string name="reset_app_preferences_desc">"Hal ini akan menyetel ulang semua preferensi untuk:
+    <string name="reset_app_preferences_desc">"Tindakan ini akan menyetel ulang semua preferensi untuk:
 
  "<li>Aplikasi yang dinonaktifkan</li>"
  "<li>Pemberitahuan aplikasi yang dinonaktifkan</li>"
  "<li>Aplikasi default untuk tindakan</li>"
- "<li>Batasan data latar belakang untuk aplikasi</li>"
- "<li>Batasan izin apa pun</li>"
+ "<li>Batas data latar belakang untuk aplikasi</li>"
 
- Data aplikasi Anda tidak akan hilang."</string>
+ Anda tidak akan kehilangan data aplikasi apa pun."</string>
     <string name="reset_app_preferences_button">Setel ulang aplikasi</string>
     <string name="manage_space_text">Kelola ruang</string>
     <string name="filter">Filter</string>
@@ -1239,8 +1237,8 @@ Beberapa aplikasi mungkin tidak berfungsi sebelum diperbarui oleh pengembangnya.
     <string name="accessibility_screen_magnification_summary">"Saat fitur ini diaktifkan, Anda dapat memperbesar dan memperkecil dengan mengetuk layar tiga kali.
 
 Saat memperbesar, Anda dapat:
-"<ul><li>"Menggeser: Seret dua jari atau lebih melintasi layar.
-"<li>Menyesuaikan tingkat pembesaran/pengecilan: Cubit dua jari atau lebih bersamaan atau rentangkan jari Anda.</li></li></ul>"
+"<ul><li>Menggeser: Seret dua jari atau lebih melintasi layar.</li>"
+"<li>Menyesuaikan tingkat pembesaran/pengecilan: Cubit dua jari atau lebih bersamaan atau rentangkan jari Anda.</li></ul>"
 
 Anda juga dapat memperbesar yang ada di bawah jari Anda secara sementara dengan mengetuk tiga kali lalu tahan. Dalam keadaan yang diperbesar ini, Anda dapat menyeret jari untuk menjelajah bagian layar yang berbeda. Angkat jari Anda untuk mengembalikan ke keadaan sebelumnya.
 
@@ -1547,6 +1545,7 @@ Pendekatan Google untuk menyinkronkan data guna memungkinkan akses ke kontak, ja
     <string name="status_wimax_mac_address">Alamat MAC 4G</string>
     <string name="enter_password">Ketik sandi untuk mendekripsi penyimpanan</string>
     <string name="try_again">Coba lagi.</string>
+    <string name="delete">Hapus</string>
     <string name="misc_files">File Serbaneka</string>
     <string name="misc_files_selected_count">Terpilih %1$d dari %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s dari %2$s</string>

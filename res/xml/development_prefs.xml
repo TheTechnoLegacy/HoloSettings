@@ -2,37 +2,28 @@
 <PreferenceScreen
     android:title="@string/development_settings_title"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceScreen
-        android:persistent="false"
-        android:title="@string/development_tools_title"
-        android:key="development_tools">
-        <intent
-            android:targetPackage="com.android.development"
-            android:action="android.settings.development.LAUNCH_TOOLS"
-            android:targetClass="com.android.development.Development" />
-    </PreferenceScreen>
-    <com.androie.settings.BugreportPreference
-        android:title="@android:string/auto_data_switch_title"
+    <com.jellybyn.settings.BugreportPreference
+        android:title="@android:string/accessibility_gesture_3finger_instructional_text"
         android:key="bugreport"
-        android:dialogTitle="@android:string/auto_data_switch_title" />
-    <CheckBoxPreference
-        android:title="@string/advanced_reboot_title"
-        android:key="advanced_reboot"
-        android:summary="@string/advanced_reboot_summary" />
+        android:dialogTitle="@android:string/accessibility_gesture_3finger_instructional_text" />
     <PreferenceScreen
         android:persistent="false"
         android:title="@string/local_backup_password_title"
         android:key="local_backup_password"
         android:summary="@string/local_backup_password_summary_none">
         <intent
-            android:targetPackage="com.androie.settings"
-            android:action="android.settings.privacy.SET_FULL_BACKUP_PASSWORD"
-            android:targetClass="com.androie.settings.SetFullBackupPassword" />
+            android:targetPackage="com.jellybyn.settings"
+            android:action="jellybyn.settings.privacy.SET_FULL_BACKUP_PASSWORD"
+            android:targetClass="com.jellybyn.settings.SetFullBackupPassword" />
     </PreferenceScreen>
     <CheckBoxPreference
         android:title="@string/keep_screen_on"
         android:key="keep_screen_on"
         android:summary="@string/keep_screen_on_summary" />
+    <CheckBoxPreference
+        android:title="@string/keep_screen_always"
+        android:key="keep_screen_always"
+        android:summary="@string/keep_screen_always_summary" />
     <ListPreference
         android:entries="@array/hdcp_checking_titles"
         android:title="@string/hdcp_checking_title"
@@ -43,12 +34,6 @@
         android:title="@string/enforce_read_external_title"
         android:key="enforce_read_external"
         android:summary="@string/enforce_read_external_summary" />
-    <ListPreference
-        android:persistent="false"
-        android:entries="@array/root_access_entries"
-        android:title="@string/root_access"
-        android:key="root_access"
-        android:entryValues="@array/root_access_values" />
     <PreferenceCategory
         android:title="@string/debug_debugging_category"
         android:key="debug_debugging_category">
@@ -60,26 +45,6 @@
             android:title="@string/clear_adb_keys"
             android:key="clear_adb_keys" />
         <CheckBoxPreference
-            android:title="@string/adb_notify"
-            android:key="adb_notify"
-            android:summary="@string/adb_notify_summary"
-            android:dependency="enable_adb" />
-        <CheckBoxPreference
-            android:title="@string/adb_over_network"
-            android:key="adb_over_network"
-            android:summary="@string/adb_over_network_summary"
-            android:dependency="enable_adb" />
-        <com.androie.settings.HostnamePreference
-            android:persistent="false"
-            android:selectAllOnFocus="true"
-            android:title="@string/device_hostname"
-            android:key="device_hostname"
-            android:dialogTitle="@string/device_hostname"
-            android:positiveButtonText="@string/wifi_save"
-            android:negativeButtonText="@string/wifi_cancel"
-            android:inputType="textNoSuggestions"
-            android:imeOptions="actionDone" />
-        <CheckBoxPreference
             android:title="@string/bugreport_in_power"
             android:key="bugreport_in_power"
             android:summary="@string/bugreport_in_power_summary" />
@@ -87,9 +52,6 @@
             android:title="@string/allow_mock_location"
             android:key="allow_mock_location"
             android:summary="@string/allow_mock_location_summary" />
-        <CheckBoxPreference
-            android:title="@string/allow_mock_sms"
-            android:key="allow_mock_sms" />
         <PreferenceScreen
             android:title="@string/debug_app"
             android:key="debug_app" />
@@ -225,10 +187,6 @@
             android:title="@string/show_all_anrs"
             android:key="show_all_anrs"
             android:summary="@string/show_all_anrs_summary" />
-        <CheckBoxPreference
-            android:title="@string/kill_app_longpress_back"
-            android:key="kill_app_longpress_back"
-            android:summary="@string/kill_app_longpress_back_summary" />
         <CheckBoxPreference
             android:title="@string/experimental_webview"
             android:key="experimental_webview"

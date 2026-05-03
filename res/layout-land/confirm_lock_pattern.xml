@@ -28,7 +28,7 @@
             android:layout_height="wrap_content" />
     </LinearLayout>
     <View
-        android:background="@android:drawable/btn_radio_off_disabled_holo_light"
+        android:background="@android:drawable/btn_radio_off_disabled_focused_holo_dark"
         android:layout_width="2.0dip"
         android:layout_height="fill_parent" />
     <com.android.internal.widget.LockPatternView
