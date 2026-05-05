@@ -339,13 +339,14 @@
     :cond_0
     iget-object v1, p0, Lcom/jellybyn/settings/DisplaySettings;->mAccelerometer:Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {p0}, Lcom/jellybyn/settings/DisplaySettings;->getActivity()Landroid/app/Activity;
+    # invoke-virtual {p0}, Lcom/jellybyn/settings/DisplaySettings;->getActivity()Landroid/app/Activity;
 
-    move-result-object v0
+    # move-result-object v0
 
-    invoke-static {v0}, Lcom/android/internal/view/RotationPolicy;->isRotationLocked(Landroid/content/Context;)Z
+    # invoke-static {v0}, Lcom/android/internal/view/RotationPolicy;->isRotationLocked(Landroid/content/Context;)Z
 
-    move-result v0
+    # move-result v0
+    const/4 v0, 0x0
 
     if-nez v0, :cond_1
 
@@ -364,6 +365,8 @@
 
 .method private updateScreenSaverSummary()V
     .locals 2
+    
+    return-void
 
     .prologue
     .line 291
@@ -723,13 +726,13 @@
     invoke-virtual {v4, v6}, Landroid/preference/CheckBoxPreference;->setPersistent(Z)V
 
     .line 98
-    invoke-virtual {p0}, Lcom/jellybyn/settings/DisplaySettings;->getActivity()Landroid/app/Activity;
+    # invoke-virtual {p0}, Lcom/jellybyn/settings/DisplaySettings;->getActivity()Landroid/app/Activity;
 
-    move-result-object v4
+    # move-result-object v4
 
-    invoke-static {v4}, Lcom/android/internal/view/RotationPolicy;->isRotationLockToggleSupported(Landroid/content/Context;)Z
+    # invoke-static {v4}, Lcom/android/internal/view/RotationPolicy;->isRotationLockToggleSupported(Landroid/content/Context;)Z
 
-    move-result v4
+    const/4 v4, 0x0
 
     if-eqz v4, :cond_0
 

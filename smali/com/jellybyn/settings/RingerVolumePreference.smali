@@ -174,12 +174,12 @@
     invoke-virtual {p0, v0}, Lcom/jellybyn/settings/RingerVolumePreference;->setDialogLayoutResource(I)V
 
     .line 155
-    sget-object v0, Lcom/jellybyn/settings/RingerVolumePreference;->SEEKBAR_ID:[I
+    # sget-object v0, Lcom/jellybyn/settings/RingerVolumePreference;->SEEKBAR_ID:[I
 
-    array-length v0, v0
+    # array-length v0, v0
+    const/4 v0, 0x4
 
     new-array v0, v0, [Landroid/preference/VolumePreference$SeekBarVolumizer;
-
     iput-object v0, p0, Lcom/jellybyn/settings/RingerVolumePreference;->mSeekBarVolumizer:[Landroid/preference/VolumePreference$SeekBarVolumizer;
 
     .line 157
