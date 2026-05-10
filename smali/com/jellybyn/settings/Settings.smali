@@ -1776,6 +1776,28 @@
     .locals 5
     iget-wide v0, p1, Landroid/preference/PreferenceActivity$Header;->id:J
 
+    const-wide/32 v2, 0x7f0801f3 
+
+    cmp-long v0, v0, v2
+
+    if-nez v0, :cond_skip_users_redirect
+
+    const-string v0, "android.settings.USER_SETTINGS"
+
+    new-instance v1, Landroid/content/Intent;
+    invoke-direct {v1, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    const/high16 v0, 0x10000000
+    invoke-virtual {v1, v0}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    invoke-virtual {p0, v1}, Lcom/jellybyn/settings/Settings;->startActivity(Landroid/content/Intent;)V
+
+    return-void
+
+    :cond_skip_users_redirect
+
+    iget-wide v0, p1, Landroid/preference/PreferenceActivity$Header;->id:J
+
     const-wide/32 v2, 0x7f0801f7
 
     cmp-long v0, v0, v2
